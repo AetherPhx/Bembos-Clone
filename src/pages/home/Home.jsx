@@ -7,12 +7,11 @@ export const Home = () => {
 
 	return (
 		<main>
-			<h1 className="bembos">Bembos</h1>
-			<Banner />
-
-			<SliderGallery />
+			{/* <Banner /> */}
 
 			{/* <SliderGallery /> */}
+
+			<SliderGallery title="MENÚ DE HAMBURGUESAS ONLINE" />
 		</main>
 	);
 };
