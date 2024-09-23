@@ -1,11 +1,14 @@
-export const SliderGallery = () => {
-	return (
-		<section>
-			<header>
-				<h2>ONLINE</h2>
+import { SliderGalleryCard } from "./sliderGalleryCard";
+import "./sliderGallery.css";
 
-				<div>
-					<button>
+export const SliderGallery = ({ title }) => {
+	return (
+		<section className="SliderGallery">
+			<header className="SliderGallery-header">
+				<h2 className="SliderGallery-title">{title}</h2>
+
+				<nav className="SliderGallery-nav">
+					<button className="SliderGallery-button">
 						<svg
 							version="1.1"
 							id="Layer_1"
@@ -26,7 +29,7 @@ export const SliderGallery = () => {
 						</svg>
 					</button>
 
-					<button>
+					<button className="SliderGallery-button">
 						<svg
 							data-v-4c398662=""
 							version="1.1"
@@ -49,15 +52,14 @@ export const SliderGallery = () => {
 							</g>
 						</svg>
 					</button>
-				</div>
+				</nav>
 			</header>
 
-			<div>
-				<article>
-					<img src="" alt="Imagen" />
-					<h3>Titulo</h3>
-					<button>Texto de Botón</button>
-				</article>
+			<div className="SliderGallery-deck">
+				<SliderGalleryCard />
+				<SliderGalleryCard />
+				<SliderGalleryCard />
+				<SliderGalleryCard />
 			</div>
 		</section>
 	);
