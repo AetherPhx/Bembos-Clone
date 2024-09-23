@@ -1,6 +1,15 @@
 :root {
     /* Variables Globales */
 
+    /* Fuentes */
+
+
+    /* Colores */
+    --color-main: #173083;
+    --color-secondary: #fbb905;
+    --color-tertiary: #e10b19;
+    --color-white: #fff;
+    --color-black: #000;
 }
 
 /* Estilos Globales */
