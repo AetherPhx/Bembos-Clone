@@ -7,7 +7,7 @@ export function App() {
 		<>
 			<h1>Hello World</h1>
 			{/* <Header /> */}
-			{/* <Home /> */}
+			<Home />
 			{/* <Footer /> */}
 		</>
 	);
