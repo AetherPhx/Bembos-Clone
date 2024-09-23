@@ -5,6 +5,7 @@
 
 
     /* Colores */
+    --color-bg: #f6f7f8;
     --color-main: #173083;
     --color-secondary: #fbb905;
     --color-tertiary: #e10b19;
@@ -13,3 +14,7 @@
 }
 
 /* Estilos Globales */
+
+body {
+    background-color: var(--color-bg);
+}
