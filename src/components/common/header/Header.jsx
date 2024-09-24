@@ -1,11 +1,5 @@
 import { NavMain } from "./navMain";
 import "./Header.css";
-
-import menuImg01 from './images/bmb-menu.svg';
-import menuImg02 from './images/bmb-combo.svg';
-import menuImg03 from './images/bmb-promociones.svg';
-import menuImg04 from './images/bmb-hamburguesa.svg';
-import menuImg05 from './images/bmb-beneficios.svg';
 import menuImg06 from './images/bmb-phone.svg';
 import menuImg07 from './images/bmb-user.svg';
 import menuImg08 from './images/bmb-delivery.jpg';
