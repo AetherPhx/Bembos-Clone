@@ -1,11 +1,12 @@
 .SliderGallery-header {
-    margin-bottom: 12px;
+    padding-block: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .SliderGallery-title {
+    margin-left: 12px;
     letter-spacing: 4px;
     color: var(--color-black);
 }
@@ -22,6 +23,7 @@
 }
 
 .SliderGallery-deck {
+    padding: 12px;
     display: flex;
-    gap: 16px;
+    gap: 64px;
 }

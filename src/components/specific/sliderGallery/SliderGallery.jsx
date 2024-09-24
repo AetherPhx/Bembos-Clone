@@ -1,6 +1,34 @@
 import { SliderGalleryCard } from "./sliderGalleryCard";
 import "./sliderGallery.css";
 
+const menu = [
+	{
+		nombre: "Promociones Exclusivas Web",
+		img: "https://www.bembos.com.pe/_ipx/q_60,s_275x368/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/promociones-bembos-delivery.webp",
+		link: "/promociones/delivery-hamburguesas",
+		id: 43,
+	},
+	{
+		nombre: "Combos",
+		img: "https://www.bembos.com.pe/_ipx/q_60,s_230x308/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/combo-churrita-500x669.webp",
+		link: "/menu/combos",
+		id: 44,
+	},
+	{
+		nombre: "Hamburguesas",
+		img: "https://www.bembos.com.pe/_ipx/q_60,s_275x368/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/hamburguesas_2.webp",
+		link: "/menu/hamburguesas",
+		id: 45,
+	},
+	{
+		nombre: "Pollo",
+		img: "https://www.bembos.com.pe/_ipx/q_60,s_275x368/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/pollo_2.webp",
+		link: "/menu/pollo",
+		id: 46,
+	},
+];
+const btnText = "Ver Todos";
+
 export const SliderGallery = ({ title }) => {
 	return (
 		<section className="SliderGallery">
@@ -56,12 +84,16 @@ export const SliderGallery = ({ title }) => {
 			</header>
 
 			<div className="SliderGallery-deck">
-				<SliderGalleryCard>
-					<p>Holi, soy el children</p>
-				</SliderGalleryCard>
-				<SliderGalleryCard />
-				<SliderGalleryCard />
-				<SliderGalleryCard />
+				{menu.map((item) => {
+					return (
+						<SliderGalleryCard
+							key={item.id}
+							imageUrl={item.img}
+							name={item.nombre}
+							btnText={btnText}
+						/>
+					);
+				})}
 			</div>
 		</section>
 	);
