@@ -10,8 +10,11 @@
     --color-black: #000;
 }
 
+/* Estilos Globales */
+
 
 /* Fuentes */
+
 @font-face {
     font-family: "din1451";
     src: url("./fonts/Din1451-Regular.woff");
@@ -32,12 +35,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
-/* Estilos Globales */
-
-
-/*Fuentes globales*/
 
 .Font-head {
     font-family: "din1451";
