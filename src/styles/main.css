@@ -39,7 +39,7 @@
 
 /*Fuentes globales*/
 
-.font-head {
+.Font-head {
     font-family: "din1451";
     font-size: 24px;
     font-weight: normal;
@@ -47,56 +47,56 @@
     color: var(--color-main)
 }
 
-.font-title {
+.Font-title {
     font-family: "din1451";
     font-size: 32px;
     font-weight: normal;
     font-style: normal;
 }
 
-.font-title-middle {
+.Font-title-middle {
     font-family: "din1451";
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
 }
 
-.font-number-primary {
+.Font-number-primary {
     font-family: "din1451";
     font-size: 28px;
     font-weight: bold;
     font-style: normal;
 }
 
-.font-number-secondary {
+.Font-number-secondary {
     font-family: "din1451";
     font-size: 22px;
     font-weight: bold;
     text-decoration: line-through;
 }
 
-.font-footer {
+.Font-footer {
     font-family: "din1451";
     font-size: 20px;
     font-weight: bold;
     font-style: normal;
 }
 
-.font-button-primary {
+.Font-button-primary {
     font-family: "din1451";
     font-size: 22px;
     font-weight: normal;
     font-style: normal;
 }
 
-.font-button-secondary {
+.Font-button-secondary {
     font-family: "din1451";
     font-size: 22px;
     font-weight: bold;
     font-style: normal;
 }
 
-.font-border-red {
+.Font-border-red {
     font-family: "din1451";
     font-size: 30px;
     font-weight: normal;
@@ -105,14 +105,14 @@
     text-shadow: -4px -4px 0 #d90f06, -4px -3px 0 #d90f06, -4px -2px 0 #d90f06, -4px -1px 0 #d90f06, -4px 0 0 #d90f06, -4px 1px 0 #d90f06, -4px 2px 0 #d90f06, -4px 3px 0 #d90f06, -4px 4px 0 #d90f06, -3px -4px 0 #d90f06, -3px -3px 0 #d90f06, -3px -2px 0 #d90f06, -3px -1px 0 #d90f06, -3px 0 0 #d90f06, -3px 1px 0 #d90f06, -3px 2px 0 #d90f06, -3px 3px 0 #d90f06, -3px 4px 0 #d90f06, -2px -4px 0 #d90f06, -2px -3px 0 #d90f06, -2px -2px 0 #d90f06, -2px -1px 0 #d90f06, -2px 0 0 #d90f06, -2px 1px 0 #d90f06, -2px 2px 0 #d90f06, -2px 3px 0 #d90f06, -2px 4px 0 #d90f06, -1px -4px 0 #d90f06, -1px -3px 0 #d90f06, -1px -2px 0 #d90f06, -1px -1px 0 #d90f06, -1px 0 0 #d90f06, -1px 1px 0 #d90f06, -1px 2px 0 #d90f06, -1px 3px 0 #d90f06, -1px 4px 0 #d90f06, 0 -4px 0 #d90f06, 0 -3px 0 #d90f06, 0 -2px 0 #d90f06, 0 -1px 0 #d90f06, 0 0 0 #d90f06, 0 1px 0 #d90f06, 0 2px 0 #d90f06, 0 3px 0 #d90f06, 0 4px 0 #d90f06, 1px -4px 0 #d90f06, 1px -3px 0 #d90f06, 1px -2px 0 #d90f06, 1px -1px 0 #d90f06, 1px 0 0 #d90f06, 1px 1px 0 #d90f06, 1px 2px 0 #d90f06, 1px 3px 0 #d90f06, 1px 4px 0 #d90f06, 2px -4px 0 #d90f06, 2px -3px 0 #d90f06, 2px -2px 0 #d90f06, 2px -1px 0 #d90f06, 2px 0 0 #d90f06, 2px 1px 0 #d90f06, 2px 2px 0 #d90f06, 2px 3px 0 #d90f06, 2px 4px 0 #d90f06, 3px -4px 0 #d90f06, 3px -3px 0 #d90f06, 3px -2px 0 #d90f06, 3px -1px 0 #d90f06, 3px 0 0 #d90f06, 3px 1px 0 #d90f06, 3px 2px 0 #d90f06, 3px 3px 0 #d90f06, 3px 4px 0 #d90f06, 4px -4px 0 #d90f06, 4px -3px 0 #d90f06, 4px -2px 0 #d90f06, 4px -1px 0 #d90f06, 4px 0 0 #d90f06, 4px 1px 0 #d90f06, 4px 2px 0 #d90f06, 4px 3px 0 #d90f06, 4px 4px 0 #d90f06;
 }
 
-.font-description {
+.Font-description {
     font-family: "kulturista";
     font-size: 16px;
     font-weight: normal;
     font-style: normal;
 }
 
-.font-description-bold {
+.Font-description-bold {
     font-family: "kulturistaBold";
     font-size: 16px;
     font-weight: normal;
