@@ -56,7 +56,9 @@ export const SliderGallery = ({ title }) => {
 			</header>
 
 			<div className="SliderGallery-deck">
-				<SliderGalleryCard />
+				<SliderGalleryCard>
+					<p>Holi, soy el children</p>
+				</SliderGalleryCard>
 				<SliderGalleryCard />
 				<SliderGalleryCard />
 				<SliderGalleryCard />

@@ -1,5 +1,5 @@
 import "./sliderGalleryCard.css";
-export const SliderGalleryCard = () => {
+export const SliderGalleryCard = ({ children }) => {
 	// TODO: Agregar los siguientes props:
 	// 	imageUrl, name, discountPercent, currentPrice, originalPrice
 
@@ -12,8 +12,11 @@ export const SliderGalleryCard = () => {
 					alt="Imagen"
 				/>
 			</div>
-			<h3 className="SliderGalleryCard-title">Titulo</h3>
-			<button className="SliderGalleryCard-button">Texto de Botón</button>
+			<div className="SliderGalleryCard-info">
+				<h3 className="SliderGalleryCard-title">Titulo</h3>
+				<button className="SliderGalleryCard-button">Texto de Botón</button>
+			</div>
+			{children}
 		</article>
 	);
 };
