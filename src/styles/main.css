@@ -94,9 +94,16 @@
     font-style: normal;
 }
 
+.Font-button-third {
+    font-family: "din1451";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+}
+
 .Font-border-red {
     font-family: "din1451";
-    font-size: 30px;
+    font-size: 40px;
     font-weight: normal;
     font-style: normal;
     color: #fff;
