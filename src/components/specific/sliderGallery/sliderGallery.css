@@ -1,0 +1,29 @@
+.SliderGallery-header {
+    padding-block: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SliderGallery-title {
+    margin-left: 12px;
+    letter-spacing: 4px;
+    color: var(--color-black);
+}
+
+.SliderGallery-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.SliderGallery-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.SliderGallery-deck {
+    padding: 12px;
+    display: flex;
+    gap: 64px;
+}

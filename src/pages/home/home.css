@@ -1,0 +1,10 @@
+.Home {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.Home-promos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
