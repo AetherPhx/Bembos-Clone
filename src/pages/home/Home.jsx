@@ -1,3 +1,4 @@
+import { Header, Footer } from "/src/components/common";
 // import { Banner } from "/src/components/specific/home/banner";
 import { SliderGallery } from "/src/components/specific/home/sliderGallery";
 import { BannerCard } from "/src/components/specific/home/bannerCard";
@@ -9,19 +10,25 @@ export const Home = () => {
 	// TODO: Desarrollar SliderGallery para "Promociones y Menú de Hamburguesas Online"
 
 	return (
-		<main className="Home">
-			{/* <Banner /> */}
+		<>
+			<Header />
 
-			{/* <SliderGallery /> */}
+			<main className="Home">
+				{/* <Banner /> */}
 
-			<SliderGallery title="MENÚ DE HAMBURGUESAS ONLINE" />
+				{/* <SliderGallery /> */}
 
-			<section className="Home-promos">
-				<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store/default/1719412352_Banner-Delivery-home-left.webp" />
-				<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store-mobile/default/1719412352_new-banner-cupones.webp" />
-			</section>
+				<SliderGallery title="MENÚ DE HAMBURGUESAS ONLINE" />
 
-			<SocialBanner />
-		</main>
+				<section className="Home-promos">
+					<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store/default/1719412352_Banner-Delivery-home-left.webp" />
+					<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store-mobile/default/1719412352_new-banner-cupones.webp" />
+				</section>
+
+				<SocialBanner />
+			</main>
+
+			<Footer />
+		</>
 	);
 };
