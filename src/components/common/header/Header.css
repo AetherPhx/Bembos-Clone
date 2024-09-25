@@ -1,0 +1,204 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.Menu-publi-delivery {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+    cursor: pointer;
+}
+
+.Menu-publi-delivery img {
+    height: 57px;
+    object-fit: contain;
+}
+
+
+.Menu-main-header {
+    width: 100%;
+    background: var(--color-main);
+    display: flex;
+    justify-content: center;
+}
+
+.Menu-publi {
+    width: 1200px;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Menu-publi-right {
+    display: flex;
+}
+
+.Menu-container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Menu-item {
+    width: 800px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Menu-hover:hover {
+    border-bottom: 3px solid rgb(214, 16, 16);
+}
+
+.Menu-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Menu-link img {
+    height: 24px;
+    object-fit: contain;
+}
+
+.Icon-phone {
+    width: 160px;
+    display: flex;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.Icon-phone img {
+    height: 50px;
+    object-fit: contain;
+    color: var(--color-white);
+    padding-right: 5px;
+}
+
+.Icon-user {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.Icon-user img {
+    width: 25px;
+    object-fit: contain;
+}
+
+.Icon-user p {
+    font-family: 'din1451';
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--color-white);
+    padding-left: 10px;
+}
+
+.Head-delivery {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+}
+
+.Head-delivery select {
+    background-color: transparent;
+    border: none;
+    font-family: 'din1451';
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+
+.Head-delivery span {
+    font-family: 'din1451';
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--color-secondary);
+}
+
+.Head-delivery p {
+    font-family: 'din1451';
+    font-weight: normal;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+.Cart-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    gap: 10px;
+}
+
+.Button-sin-colas {
+    width: 180px;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    padding: 8px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button-cart {
+    position: relative;
+    width: 80px;
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    padding: 10px 10px;
+    border-radius: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cart-counter {
+    position: absolute;
+    border-radius: 50px;
+    background-color: var(--color-tertiary);
+    padding: 6px 8px;
+    top: 2px;
+    right: 14px;
+}
+
+.Font-button-sc {
+    font-family: "din1451";
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Font-button-sc-red {
+    color: var(--color-tertiary);
+}
+
+.Font-counter {
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--color-white);
+}
