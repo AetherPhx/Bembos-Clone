@@ -1,6 +1,10 @@
 .Home {
     max-width: 1200px;
     margin-inline: auto;
+    margin-bottom: 120px;
+
+    display: grid;
+    gap: 40px;
 }
 
 .Home-promos {
