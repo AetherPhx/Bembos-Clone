@@ -19,7 +19,7 @@ export function CardMenu() {
     };
 
     return (
-        <div className="Content">
+        <div className="CardMenu-main">
             <div className="CardMenu-content">
                 <ItemCardMenu title={'Promociones Exclusivas Web'} imageUrl={urlBanner1} />
                 <ItemCardMenu title={'Combos'} imageUrl={urlBanner2} />
