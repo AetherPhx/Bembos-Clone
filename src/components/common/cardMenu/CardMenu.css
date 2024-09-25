@@ -1,25 +1,26 @@
-.Content{
+.Content {
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
 
 .CardMenu-content {
+    position: relative;
     width: 1094px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.CardMenu-container{
-    display:flex;
+.CardMenu-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .CardMenu-item {
+    position: relative;
     width: 517px;
     height: 366px;
-    position: relative;
     background-image: var(--background-image);
     background-size: cover;
     background-position: center;
@@ -45,4 +46,27 @@
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+.CardMenu-to-top {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: -20px;
+    right: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-main);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.CardMenu-to-top svg {
+    width: 28px;
+    height: 28px;
 }
