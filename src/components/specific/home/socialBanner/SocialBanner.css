@@ -1,0 +1,77 @@
+.SocialBanner {
+    width: 100%;
+    border: 1px solid var(--color-main);
+    border-radius: 10px;
+
+    display: flex;
+    gap: 32px;
+}
+
+.SocialBanner-header {
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+    padding-top: 32px;
+    padding-inline: 36px 150px;
+
+    display: grid;
+    gap: 12px;
+}
+
+.SocialBanner-title {
+    font-weight: bold;
+}
+
+.SocialBanner-shareButtons {
+    display: grid;
+    gap: 12px;
+}
+
+.SocialBanner-fbCard {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ebedf0;
+    margin-top: 32px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SocialBanner-fbCard-main {
+    padding: 12px;
+    display: flex;
+    gap: 4px;
+}
+
+.SocialBanner-fbCard-title {
+    color: var(--color-main);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.SocialBanner-fbCard-title:hover {
+    text-decoration: underline;
+}
+
+.SocialBanner-fbCard-share {
+    background-color: #f5f6f7;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SocialBanner-fbCard-shareBtn {
+    background-color: #f5f6f7;
+    color: #4b4f56;
+    padding: 4px 8px;
+    border: 1px solid rgba(0, 0, 0, .12);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
