@@ -5,7 +5,7 @@ import { Footer } from "./components/common/footer";
 export function App() {
 	return (
 		<>
-			{/* <Header /> */}
+			<Header />
 			<Home />
 			{/* <Footer /> */}
 		</>
