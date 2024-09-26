@@ -1,7 +1,12 @@
+
+
 footer{
     background-color: #173083;
     color: #fff;
     padding-top: 40px;
+    font-family: "din1451";
+    font-weight: 300;
+    font-size: 18px;
 }
 .container{
     width: 1200px;
@@ -53,6 +58,11 @@ justify-content: center;
 .Footer-container-paymentMethod-text{
     text-align: center;
 }
+
+.Footer-container-item{
+    padding-right:40px;
+}
+
 .Footer-container-paymentMethod-icon svg{
     width: 73px;
     height: 40px;
@@ -86,6 +96,8 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Kulturista;
+    font-weight: 500;
 }
 
 .Footer-container-news-mail{
