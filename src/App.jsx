@@ -4,7 +4,6 @@ import { AppRouter } from "./router";
 
 export function App() {
 	return (
-
 		<>
 			<Router>
 				<Suspense fallback={<div>🍔 Cargando aplicación...</div>}>
@@ -12,8 +11,5 @@ export function App() {
 				</Suspense>
 			</Router>
 		</>
-
-	
-		
 	);
 }
