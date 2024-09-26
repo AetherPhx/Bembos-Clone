@@ -1,19 +1,16 @@
-import { Header } from "./components/common/header";
-import { Home } from "./pages/home";
-import { Footer } from "./components/common/footer";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Suspense } from "react";
+import { AppRouter } from "./router";
 
 export function App() {
 	return (
 
 		<>
-			<h1>Hello World</h1>
-			{/* <Header /> */}
-			{/* <Home /> */}
-			<Footer/>
-			
-		
-
-
+			<Router>
+				<Suspense fallback={<div>🍔 Cargando aplicación...</div>}>
+					<AppRouter />
+				</Suspense>
+			</Router>
 		</>
 
 	

@@ -1,15 +1,125 @@
+/* Fuentes */
 :root {
     /* Variables Globales */
 
-    /* Fuentes */
-
-
     /* Colores */
+    --color-bg: #f6f7f8;
     --color-main: #173083;
     --color-secondary: #fbb905;
-    --color-tertiary: #e10b19;
+    --color-tertiary: #d90f06;
     --color-white: #fff;
     --color-black: #000;
 }
 
 /* Estilos Globales */
+
+
+/* Fuentes */
+
+@font-face {
+    font-family: "din1451";
+    src: url("./fonts/Din1451-Regular.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "kulturistaBold";
+    src: url("./fonts/Kulturista-Bold.woff");
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "kulturista";
+    src: url("./fonts/Kulturista-Regular.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font-head {
+    font-family: "din1451";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--color-main)
+}
+
+.Font-title {
+    font-family: "din1451";
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font-title-middle {
+    font-family: "din1451";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font-number-primary {
+    font-family: "din1451";
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.Font-number-secondary {
+    font-family: "din1451";
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.Font-footer {
+    font-family: "din1451";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.Font-button-primary {
+    font-family: "din1451";
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font-button-secondary {
+    font-family: "din1451";
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.Font-button-third {
+    font-family: "din1451";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font-border-red {
+    font-family: "din1451";
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    text-shadow: -4px -4px 0 #d90f06, -4px -3px 0 #d90f06, -4px -2px 0 #d90f06, -4px -1px 0 #d90f06, -4px 0 0 #d90f06, -4px 1px 0 #d90f06, -4px 2px 0 #d90f06, -4px 3px 0 #d90f06, -4px 4px 0 #d90f06, -3px -4px 0 #d90f06, -3px -3px 0 #d90f06, -3px -2px 0 #d90f06, -3px -1px 0 #d90f06, -3px 0 0 #d90f06, -3px 1px 0 #d90f06, -3px 2px 0 #d90f06, -3px 3px 0 #d90f06, -3px 4px 0 #d90f06, -2px -4px 0 #d90f06, -2px -3px 0 #d90f06, -2px -2px 0 #d90f06, -2px -1px 0 #d90f06, -2px 0 0 #d90f06, -2px 1px 0 #d90f06, -2px 2px 0 #d90f06, -2px 3px 0 #d90f06, -2px 4px 0 #d90f06, -1px -4px 0 #d90f06, -1px -3px 0 #d90f06, -1px -2px 0 #d90f06, -1px -1px 0 #d90f06, -1px 0 0 #d90f06, -1px 1px 0 #d90f06, -1px 2px 0 #d90f06, -1px 3px 0 #d90f06, -1px 4px 0 #d90f06, 0 -4px 0 #d90f06, 0 -3px 0 #d90f06, 0 -2px 0 #d90f06, 0 -1px 0 #d90f06, 0 0 0 #d90f06, 0 1px 0 #d90f06, 0 2px 0 #d90f06, 0 3px 0 #d90f06, 0 4px 0 #d90f06, 1px -4px 0 #d90f06, 1px -3px 0 #d90f06, 1px -2px 0 #d90f06, 1px -1px 0 #d90f06, 1px 0 0 #d90f06, 1px 1px 0 #d90f06, 1px 2px 0 #d90f06, 1px 3px 0 #d90f06, 1px 4px 0 #d90f06, 2px -4px 0 #d90f06, 2px -3px 0 #d90f06, 2px -2px 0 #d90f06, 2px -1px 0 #d90f06, 2px 0 0 #d90f06, 2px 1px 0 #d90f06, 2px 2px 0 #d90f06, 2px 3px 0 #d90f06, 2px 4px 0 #d90f06, 3px -4px 0 #d90f06, 3px -3px 0 #d90f06, 3px -2px 0 #d90f06, 3px -1px 0 #d90f06, 3px 0 0 #d90f06, 3px 1px 0 #d90f06, 3px 2px 0 #d90f06, 3px 3px 0 #d90f06, 3px 4px 0 #d90f06, 4px -4px 0 #d90f06, 4px -3px 0 #d90f06, 4px -2px 0 #d90f06, 4px -1px 0 #d90f06, 4px 0 0 #d90f06, 4px 1px 0 #d90f06, 4px 2px 0 #d90f06, 4px 3px 0 #d90f06, 4px 4px 0 #d90f06;
+}
+
+.Font-description {
+    font-family: "kulturista";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Font-description-bold {
+    font-family: "kulturistaBold";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}
