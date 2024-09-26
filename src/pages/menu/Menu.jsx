@@ -1,5 +1,6 @@
+import { CardMenu } from "../../components/specific/menu/cardMenu";
 export const Menu = () => {
-	return <p>This is the menu page</p>;
+	return <CardMenu />;
 };
 
 export default Menu;
