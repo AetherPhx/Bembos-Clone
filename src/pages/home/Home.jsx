@@ -13,19 +13,21 @@ export const Home = () => {
 		<>
 			<Header />
 
-			<main className="Home">
+			<main >
 				<Slider />
 
 				{/* <SliderGallery /> */}
+				<div className="Home">
+					<SliderGallery title="MENÚ DE HAMBURGUESAS ONLINE" />
 
-				<SliderGallery title="MENÚ DE HAMBURGUESAS ONLINE" />
+					<section className="Home-promos">
+						<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store/default/1719412352_Banner-Delivery-home-left.webp" />
+						<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store-mobile/default/1719412352_new-banner-cupones.webp" />
+					</section>
 
-				<section className="Home-promos">
-					<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store/default/1719412352_Banner-Delivery-home-left.webp" />
-					<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store-mobile/default/1719412352_new-banner-cupones.webp" />
-				</section>
-
-				<SocialBanner />
+					<SocialBanner />
+				</div>
+				
 			</main>
 
 			<Footer />

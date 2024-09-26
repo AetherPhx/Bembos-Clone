@@ -69,7 +69,7 @@ export const Test = () => {
 
 	return (
 		<>
-			<button onClick={mostrarData}>Mostrar Información de DB</button>
+
 		</>
 	);
 };
