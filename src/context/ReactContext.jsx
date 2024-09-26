@@ -1,9 +1,18 @@
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext, useEffect } from "react";
 
-const userContext = createContext();
+const DataContext = createContext();
 
-export const ReactProvider = ({ children }) => {
+export const useData = () => useContext(DataContext);
+
+export const DataProvider = ({ children }) => {
 	const [user, setUser] = useState(null);
+
+	useEffect(() => {
+		setUser({
+			nombre: "Juan",
+			apellido: "Perez",
+		});
+	}, []);
 
 	const cambiarUsuario = () => {
 		if (user) {
@@ -17,8 +26,8 @@ export const ReactProvider = ({ children }) => {
 	};
 
 	return (
-		<userContext.Provider value={{ user, cambiarUsuario }}>
+		<DataContext.Provider value={{ user, cambiarUsuario }}>
 			{children}
-		</userContext.Provider>
+		</DataContext.Provider>
 	);
 };

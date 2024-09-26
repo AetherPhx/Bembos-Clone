@@ -1,5 +1,20 @@
+import { useData } from "/src/context/ReactContext";
+
 export const Menu = () => {
-	return <p>This is the menu page</p>;
+	const { user, cambiarUsuario } = useData();
+
+	return (
+		<>
+			{user ? (
+				<p>
+					{user.nombre}, {user.apellido}
+				</p>
+			) : (
+				<p>Anónimo</p>
+			)}
+			<button onClick={cambiarUsuario}>{user ? "Deslogear" : "Logear"}</button>
+		</>
+	);
 };
 
 export default Menu;
