@@ -1,4 +1,4 @@
-import { Home, Menu, Test } from "./pages";
+import { Cart, Home, Menu, Test } from "./pages";
 
 export const routes = [
 	{
@@ -12,6 +12,10 @@ export const routes = [
 	{
 		path: "/menu",
 		component: <Menu />,
+	},
+	{
+		path: "/cart",
+		component: <Cart />,
 	},
 	{
 		path: "/test",
