@@ -80,19 +80,24 @@ export const DataProvider = ({ children }) => {
 		]);
 	}, []);
 
-	const cambiarUsuario = () => {
-		if (user) {
-			setUser(null);
-		} else {
-			setUser({
-				nombre: "Luis",
-				apellido: "Mendoza",
-			});
-		}
+	const mostrarProds = () => {
+		console.log(combos);
+		console.log(loncheritas);
 	};
 
+	// const cambiarUsuario = () => {
+	// 	if (user) {
+	// 		setUser(null);
+	// 	} else {
+	// 		setUser({
+	// 			nombre: "Luis",
+	// 			apellido: "Mendoza",
+	// 		});
+	// 	}
+	// };
+
 	return (
-		<DataContext.Provider value={{ user, cambiarUsuario }}>
+		<DataContext.Provider value={{ combos, loncheritas, mostrarProds }}>
 			{children}
 		</DataContext.Provider>
 	);
