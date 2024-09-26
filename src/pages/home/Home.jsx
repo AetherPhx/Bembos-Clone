@@ -1,5 +1,5 @@
 import { Header, Footer } from "/src/components/common";
-// import { Banner } from "/src/components/specific/home/banner";
+import { Slider } from "/src/components/specific/home/slider";
 import { SliderGallery } from "/src/components/specific/home/sliderGallery";
 import { BannerCard } from "/src/components/specific/home/bannerCard";
 import { SocialBanner } from "../../components/specific/home/socialBanner/SocialBanner";
@@ -14,7 +14,7 @@ export const Home = () => {
 			<Header />
 
 			<main className="Home">
-				{/* <Banner /> */}
+				<Slider />
 
 				{/* <SliderGallery /> */}
 
