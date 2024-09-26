@@ -1,4 +1,5 @@
 import { Header, Footer } from "/src/components/common";
+import { useData } from "/src/context/ReactContext";
 // import { Banner } from "/src/components/specific/home/banner";
 import { SliderGallery } from "/src/components/specific/home/sliderGallery";
 import { BannerCard } from "/src/components/specific/home/bannerCard";
@@ -9,6 +10,8 @@ export const Home = () => {
 	// TODO: Agregar banner únicamente con la primera imágen.
 	// TODO: Desarrollar SliderGallery para "Promociones y Menú de Hamburguesas Online"
 
+	const { promoOnline, menu } = useData();
+
 	return (
 		<>
 			<Header />
@@ -16,9 +19,17 @@ export const Home = () => {
 			<main className="Home">
 				{/* <Banner /> */}
 
-				{/* <SliderGallery /> */}
+				<SliderGallery
+					title="PROMOCIONES DE HAMBURGUESAS ONLINE"
+					data={promoOnline}
+					cardType="Promo"
+				/>
 
-				<SliderGallery title="MENÚ DE HAMBURGUESAS ONLINE" />
+				<SliderGallery
+					title="MENÚ DE HAMBURGUESAS ONLINE"
+					data={menu}
+					cardType="Simple"
+				/>
 
 				<section className="Home-promos">
 					<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store/default/1719412352_Banner-Delivery-home-left.webp" />
