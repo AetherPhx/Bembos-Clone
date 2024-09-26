@@ -6,7 +6,7 @@ import menuImg08 from './images/bmb-delivery.jpg';
 
 export const Header = () => {
 	return (
-		<header className="Container">
+		<header className="MenuContainer-main">
 
 			<div className="Menu-publi-delivery">
 				<img src={menuImg08} alt="img08" />

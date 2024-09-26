@@ -1,0 +1,122 @@
+footer{
+    background-color: #173083;
+    color: #fff;
+    padding-top: 40px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.Redes-sociales-icon{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 40px 0px;
+ 
+}
+.Redes-sociales-icon svg{
+    width: 37px;
+    height: 37px;
+}
+.Footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Footer-container-paymentMethod-icon-method{
+    display: flex;
+    justify-content:center;
+    margin: 15px 0px;
+    gap: 25px;
+}
+.Footer-container-locales-icon{
+display: flex;
+justify-content: center;
+}
+.Footer-container-locales-item-top{
+    display:flex;
+    flex-direction: row;
+}
+.Footer-container-left ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.Footer-container-right ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.Footer-container-locales-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.Footer-container-paymentMethod-text{
+    text-align: center;
+}
+.Footer-container-paymentMethod-icon svg{
+    width: 73px;
+    height: 40px;
+}
+.Footer-container-paymentMethod-icon-safety {
+
+    text-align: center;
+}
+
+.Footer-container-paymentMethod-icon-safety svg{
+    width: 163px;
+    height: 34px;
+    margin: 15px 0px;
+}
+
+.Footer-container-paymentMethod-icon-comprobante{
+   
+    text-align: center;
+    padding: 30px 45px;
+    
+}
+
+.Footer-container-paymentMethod-icon-comprobante a{
+    color: #173083;
+    background-color: #fbb905;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 30px 45px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-container-news-mail{
+    display: flex;
+    justify-content: start;
+    margin: 20px 0px;
+}
+
+.Footer-container-news-mail input{
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.Footer-container-news-checkbox{
+    margin-top: 20px;
+}
+
+.button-send{
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: #ffb500;
+    padding: 0px 40px;
+}
+
+.Footer-container-main{
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid;
+    padding: 8px 0px;
+    font-size: 13px;
+}
+.Footer-container-news-checkbox label{
+    margin-left: 10px;
+}
