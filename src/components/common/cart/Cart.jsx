@@ -95,6 +95,12 @@ export const Cart=()=>{
         <div className="carrito-subtotal">
           <div className="carrito-card total">
             <table>
+              <thead>
+                <tr>
+                  <th class="th-text"></th>
+                  <th class="th-precio"></th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
                   <td>Total</td>
