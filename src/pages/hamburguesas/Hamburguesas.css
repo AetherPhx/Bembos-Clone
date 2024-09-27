@@ -1,0 +1,14 @@
+.Hamburguesas {
+    background-color: var(--color-white);
+    max-width: 1200px;
+    padding: 32px;
+    margin-top: 300px;
+    margin-inline: auto;
+}
+
+.Hamburguesas-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}

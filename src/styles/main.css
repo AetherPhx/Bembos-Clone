@@ -12,7 +12,9 @@
 }
 
 /* Estilos Globales */
-
+body {
+    background-color: var(--color-bg);
+}
 
 /* Fuentes */
 
