@@ -18,7 +18,7 @@ export const routes = [
 		component: <Hamburguesas />,
 	},
 	{
-		path: "/menu/hamburguesas/clasica-bembos",
+		path: "/menu/hamburguesas/hamburguesa-clasica-bembos",
 		component: <ClasicaBembos />,
 	},
 	{
