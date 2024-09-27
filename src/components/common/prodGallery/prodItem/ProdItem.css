@@ -1,5 +1,6 @@
 .ProdItem {
-    width: 240px;
+    height: 460px;
+    width: 280px;
     border: 1px solid transparent;
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -46,11 +47,10 @@
 
 
 .ProdItem-info {
-    padding-block: 12px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 8px;
     text-align: center;
     flex-grow: 1;
 }
