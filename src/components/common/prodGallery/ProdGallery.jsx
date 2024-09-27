@@ -5,7 +5,6 @@ export const ProdGallery = ({ productList }) => {
 		<section className="ProdGallery">
 			{productList.map((prod) => {
 				return <ProdItem key={prod.id} prod={prod} />;
-				// return <p>{prod.nombre}</p>;
 			})}
 		</section>
 	);
