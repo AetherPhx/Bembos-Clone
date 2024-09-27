@@ -1,0 +1,67 @@
+.Accordion-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Accordion-wrapper {
+    width: 1114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.Accordion-info {
+    width: 100%;
+    background: var( --color-white);
+    border: 2px solid #dcdcdc;
+    color: var(--color-main);
+    outline: none;
+    padding: 0;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px 0px;
+}
+
+.Accordion-description {
+    background-color: var( --color-white);
+    padding: 0 10px;
+    line-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.Accordion-open {
+    padding: 10px;
+    line-height: 20px;
+}
+
+.Accordion-info.open {
+    border-color: var(--color-secondary);
+}
+
+.Font-description.small{
+    font-size: 12px;
+}
+
+.Accordion-iconUp {
+    font-size: 22px;
+    color:var(--color-main)
+}
+
+.Accordion-iconBottom {
+    font-size: 22px;
+    color: var(--color-tertiary)
+}
