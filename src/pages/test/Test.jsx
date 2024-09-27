@@ -1,4 +1,5 @@
 import { useData } from "/src/context/ReactContext";
+import { cart } from "/src/components/common/cart/Cart.jsx";
 
 export const Test = () => {
 	const {
@@ -69,9 +70,12 @@ export const Test = () => {
 
 	return (
 		<>
-			<button onClick={mostrarData}>Mostrar Información de DB</button>
+			<Cart>
+
+			</Cart>
 		</>
 	);
 };
+
 
 export default Test;
