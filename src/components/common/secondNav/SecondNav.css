@@ -21,6 +21,7 @@
     .categorias-link li{
         padding: 9px;
         text-align: center;
+        cursor: pointer;
     }
 
     .menu-button-categorias{
@@ -35,8 +36,6 @@
         background-color: #ffb500;
         color: #373d42;
         font-family: "din1451";
-       
-        
     }
   .categorias-link li:hover{
     background-color: #f0f0f4;
@@ -45,6 +44,14 @@
     box-shadow: 0 2px 5px #ccc;
    
   }
+  li a{
+    color: #373d42;
+    font-weight: 300;
+  }
+li a:hover{
+    color: #305b8a;
+}
+
   .item-active{
     color: #21388b;
     background-color: #ffb500;
