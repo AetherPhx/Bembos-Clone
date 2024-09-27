@@ -1,4 +1,4 @@
-import { Cart, Hamburguesas, Home, Menu, Test } from "./pages";
+import { Cart, ClasicaBembos, Hamburguesas, Home, Menu, Test } from "./pages";
 
 export const routes = [
 	{
@@ -16,6 +16,10 @@ export const routes = [
 	{
 		path: "/menu/hamburguesas",
 		component: <Hamburguesas />,
+	},
+	{
+		path: "/menu/hamburguesas/clasica-bembos",
+		component: <ClasicaBembos />,
 	},
 	{
 		path: "/cart",
