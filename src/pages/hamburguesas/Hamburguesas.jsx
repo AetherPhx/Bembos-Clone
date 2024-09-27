@@ -13,7 +13,9 @@ export const Hamburguesas = () => {
 			</div>
 
 			<main className="Hamburguesas">
-				<h1>Conoce nuestras irresistibles hamburguesas | BEMBOS</h1>
+				<h1 className="Hamburguesas-title">
+					Conoce nuestras irresistibles hamburguesas | BEMBOS
+				</h1>
 				<ProdGallery productList={hamburguesas} />
 			</main>
 
