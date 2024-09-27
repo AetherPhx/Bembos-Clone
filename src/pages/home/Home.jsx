@@ -8,14 +8,6 @@ import "./home.css";
 
 export const Home = () => {
 	const { promoOnline, menu } = useData();
-	// const newPromoOnline = [];
-	// const newMenu = [];
-	// for (let index = 0; index < 4; index++) {
-	// 	newPromoOnline.push(promoOnline[index]);
-	// }
-	// for (let index = 0; index < 4; index++) {
-	// 	newMenu.push(menu[index]);
-	// }
 
 	return (
 		<>
