@@ -2,7 +2,7 @@ import "./Footer.css";
 
 export const Footer = () => {
 	return (
-		<footer>
+		<footer className="footer">
 			<div className="footer container">
 				<div className="Redes-sociales">
 					<div className="Redes-sociales-icon">
