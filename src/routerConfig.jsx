@@ -14,7 +14,7 @@ export const routes = [
 		component: <Menu />,
 	},
 	{
-		path: "/hamburguesas",
+		path: "/menu/hamburguesas",
 		component: <Hamburguesas />,
 	},
 	{
