@@ -8,14 +8,14 @@ import "./home.css";
 
 export const Home = () => {
 	const { promoOnline, menu } = useData();
-	const newPromoOnline = [];
-	const newMenu = [];
-	for (let index = 0; index < 4; index++) {
-		newPromoOnline.push(promoOnline[index]);
-	}
-	for (let index = 0; index < 4; index++) {
-		newMenu.push(menu[index]);
-	}
+	// const newPromoOnline = [];
+	// const newMenu = [];
+	// for (let index = 0; index < 4; index++) {
+	// 	newPromoOnline.push(promoOnline[index]);
+	// }
+	// for (let index = 0; index < 4; index++) {
+	// 	newMenu.push(menu[index]);
+	// }
 
 	return (
 		<>
@@ -27,13 +27,13 @@ export const Home = () => {
 				<div className="Home">
 					<SliderGallery
 						title="PROMOCIONES DE HAMBURGUESAS ONLINE"
-						data={newPromoOnline}
+						data={promoOnline}
 						cardType="Promo"
 					/>
 
 					<SliderGallery
 						title="MENÚ DE HAMBURGUESAS ONLINE"
-						data={newMenu}
+						data={menu}
 						cardType="Simple"
 					/>
 

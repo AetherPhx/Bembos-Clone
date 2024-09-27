@@ -57,7 +57,7 @@ export const SliderGallery = ({ title, data, cardType }) => {
 			</header>
 
 			<div className="SliderGallery-deck">
-				{data.map((item) => {
+				{data.slice(0, 4).map((item) => {
 					if (cardType === "Promo") {
 						return (
 							<CardPromo
