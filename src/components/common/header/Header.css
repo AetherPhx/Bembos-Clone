@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
+    border-bottom: 2px solid #00000015;
+    z-index: 10000;
 }
 
 .Menu-publi-delivery {

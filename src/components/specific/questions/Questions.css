@@ -1,0 +1,67 @@
+.Faqs-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Faqs-wrapper {
+    width: 1114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.Faqs-info {
+    width: 100%;
+    background: var(--color-white);
+    border: 2px solid #dcdcdc;
+    color: var(--color-main);
+    outline: none;
+    padding: 0;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Faqs-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px 0px;
+}
+
+.Faqs-description {
+    background-color: var(--color-white);
+    padding: 0 10px;
+    line-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.Faqs-open {
+    padding: 10px;
+    line-height: 20px;
+}
+
+.Faqs-info.open {
+    border-color: var(--color-secondary);
+}
+
+.Font-description.small {
+    font-size: 12px;
+}
+
+.Faqs-iconUp {
+    font-size: 22px;
+    color: var(--color-main)
+}
+
+.Faqs-iconBottom {
+    font-size: 22px;
+    color: var(--color-tertiary)
+}

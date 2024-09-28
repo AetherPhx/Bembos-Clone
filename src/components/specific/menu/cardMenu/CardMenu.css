@@ -1,72 +1,85 @@
+.CardMenu-principal {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardMenu-principal p {
+  width: 90%;
+  border-bottom: 0.5px solid #6a7591;
+  padding-bottom: 10px;
+}
+
 .CardMenu-main {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding:30px 0 60px;
 }
 
 .CardMenu-content {
-    position: relative;
-    width: 1094px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.CardMenu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.CardMenu-item {
-    position: relative;
-    width: 517px;
-    height: 366px;
-    background-image: var(--background-image);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.4);
-    margin: 10px 15px;
-}
-
-.CardMenu-title {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-.CardMenu-button {
-    width: 206px;
-    height: 49px;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: var(--color-main);
-    color: white;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .CardMenu-to-top {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    bottom: -20px;
-    right: 0px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: -20px;
+  right: 0px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: var(--color-main);
-    color: white;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: var(--color-main);
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .CardMenu-to-top svg {
-    width: 28px;
-    height: 28px;
+  width: 28px;
+  height: 28px;
+}
+
+.ItemCardMenu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ItemCardMenu-item {
+  position: relative;
+  width: 517px;
+  height: 366px;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 20px 20px 26px rgba(0, 0, 0, 0.4);
+  margin: 10px 15px 18px;
+}
+
+.ItemCardMenu-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ItemCardMenu-button {
+  width: 206px;
+  height: 49px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: var(--color-main);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }

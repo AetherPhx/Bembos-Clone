@@ -1,0 +1,1 @@
+export { CardSimple } from "./CardSimple";
