@@ -1,7 +1,7 @@
-// Aquí importa tu componente
+import { DetailFooter } from "../../components/common/detailFooter/detailFooter";
 
 export const Test = () => {
-	return <>Aquí va tu componente</>;
+	return <DetailFooter />;
 };
 
 export default Test;
