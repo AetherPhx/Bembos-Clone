@@ -1,4 +1,4 @@
-.Accordion-main {
+.Faqs-content {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-.Accordion-wrapper {
+.Faqs-wrapper {
     width: 1114px;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     padding: 20px 10px;
 }
 
-.Accordion-info {
+.Faqs-info {
     width: 100%;
     background: var( --color-white);
     border: 2px solid #dcdcdc;
@@ -28,14 +28,14 @@
     transition: all 0.3s ease-in-out;
 }
 
-.Accordion-title {
+.Faqs-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 8px 0px;
 }
 
-.Accordion-description {
+.Faqs-description {
     background-color: var( --color-white);
     padding: 0 10px;
     line-height: 0px;
@@ -43,12 +43,12 @@
     transition: all 0.3s ease-in-out;
 }
 
-.Accordion-open {
+.Faqs-open {
     padding: 10px;
     line-height: 20px;
 }
 
-.Accordion-info.open {
+.Faqs-info.open {
     border-color: var(--color-secondary);
 }
 
@@ -56,12 +56,12 @@
     font-size: 12px;
 }
 
-.Accordion-iconUp {
+.Faqs-iconUp {
     font-size: 22px;
     color:var(--color-main)
 }
 
-.Accordion-iconBottom {
+.Faqs-iconBottom {
     font-size: 22px;
     color: var(--color-tertiary)
 }

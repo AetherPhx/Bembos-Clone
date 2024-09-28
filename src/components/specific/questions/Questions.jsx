@@ -1,9 +1,9 @@
-import "./Acordeon.css";
+import "./Questions.css";
 import { useState } from 'react';
 import { FaChevronCircleDown } from "react-icons/fa";
 import { FaChevronCircleUp } from "react-icons/fa";
 
-export const Acordeon = () => {
+export const Questions = () => {
     const [accordion, setAccordion] = useState([]);
 
     const content = [
@@ -37,14 +37,14 @@ export const Acordeon = () => {
 
     return (
 
-        <div className="Accordion-main">
-            <div className='Accordion-wrapper'>
+        <div className="Faqs-content">
+            <div className='Faqs-wrapper'>
                 {content.map((item, index) => (
-                    <div className={`Accordion-info ${accordion.includes(index) ? 'open' : ''}`} key={index}>
-                        <div className="Accordion-title Font-description-bold" onClick={() => accordionToggle(index)}>
-                            {item.title} {accordion.includes(index) ? <span className="Accordion-iconUp"><FaChevronCircleUp /></span> : <span className="Accordion-iconBottom"><FaChevronCircleDown /></span>}
+                    <div className={`Faqs-info ${accordion.includes(index) ? 'open' : ''}`} key={index}>
+                        <div className="Faqs-title Font-description-bold" onClick={() => accordionToggle(index)}>
+                            {item.title} {accordion.includes(index) ? <span className="Faqs-iconUp"><FaChevronCircleUp /></span> : <span className="Faqs-iconBottom"><FaChevronCircleDown /></span>}
                         </div>
-                        <p className={`Accordion-description Font-description.small ${accordion.includes(index) ? 'Accordion-open' : ''}`}>
+                        <p className={`Faqs-description Font-description.small ${accordion.includes(index) ? 'Faqs-open' : ''}`}>
                             {item.description}
                         </p>
                     </div>
