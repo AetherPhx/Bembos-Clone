@@ -224,19 +224,25 @@ export const Cart = () => {
 					</div>
 				</div>
 
-				{/* Total */}
-				<div className="carrito-subtotal">
-					<div className="carrito-card total">
-						<table>
-							<tbody>
-								<tr>
-									<td>Total</td>
-									<td>s/50.70</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
+        {/* Total */}
+        <div className="carrito-subtotal">
+          <div className="carrito-card total">
+            <table>
+              <thead>
+                <tr>
+                  <th class="th-text"></th>
+                  <th class="th-precio"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Total</td>
+                  <td>s/50.70</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
 				{/* Botones de acción */}
 				<div className="carrito-card">

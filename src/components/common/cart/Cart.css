@@ -28,19 +28,20 @@ img{
     width: 100%;
 }
 .carrito-card-description-img  img{
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
 }
 
 .carrito{
-    width: 35%;
-    height: 100%;
+  width: 35%;
+  height: 100%;
+  background-color: aqua;
 }
 .carrito-card{
-    padding: 0px 20px;
-    display: flex;
-    border-top: 2px solid#ccc;
+  padding: 5px 20px;
+  display: flex;
+  border-top: 2px solid#ccc;
 }
 .carrito-title-title{
  
@@ -79,10 +80,10 @@ display: flex;
 }
 
 .carrito-card-description{
-  display: flex;
-    padding: 6px 0px;
-    gap: 80px;
-    
+display: flex;
+  padding: 6px 0px;
+  gap: 80px;
+  
 
 }
 .carrito-card-description-name{
@@ -183,35 +184,35 @@ table{
     margin: 0px 20px;
 }
 .carrito-card-button-eliminar img{
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .carrito-card-producto{
-    display: flex;
-    padding: 10px 0;
-  
+  display: flex;
+  padding: 10px 0;
+
 }
 .carrito-card-button-eliminar{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .button-controls{
-    display: flex;
-    justify-content: space-between;
-    margin: 12px 0 0;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0 0;
+  gap: 20px;
 }
 
 .leer-mas{
-    margin: 0px 20px;
+  margin: 0px 20px;
 
-  }
-  .carrito-card-section-subtotal{
-    display: flex;
-    justify-content: space-between;
+}
+.carrito-card-section-subtotal{
+  display: flex;
+  justify-content: space-between;
 
-  }
+}
 
   .carrito-card-button{
     margin-top: 20px;
