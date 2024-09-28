@@ -1,0 +1,51 @@
+img{
+    width: 100%;
+}
+.carrito{
+    right: 0;
+    background: #fff;
+    width: 35%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.carrito-card{
+   
+    border-top: 2px solid#ccc;
+}
+
+  .button-close{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background-color: #d90f06;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 27px;
+    border: none;
+  }
+  .carrito-title{
+     
+    position: relative;
+    background: #e8e8e8;
+    padding: 20px 30px 20px 15px;
+    
+    display: flex;
+    justify-content: end;
+}
+.contenedor-vacio{
+    padding: 120px 60px;
+}
+.carrito-vacio{
+    width: 70px;
+    height: 50px;
+}
+.contenedor-vacio-padding{
+    padding: 30px;
+    text-align: -webkit-center;
+}

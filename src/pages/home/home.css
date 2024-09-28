@@ -1,14 +1,14 @@
 .Home {
-    max-width: 1200px;
-    margin-inline: auto;
-    margin-bottom: 120px;
+  max-width: 1200px;
+  margin-inline: auto;
+  margin-bottom: 120px;
 
-    display: grid;
-    gap: 40px;
+  display: grid;
+  gap: 40px;
 }
 
 .Home-promos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }

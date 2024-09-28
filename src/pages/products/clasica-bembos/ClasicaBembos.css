@@ -1,0 +1,55 @@
+.Product {
+    background-color: var(--color-white);
+    min-height: 100vh;
+}
+
+.Product-content {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+}
+
+.Product-aside {
+    display: grid;
+    gap: 20px;
+}
+
+.Product-url {
+    color: var(--color-main);
+    margin-top: 20px;
+    display: flex;
+    gap: 4px;
+    font-size: 20px;
+}
+
+.Product-url-link {
+    color: var(--color-main);
+    font-family: "din1451";
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.Product-image {
+    height: 340px;
+    width: 340px;
+    border-radius: 12px;
+}
+
+
+.Product-info {
+    margin-top: 64px;
+    margin-left: 24px;
+
+    display: grid;
+    gap: 24px;
+}
+
+.Product-name {
+    color: var(--color-main);
+    font-family: "kulturistaBold";
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,39 +1,12 @@
-import { SliderGalleryCard } from "./sliderGalleryCard";
+import { CardSimple } from "./cardSimple";
+import { CardPromo } from "./cardPromo";
 import "./sliderGallery.css";
 
-const menu = [
-	{
-		nombre: "Promociones Exclusivas Web",
-		img: "https://www.bembos.com.pe/_ipx/q_60,s_275x368/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/promociones-bembos-delivery.webp",
-		link: "/promociones/delivery-hamburguesas",
-		id: 43,
-	},
-	{
-		nombre: "Combos",
-		img: "https://www.bembos.com.pe/_ipx/q_60,s_230x308/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/combo-churrita-500x669.webp",
-		link: "/menu/combos",
-		id: 44,
-	},
-	{
-		nombre: "Hamburguesas",
-		img: "https://www.bembos.com.pe/_ipx/q_60,s_275x368/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/hamburguesas_2.webp",
-		link: "/menu/hamburguesas",
-		id: 45,
-	},
-	{
-		nombre: "Pollo",
-		img: "https://www.bembos.com.pe/_ipx/q_60,s_275x368/https://d31npzejelj8v1.cloudfront.net/media/catalog/category/pollo_2.webp",
-		link: "/menu/pollo",
-		id: 46,
-	},
-];
-const btnText = "Ver Todos";
-
-export const SliderGallery = ({ title }) => {
+export const SliderGallery = ({ title, data, cardType }) => {
 	return (
 		<section className="SliderGallery">
 			<header className="SliderGallery-header">
-				<h2 className="SliderGallery-title">{title}</h2>
+				<h2 className="Font-title SliderGallery-title">{title}</h2>
 
 				<nav className="SliderGallery-nav">
 					<button className="SliderGallery-button">
@@ -84,15 +57,29 @@ export const SliderGallery = ({ title }) => {
 			</header>
 
 			<div className="SliderGallery-deck">
-				{menu.map((item) => {
-					return (
-						<SliderGalleryCard
-							key={item.id}
-							imageUrl={item.img}
-							name={item.nombre}
-							btnText={btnText}
-						/>
-					);
+				{data.slice(0, 4).map((item) => {
+					if (cardType === "Promo") {
+						return (
+							<CardPromo
+								key={item.id}
+								imageUrl={item.img}
+								name={item.nombre}
+								discountPercentage={item.descuento}
+								previousPrice={item.precio_antiguo}
+								currentPrice={item.precio_actual}
+								btnText="Ver más"
+							/>
+						);
+					} else if (cardType === "Simple") {
+						return (
+							<CardSimple
+								key={item.id}
+								imageUrl={item.img}
+								name={item.nombre}
+								btnText="Ver todos"
+							/>
+						);
+					}
 				})}
 			</div>
 		</section>
