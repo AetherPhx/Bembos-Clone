@@ -1,7 +1,7 @@
 import { useData } from "/src/context/ReactContext";
 import { Header, Footer, SecondNav } from "/src/components/common";
 import { ProdGallery } from "../../../components/common/prodGallery/ProdGallery";
-import { Acordeon } from "../../../components/specific/acordeon/Acordeon";
+import { Questions } from "../../../components/specific/questions";
 import "../category.css";
 export const Hamburguesas = () => {
 	const { hamburguesas } = useData();
@@ -21,7 +21,7 @@ export const Hamburguesas = () => {
 				<ProdGallery productList={hamburguesas} />
 
 				<footer className="Category-footer">
-					<Acordeon />
+					<Questions />
 				</footer>
 			</main>
 
