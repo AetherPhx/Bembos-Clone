@@ -1,1 +1,0 @@
-export { Acordeon } from "./Acordeon";
