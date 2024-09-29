@@ -1,7 +1,7 @@
-import { DetailFooter } from "../../components/common/detailFooter/detailFooter";
+import { SecondNav } from "../../components/common/secondNav/secondNav";
 
 export const Test = () => {
-	return <DetailFooter />;
+	return <SecondNav/>;
 };
 
 export default Test;

@@ -4,7 +4,7 @@ export const SecondNav = () => {
 	return (
 		<div className="menu-button container">
 			<div className="menu-button-categorias">
-				<ul className="categorias button-grup active">
+				<ul className="categorias  buttons-group">
 					<div className="categorias-link">
 						<li className="item-active">
 							<a href="#">Combo</a>

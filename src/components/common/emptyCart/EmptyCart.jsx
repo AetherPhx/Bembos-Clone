@@ -16,8 +16,8 @@ export const EmptyCart=()=>{
                     alt="Carrito vacío"
                 />
                 </div>
-                <h3>Tu canasta está vacía</h3>
-                <p>Te invitamos a volver a nuestras tiendas y agregar productos a tu canasta</p>
+                <h3 className='carrito-vacio-title'>Tu canasta está vacía</h3>
+                <p className='carrito-vacio-text'>Te invitamos a volver a nuestras tiendas y agregar productos a tu canasta</p>
             </div>
             </div>
         </div>

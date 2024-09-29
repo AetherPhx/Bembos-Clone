@@ -11,6 +11,7 @@ img{
     overflow-y: auto;
     overflow-x: hidden;
     position: fixed;
+   
 }
 
 .carrito-card{
@@ -20,14 +21,15 @@ img{
 
   .button-close{
     text-align: center;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-color: #d90f06;
     border-radius: 50px;
     color: white;
-    font-weight: 700;
-    font-size: 27px;
+    font-weight: 500;
+    font-size: 24px;
     border: none;
+    font-family: sans-serif;
   }
   .carrito-title{
      
@@ -48,4 +50,15 @@ img{
 .contenedor-vacio-padding{
     padding: 30px;
     text-align: -webkit-center;
+}
+.carrito-vacio-text{
+    font-family: Kulturista;
+    font-weight: 600;
+    margin: 20px;
+}
+.carrito-vacio-title{
+    color: #ccc;
+    font-weight: 400;
+    font-family: Kulturista;
+    margin-top: 25px;
 }
