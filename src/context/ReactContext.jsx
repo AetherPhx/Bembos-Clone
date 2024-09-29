@@ -7,6 +7,8 @@ const BASE_URL = "http://localhost:3000/";
 export const useData = () => useContext(DataContext);
 
 export const DataProvider = ({ children }) => {
+	const [loading, setLoading] = useState(true);
+	const [error, setError] = useState(null);
 	const [combos, setCombos] = useState([]),
 		[hamburguesas, setHamburguesas] = useState([]),
 		[pollo, setPollo] = useState([]),
@@ -78,7 +80,9 @@ export const DataProvider = ({ children }) => {
 					}
 				);
 			} catch (error) {
-				console.log(error);
+				setError(error);
+			} finally {
+				setLoading(false);
 			}
 		};
 
@@ -88,6 +92,8 @@ export const DataProvider = ({ children }) => {
 	return (
 		<DataContext.Provider
 			value={{
+				loading,
+				error,
 				combos,
 				hamburguesas,
 				pollo,

@@ -2,11 +2,8 @@ import React from "react";
 export { Home } from "./home";
 
 export const Menu = React.lazy(() => import("./menu/Menu"));
-// Categorías de Menú y sus Productos
-export const Hamburguesas = React.lazy(() => import("./categories/Category"));
-export const ClasicaBembos = React.lazy(() =>
-	import("./products/clasica-bembos/ClasicaBembos")
-);
+export const Category = React.lazy(() => import("./category/Category"));
+export const Product = React.lazy(() => import("./product/Product"));
 
 export const Cart = React.lazy(() =>
 	import("/src/components/common/cart/Cart")

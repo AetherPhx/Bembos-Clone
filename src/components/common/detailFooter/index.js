@@ -1,1 +1,1 @@
-export { DetailFooter } from "./detailFooter";
+export { DetailFooter } from "./DetailFooter";

@@ -29,6 +29,7 @@
     font-family: "din1451";
     font-weight: 300;
     text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .Product-image {
