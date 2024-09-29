@@ -34,6 +34,8 @@ export const Product = () => {
 	const categoryData = getCategoryData(category);
 	const item = categoryData.find((item) => item.link == product);
 	if (!item) return <div>Producto no encontrado</div>;
+	const categoryLink = `/menu/${category}`;
+	const productLink = `/menu/${category}/${product}`;
 
 	return (
 		<>
@@ -50,14 +52,11 @@ export const Product = () => {
 							Menú
 						</Link>
 						{">"}
-						<Link className="Product-url-link" to="/menu/hamburguesas">
+						<Link className="Product-url-link" to={categoryLink}>
 							{category}
 						</Link>
 						{">"}
-						<Link
-							className="Product-url-link"
-							to="/menu/hamburguesas/hamburguesa-clasica-bembos"
-						>
+						<Link className="Product-url-link" to={productLink}>
 							{item.nombre}
 						</Link>
 					</ul>
