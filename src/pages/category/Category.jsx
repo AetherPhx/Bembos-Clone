@@ -7,7 +7,6 @@ import { Questions } from "../../components/specific/questions";
 import "./category.css";
 export const Category = () => {
 	const { category } = useParams();
-	console.log(category);
 	const {
 		loading,
 		error,
@@ -63,7 +62,7 @@ export const Category = () => {
 						: null}
 				</h1>
 
-				<ProdGallery productList={productList} />
+				<ProdGallery category={category} productList={productList} />
 
 				<footer className="Category-footer">
 					<Questions />
