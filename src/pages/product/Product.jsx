@@ -1,7 +1,7 @@
 import { useData } from "/src/context/ReactContext";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { Header } from "../../components/common";
+import { Header, DetailFooter } from "../../components/common";
 
 import "./product.css";
 export const Product = () => {
@@ -87,6 +87,8 @@ export const Product = () => {
 					</div>
 				</main>
 			</div>
+
+			<DetailFooter />
 		</>
 	);
 };
