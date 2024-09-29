@@ -9,6 +9,8 @@ export const Category = () => {
 	const { category } = useParams();
 	console.log(category);
 	const {
+		loading,
+		error,
 		combos,
 		hamburguesas,
 		pollo,
@@ -18,7 +20,8 @@ export const Category = () => {
 		helados,
 		inkaChips,
 	} = useData();
-
+	if (loading) return <div>🍔 Cargando producto...</div>;
+	if (error) return <div>Error: {error.message}</div>;
 	const getCategoryData = (category) => {
 		if (category === "combos") return combos;
 		else if (category === "hamburguesas") return hamburguesas;
