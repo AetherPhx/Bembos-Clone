@@ -4,9 +4,19 @@
   font-family: din1451;
 }
 
-.container {
+.menu-button-container {
   width: 1200px;
+  padding-top: 20px;
   margin: auto;
+  transition:
+    padding-top .2s ease-in-out,
+    width .5s ease-in-out;
+  ;
+}
+
+.menu-button-container-scrolled {
+  width: 100%;
+  padding-top: 0;
 }
 
 .categorias {
