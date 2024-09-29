@@ -1,15 +1,32 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { useRef } from "react";
 import { CardSimple } from "./cardSimple";
 import { CardPromo } from "./cardPromo";
 import "./sliderGallery.css";
+import { Link } from "react-router-dom";
 
 export const SliderGallery = ({ title, data, cardType }) => {
+	const swiperRef = useRef(null);
+
+	const handleNext = () => {
+		if (swiperRef.current) {
+			swiperRef.current.slideNext();
+		}
+	};
+
+	const handlePrev = () => {
+		if (swiperRef.current) {
+			swiperRef.current.slidePrev();
+		}
+	};
+
 	return (
 		<section className="SliderGallery">
 			<header className="SliderGallery-header">
 				<h2 className="Font-title SliderGallery-title">{title}</h2>
 
 				<nav className="SliderGallery-nav">
-					<button className="SliderGallery-button">
+					<button onClick={handlePrev} className="SliderGallery-button">
 						<svg
 							version="1.1"
 							id="Layer_1"
@@ -30,7 +47,7 @@ export const SliderGallery = ({ title, data, cardType }) => {
 						</svg>
 					</button>
 
-					<button className="SliderGallery-button">
+					<button onClick={handleNext} className="SliderGallery-button">
 						<svg
 							data-v-4c398662=""
 							version="1.1"
@@ -56,32 +73,42 @@ export const SliderGallery = ({ title, data, cardType }) => {
 				</nav>
 			</header>
 
-			<div className="SliderGallery-deck">
-				{data.slice(0, 4).map((item) => {
+			<Swiper
+				spaceBetween={50}
+				slidesPerView={4}
+				onSwiper={(swiper) => (swiperRef.current = swiper)}
+			>
+				{data.map((item) => {
 					if (cardType === "Promo") {
 						return (
-							<CardPromo
-								key={item.id}
-								imageUrl={item.img}
-								name={item.nombre}
-								discountPercentage={item.descuento}
-								previousPrice={item.precio_antiguo}
-								currentPrice={item.precio_actual}
-								btnText="Ver más"
-							/>
+							<SwiperSlide key={item.id}>
+								<Link to={item.link}>
+									<CardPromo
+										imageUrl={item.img}
+										name={item.nombre}
+										discountPercentage={item.descuento}
+										previousPrice={item.precio_antiguo}
+										currentPrice={item.precio_actual}
+										btnText="Ver más"
+									/>
+								</Link>
+							</SwiperSlide>
 						);
 					} else if (cardType === "Simple") {
 						return (
-							<CardSimple
-								key={item.id}
-								imageUrl={item.img}
-								name={item.nombre}
-								btnText="Ver todos"
-							/>
+							<SwiperSlide key={item.id}>
+								<Link to={item.link}>
+									<CardSimple
+										imageUrl={item.img}
+										name={item.nombre}
+										btnText="Ver todos"
+									/>
+								</Link>
+							</SwiperSlide>
 						);
 					}
 				})}
-			</div>
+			</Swiper>
 		</section>
 	);
 };
