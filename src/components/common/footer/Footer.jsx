@@ -1,9 +1,9 @@
-import "./Footer.css";
+import "./footer.css";
 
 export const Footer = () => {
 	return (
-		<footer className="footer">
-			<div className="footer container">
+		<footer className="Footer">
+			<div className="Footer-content">
 				<div className="Redes-sociales">
 					<div className="Redes-sociales-icon">
 						<a

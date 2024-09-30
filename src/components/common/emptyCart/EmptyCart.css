@@ -1,7 +1,4 @@
-img{
-    width: 100%;
-}
-.carrito{
+.carrito {
     right: 0;
     background: #fff;
     width: 35%;
@@ -11,15 +8,14 @@ img{
     overflow-y: auto;
     overflow-x: hidden;
     position: fixed;
-   
+
 }
 
-.carrito-card{
-   
+.carrito-card {
     border-top: 2px solid#ccc;
 }
 
-  .button-close{
+.button-close {
     text-align: center;
     width: 30px;
     height: 30px;
@@ -30,33 +26,38 @@ img{
     font-size: 24px;
     border: none;
     font-family: sans-serif;
-  }
-  .carrito-title{
-     
+}
+
+.carrito-title {
     position: relative;
     background: #e8e8e8;
     padding: 20px 30px 20px 15px;
-    
+
     display: flex;
     justify-content: end;
 }
-.contenedor-vacio{
+
+.contenedor-vacio {
     padding: 120px 60px;
 }
-.carrito-vacio{
+
+.carrito-vacio {
     width: 70px;
     height: 50px;
 }
-.contenedor-vacio-padding{
+
+.contenedor-vacio-padding {
     padding: 30px;
     text-align: -webkit-center;
 }
-.carrito-vacio-text{
+
+.carrito-vacio-text {
     font-family: Kulturista;
     font-weight: 600;
     margin: 20px;
 }
-.carrito-vacio-title{
+
+.carrito-vacio-title {
     color: #ccc;
     font-weight: 400;
     font-family: Kulturista;

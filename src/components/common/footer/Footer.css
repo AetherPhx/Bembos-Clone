@@ -1,15 +1,15 @@
-.footer {
+.Footer {
     background-color: #173083;
-    color: #fff;
-    padding-top: 40px;
+}
+
+.Footer-content {
+    padding-top: 8px;
+    color: var(--color-white);
+    width: 1200px;
+    margin: auto;
     font-family: "din1451";
     font-weight: 300;
     font-size: 18px;
-}
-
-.container {
-    width: 1200px;
-    margin: auto;
 }
 
 .Redes-sociales-icon {
