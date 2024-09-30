@@ -1,4 +1,4 @@
-import { CartProduct } from "/src/components/specific/cart/cartProduct";
+import { CartItem } from "/src/components/specific/cart/cartItem";
 import { IoCloseSharp } from "react-icons/io5";
 import "./cart.css";
 
@@ -37,7 +37,7 @@ export const Cart = () => {
 								{cartList.map((product) => {
 									return (
 										<div className="Cart-card" key={product.id}>
-											<CartProduct product={product} />
+											<CartItem product={product} />
 										</div>
 									);
 								})}

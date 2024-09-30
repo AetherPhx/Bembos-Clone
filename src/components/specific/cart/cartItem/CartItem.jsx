@@ -1,6 +1,6 @@
-import { FaPen, FaMinus, FaPlus } from "react-icons/fa";
-import "./cartProduct.css";
-export const CartProduct = ({ product }) => {
+import { FaMinus, FaPlus } from "react-icons/fa";
+import "./cartItem.css";
+export const CartItem = ({ product }) => {
 	return (
 		<article className="CartItem">
 			<div className="CartItem-content">
@@ -53,4 +53,4 @@ export const CartProduct = ({ product }) => {
 	);
 };
 
-export default CartProduct;
+export default CartItem;
