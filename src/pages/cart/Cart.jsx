@@ -62,9 +62,9 @@ export const Cart = () => {
 
 						<footer className="Cart-footer">
 							<button className="Cart-button Cart-pay">
-								<div className="Cart-pay-cant">1</div>
+								<div className="Cart-pay-counter">1</div>
 								<p className="Cart-pay-text">Ir a pagar</p>
-								<p className="Cart-pay-price">s/52.10</p>
+								<p className="Cart-pay-price">S/. 52.10</p>
 							</button>
 
 							<button className="Cart-button Cart-continue">

@@ -1,4 +1,4 @@
-/* Estilos generales del carrito */
+/* * Estilos generales del carrito */
 .Cart-background {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
@@ -46,7 +46,7 @@
 
 
 
-/* Estilos del carrito con productos */
+/* * Estilos del carrito con productos */
 .Cart-header {
     margin-top: 32px;
     margin-bottom: 20px;
@@ -84,10 +84,49 @@
     border-top: 2px solid #ccc;
 }
 
+.Cart-footer {
+    width: 100%;
+    padding: 16px 24px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.Cart-button {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--color-tertiary);
+    border-radius: 20px;
+    display: flex;
+    font-family: kulturista;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Cart-pay {
+    background-color: var(--color-tertiary);
+    color: var(--color-white);
+    justify-content: space-between;
+}
+
+.Cart-pay-counter {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Cart-continue {
+    background-color: var(--color-white);
+    color: var(--color-tertiary);
+    justify-content: center;
+}
 
 
 
-/* Estilos del carrito vacío */
+/* * Estilos del carrito vacío */
 .Cart-empty {
     display: flex;
     flex-direction: column;
