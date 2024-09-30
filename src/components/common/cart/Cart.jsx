@@ -1,4 +1,4 @@
-import "./Cart.css";
+import "./cart.css";
 
 export const Cart = () => {
 	return (
@@ -128,5 +128,3 @@ export const Cart = () => {
 		</div>
 	);
 };
-
-export default Cart;

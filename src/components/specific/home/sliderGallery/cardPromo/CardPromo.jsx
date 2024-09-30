@@ -11,9 +11,7 @@ export const CardPromo = ({
 	return (
 		<article className="CardPromo">
 			<header className="CardPromo-header">
-				<div className="Font-number-secondary CardPromo-header-discount">
-					-{discountPercentage}%
-				</div>
+				<div className="CardPromo-header-discount">- {discountPercentage}%</div>
 				<img
 					className="CardPromo-header-fav"
 					src="/src/assets/icons/heart-border.svg"
@@ -28,8 +26,12 @@ export const CardPromo = ({
 			<div className="CardPromo-info">
 				<h3 className="Font-title-middle CardPromo-title">{name}</h3>
 				<div className="CardPromo-cost">
-					<p>S/. {currentPrice}</p>
-					<p>S/. {previousPrice}</p>
+					<p className="Font-number-primary CardPromo-cost-now">
+						S/. {currentPrice}
+					</p>
+					<p className="Font-number-secondary CardPromo-cost-old">
+						S/. {previousPrice}
+					</p>
 				</div>
 				<button className="Font-button-primary CardPromo-button">
 					{btnText}
