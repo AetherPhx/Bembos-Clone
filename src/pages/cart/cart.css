@@ -1,3 +1,4 @@
+/* Estilos generales del carrito */
 .Cart-background {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
@@ -42,6 +43,51 @@
     cursor: pointer;
 }
 
+
+
+
+/* Estilos del carrito con productos */
+.Cart-header {
+    margin-top: 32px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 24px;
+    text-align: center;
+    font-family: kulturista;
+    font-weight: 400;
+}
+
+.Cart-title {
+    font-family: kulturistaBold;
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+.Cart-coupons {
+    font-size: 14px;
+    color: #464646;
+    font-weight: inherit;
+}
+
+.Cart-coupons strong {
+    color: var(--color-main);
+    font-family: kulturistaBold;
+    font-weight: inherit;
+}
+
+.Cart-main {
+    padding-inline: 20px;
+}
+
+.Cart-card {
+    padding-block: 8px;
+    border-top: 2px solid #ccc;
+}
+
+
+
+
+/* Estilos del carrito vacío */
 .Cart-empty {
     display: flex;
     flex-direction: column;
