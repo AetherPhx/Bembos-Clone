@@ -1,11 +1,9 @@
-import { Cart } from "../../components/common";
-import { Cart as CartPage } from "../cart";
+import { Cart } from "../cart";
 
 export const Test = () => {
 	return (
 		<>
 			<Cart />
-			<CartPage />
 		</>
 	);
 };
