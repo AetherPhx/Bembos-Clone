@@ -79,6 +79,34 @@
     padding-inline: 20px;
 }
 
+.Cart-extras,
+.Cart-total {
+    padding-left: 20px;
+}
+
+.Cart-extras {
+    display: grid;
+    gap: 10px;
+}
+
+.Cart-subtotal,
+.Cart-delivery,
+.Cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-family: din1451;
+    font-weight: 300;
+}
+
+.Cart-subtotal,
+.Cart-delivery {
+    font-size: 16px;
+}
+
+.Cart-total {
+    font-size: 24px;
+}
+
 .Cart-card {
     padding-block: 8px;
     border-top: 2px solid #ccc;

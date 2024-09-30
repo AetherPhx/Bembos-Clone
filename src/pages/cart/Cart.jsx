@@ -46,16 +46,16 @@ export const Cart = () => {
 								<div className="Cart-extras Cart-card">
 									<div className="Cart-subtotal">
 										<p className="Cart-subtotal-title">Subtotal</p>
-										<p className="Cart-subtotal-price">s/50.70</p>
+										<p className="Cart-subtotal-price">S/. 50.70</p>
 									</div>
 									<div className="Cart-delivery">
 										<p className="Cart-delivery-title">Delivery</p>
-										<p className="Cart-delivery-price">s/00.00</p>
+										<p className="Cart-delivery-price">S/. 00.00</p>
 									</div>
 								</div>
 								<div className="Cart-total Cart-card">
-									<p className="Cart-total-title">Total</p>
-									<p className="Cart-total-price">s/50.70</p>
+									<p className="Cart-total-title">Total a pagar</p>
+									<p className="Cart-total-price">S/. 50.70</p>
 								</div>
 							</section>
 						</main>
@@ -64,7 +64,7 @@ export const Cart = () => {
 							<button className="Cart-button Cart-pay">
 								<div className="Cart-pay-counter">1</div>
 								<p className="Cart-pay-text">Ir a pagar</p>
-								<p className="Cart-pay-price">S/. 52.10</p>
+								<div className="Cart-pay-price">S/. 52.10</div>
 							</button>
 
 							<button className="Cart-button Cart-continue">
