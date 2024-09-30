@@ -7,7 +7,7 @@ import { SocialBanner } from "../../components/specific/home/socialBanner/Social
 import "./home.css";
 
 export const Home = () => {
-	const { promoOnline, menu } = useData();
+	const { menu } = useData();
 
 	return (
 		<>
@@ -17,11 +17,11 @@ export const Home = () => {
 				<Slider />
 
 				<div className="Home">
-					<SliderGallery
+					{/* <SliderGallery
 						title="PROMOCIONES DE HAMBURGUESAS ONLINE"
 						data={promoOnline}
 						cardType="Promo"
-					/>
+					/> */}
 
 					<SliderGallery
 						title="MENÚ DE HAMBURGUESAS ONLINE"

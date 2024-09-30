@@ -40,7 +40,7 @@ export const SocialBanner = () => {
 						>
 							<img
 								className="SocialBanner-logo-img"
-								src="https://scontent.flim31-1.fna.fbcdn.net/v/t39.30808-1/434757251_830054629166575_7799433407921388986_n.jpg?stp=cp0_dst-jpg_s50x50&amp;_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=6738e8&amp;_nc_ohc=YIo9o3Vr0eMQ7kNvgHtbxh8&amp;_nc_ht=scontent.flim31-1.fna&amp;edm=ADwHzz8EAAAA&amp;_nc_gid=AFlqI-W74FmFaekG8qp8jsk&amp;oh=00_AYCqiD4rRgKP4-COAtIH0E-qnWEIxo4YPT67FvqlV1jlDA&amp;oe=66FA1E46"
+								src="https://scontent.flim31-1.fna.fbcdn.net/v/t39.30808-1/434757251_830054629166575_7799433407921388986_n.jpg?stp=cp0_dst-jpg_s50x50&_nc_cat=1&ccb=1-7&_nc_sid=6738e8&_nc_ohc=K_aKavPM4JUQ7kNvgHGY_gz&_nc_ht=scontent.flim31-1.fna&edm=ADwHzz8EAAAA&_nc_gid=AXgaSsG6q6rnWOwmJFQdSC-&oh=00_AYDEv1FfU-He5_TWupYXYKa5z61OBCh9DS-HBjExiNYa4A&oe=6700B5C6"
 								alt="Logo de Bembos"
 							/>
 						</a>
