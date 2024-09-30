@@ -4,7 +4,7 @@ import { Cart as CartPage } from "../cart";
 export const Test = () => {
 	return (
 		<>
-			{/* <Cart /> */}
+			<Cart />
 			{/* <EmptyCart /> */}
 			<CartPage />
 		</>

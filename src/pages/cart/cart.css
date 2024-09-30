@@ -13,14 +13,15 @@
     height: 100%;
     width: 35%;
     position: fixed;
-    right: 0;
+    /* right: 0; */
+    left: 0;
     z-index: 1001;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto 1fr;
 }
 
-.Cart-header {
+.Cart-menu {
     background-color: #e8e8e8;
     width: 100%;
     padding: 18px;
@@ -41,7 +42,7 @@
     cursor: pointer;
 }
 
-.Cart-main {
+.Cart-empty {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,14 +50,14 @@
     gap: 20px;
 }
 
-.Cart-title {
+.Cart-empty-title {
     color: #ccc;
     font-family: din1451;
     font-size: 18px;
     font-weight: 400;
 }
 
-.Cart-text {
+.Cart-empty-text {
     max-width: 400px;
     font-family: Kulturista;
     font-weight: 600;
