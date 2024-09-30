@@ -1,7 +1,12 @@
-import { SecondNav } from "../../components/common/secondNav/secondNav";
+import { Cart, EmptyCart } from "../../components/common";
 
 export const Test = () => {
-	return <SecondNav/>;
+	return (
+		<>
+			{/* <Cart /> */}
+			<EmptyCart />
+		</>
+	);
 };
 
 export default Test;
