@@ -1,11 +1,11 @@
-import { Questions } from "/src/components/specific/questions/Questions";
+import { Intro } from "/src/components/specific/Intro/Intro";
 import { SecondNav } from "/src/components/common/secondNav/SecondNav";
 
 export const Test = () => {
 	return (
 		<>
 		{/* 	<SecondNav /> */}
-		<Questions />
+		<Intro />
 		</>
 	);
 };
