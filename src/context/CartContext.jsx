@@ -8,21 +8,24 @@ const item = {
 			detalles:"4 royal regulares + 4 papas medianas",
 			imagen:"",
 
-
 	// ! Agrega todas las propiedades
 
 	// Methods
 	increase() {
-		// Lógica de la fn...
-	},
+    this.cantidad += 1;
+  },
+      
+    reduce() {
 
-	calculateTotal(){
+        if (this.cantidad > 1) {
+            this.cantidad -= 1;
+        }
+    }
+  
+  calculateTotal(){
 		this.precioTotal=this.precioUnitario*this.cantidad;
-
 	},
-	reducir(){
 
-	},
 };
 
 const cartData = {
@@ -86,5 +89,3 @@ const cartData = {
 
 
 };
-
-

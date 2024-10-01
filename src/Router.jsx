@@ -10,3 +10,19 @@ export const AppRouter = () => {
 		</Routes>
 	);
 };
+
+/*
+
+	const location = useLocation();
+	const isCartPage = location.pathname === "/cart";
+
+
+					<div
+						className={`app-container ${
+							isCartPage ? "cart-overlay-active" : ""
+						}`}
+					>
+						{isCartPage && <Cart />}
+					</div>
+
+ */
