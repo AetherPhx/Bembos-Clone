@@ -48,7 +48,7 @@ export const NavMain = () => {
 					HAMBURGUESAS
 				</NavLink>
 				<NavLink
-					to="/"
+					to="/beneficios"
 					className={({ isActive }) =>
 						`Menu-link Font-head ${isActive ? "Menu-link-active" : ""}`
 					}
