@@ -1,12 +1,19 @@
 const item = {
 	// Properties
 	nombre: "",
+	
 	// ! Agrega todas las propiedades
 
 	// Methods
 	increase() {
-		// Lógica de la fn...
-	},
+        this.cantidad += 1;
+    },
+    reduce() {
+
+        if (this.cantidad > 1) {
+            this.cantidad -= 1;
+        }
+    }
 };
 
 const cartData = {
@@ -24,3 +31,4 @@ const cartData = {
 		// ! Tiene que devolver el total
 	},
 };
+
