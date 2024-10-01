@@ -1,0 +1,177 @@
+/* * Estilos generales del carrito */
+.Cart-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 65%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.Cart-overlay {
+    background-color: var(--color-white);
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    right: 0;
+    z-index: 1001;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr;
+}
+
+.Cart-menu {
+    background-color: #e8e8e8;
+    width: 100%;
+    padding: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Cart-close {
+    background-color: var(--color-tertiary);
+    color: var(--color-white);
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-items: center;
+    font-family: din1451;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+/* * Estilos del carrito con productos */
+.Cart-header {
+    margin-top: 32px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 24px;
+    text-align: center;
+    font-family: kulturista;
+    font-weight: 400;
+}
+
+.Cart-title {
+    font-family: kulturistaBold;
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+.Cart-coupons {
+    font-size: 14px;
+    color: #464646;
+    font-weight: inherit;
+}
+
+.Cart-coupons strong {
+    color: var(--color-main);
+    font-family: kulturistaBold;
+    font-weight: inherit;
+}
+
+.Cart-main {
+    padding-inline: 20px;
+}
+
+.Cart-extras,
+.Cart-total {
+    padding-left: 20px;
+}
+
+.Cart-extras {
+    display: grid;
+    gap: 10px;
+}
+
+.Cart-subtotal,
+.Cart-delivery,
+.Cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-family: din1451;
+    font-weight: 300;
+}
+
+.Cart-subtotal,
+.Cart-delivery {
+    font-size: 16px;
+}
+
+.Cart-total {
+    font-size: 24px;
+}
+
+.Cart-card {
+    padding-block: 8px;
+    border-top: 2px solid #ccc;
+}
+
+.Cart-footer {
+    width: 100%;
+    padding: 16px 24px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.Cart-button {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--color-tertiary);
+    border-radius: 20px;
+    display: flex;
+    font-family: kulturista;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Cart-pay {
+    background-color: var(--color-tertiary);
+    color: var(--color-white);
+    justify-content: space-between;
+}
+
+.Cart-pay-counter {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Cart-continue {
+    background-color: var(--color-white);
+    color: var(--color-tertiary);
+    justify-content: center;
+}
+
+
+
+/* * Estilos del carrito vacío */
+.Cart-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Cart-empty-title {
+    color: #ccc;
+    font-family: din1451;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Cart-empty-text {
+    max-width: 400px;
+    font-family: Kulturista;
+    font-weight: 600;
+    text-align: center;
+}

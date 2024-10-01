@@ -18,7 +18,7 @@ export const DataProvider = ({ children }) => {
 		[helados, setHelados] = useState([]),
 		[inkaChips, setInkaChips] = useState([]),
 		[menu, setMenu] = useState([]),
-		// [promoOnline, setPromoOnline] = useState([]),
+		[promoOnline, setPromoOnline] = useState([]),
 		[promoPersonales, setPromoPersonales] = useState([]),
 		[promoDos, setPromoDos] = useState([]),
 		[promoCompartir, setPromoCompartir] = useState([]),
@@ -38,7 +38,7 @@ export const DataProvider = ({ children }) => {
 					axios.get(BASE_URL + "helados"),
 					axios.get(BASE_URL + "inka-chips"),
 					axios.get(BASE_URL + "menu"),
-					// axios.get(BASE_URL + "promociones_online"),
+					axios.get(BASE_URL + "promociones_online"),
 					axios.get(BASE_URL + "promociones_personales"),
 					axios.get(BASE_URL + "promociones_para_dos"),
 					axios.get(BASE_URL + "promociones_para_compartir"),
@@ -55,7 +55,7 @@ export const DataProvider = ({ children }) => {
 						helados,
 						inkaChips,
 						menu,
-						// promoOnline,
+						promoOnline,
 						promoPersonales,
 						promoDos,
 						promoCompartir,
@@ -71,7 +71,7 @@ export const DataProvider = ({ children }) => {
 						setHelados(helados.data);
 						setInkaChips(inkaChips.data);
 						setMenu(menu.data);
-						// setPromoOnline(promoOnline.data);
+						setPromoOnline(promoOnline.data);
 						setPromoPersonales(promoPersonales.data);
 						setPromoDos(promoDos.data);
 						setPromoCompartir(promoCompartir.data);
@@ -103,7 +103,7 @@ export const DataProvider = ({ children }) => {
 				helados,
 				inkaChips,
 				menu,
-				// promoOnline,
+				promoOnline,
 				promoPersonales,
 				promoDos,
 				promoCompartir,

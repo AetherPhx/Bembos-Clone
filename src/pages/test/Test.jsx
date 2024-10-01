@@ -1,11 +1,9 @@
-import { Intro } from "/src/components/specific/Intro/Intro";
-import { SecondNav } from "/src/components/common/secondNav/SecondNav";
+import { Cart } from "../cart";
 
 export const Test = () => {
 	return (
 		<>
-		{/* 	<SecondNav /> */}
-		<Intro />
+			<Cart />
 		</>
 	);
 };

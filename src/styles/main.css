@@ -16,6 +16,11 @@ body {
     background-color: var(--color-bg);
 }
 
+button {
+    background-color: transparent;
+    border: none;
+}
+
 /* Fuentes */
 
 @font-face {
