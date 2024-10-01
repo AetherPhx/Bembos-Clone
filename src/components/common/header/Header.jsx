@@ -1,4 +1,5 @@
 import { NavMain } from "./navMain";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import menuImg06 from "/src/assets/navMain/bmb-phone.svg";
 import menuImg07 from "/src/assets/navMain/bmb-user.svg";
@@ -13,7 +14,7 @@ export const Header = () => {
 
 			<div className="Menu-main-header">
 				<div className="Menu-publi">
-					<div>
+					<Link to="/">
 						<svg
 							data-v-36556a9b=""
 							xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +34,7 @@ export const Header = () => {
 								fill="#fbb905"
 							></path>
 						</svg>
-					</div>
+					</Link>
 
 					<div className="Menu-publi-right">
 						<div className="Icon-phone">
@@ -108,7 +109,7 @@ export const Header = () => {
 						</span>
 					</button>
 
-					<button className="Button-cart">
+					<Link to="/cart" className="Button-cart">
 						<svg
 							data-v-1a0fdd4b=""
 							xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +123,7 @@ export const Header = () => {
 							></path>
 						</svg>
 						<div className="Cart-counter Font-counter">0</div>
-					</button>
+					</Link>
 				</div>
 			</div>
 		</header>
