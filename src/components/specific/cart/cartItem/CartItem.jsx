@@ -1,6 +1,11 @@
 import { FaMinus, FaPlus } from "react-icons/fa";
+import { useState } from "react";
 import "./cartItem.css";
 export const CartItem = ({ product }) => {
+	const [showDetails, setShowDetails] = useState(true);
+
+	const toggleDetails = () => setShowDetails(!showDetails);
+
 	return (
 		<article className="CartItem">
 			<div className="CartItem-content">
@@ -12,7 +17,9 @@ export const CartItem = ({ product }) => {
 						<img className="CartItem-img" src={product.img} alt="Imágen" />
 					</div>
 					<div className="CartItem-data">
-						<h4 className="CartItem-title">{product.nombre}</h4>
+						<h4 className="CartItem-title">
+							{product.cantidad} x {product.nombre}
+						</h4>
 						<p className="CartItem-price">S/. {product.precio}</p>
 					</div>
 				</section>
@@ -24,7 +31,9 @@ export const CartItem = ({ product }) => {
 							src="https://www.bembos.com.pe/_nuxt/img/delete.b647968.svg"
 							alt="Eliminar"
 						/>
-						<button className="CartItem-action-details">Leer más</button>
+						<button onClick={toggleDetails} className="CartItem-action-details">
+							Leer más
+						</button>
 					</div>
 
 					<div className="CartItem-ctrl">
@@ -39,16 +48,18 @@ export const CartItem = ({ product }) => {
 				</section>
 			</div>
 
-			<section style={{ display: "none" }} className="CartItem-details">
-				<article className="CartItem-details-item">
-					<h4 className="CartItem-details-title">
-						Elige el tamaño de tu hamburguesa
-					</h4>
-					<div className="CartItem-details-info">
-						<p>1 x 1 Clásica Mediana - S/.17.90</p>
-					</div>
-				</article>
-			</section>
+			{showDetails && (
+				<section className="CartItem-details">
+					<article className="CartItem-details-item">
+						<h4 className="CartItem-details-title">
+							Elige el tamaño de tu hamburguesa
+						</h4>
+						<div className="CartItem-details-info">
+							<p>1 x 1 Clásica Mediana - S/.17.90</p>
+						</div>
+					</article>
+				</section>
+			)}
 		</article>
 	);
 };
