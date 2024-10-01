@@ -1,28 +1,19 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { routes } from "./routerConfig";
+import { Cart } from "./pages/cart/Cart";
 
 export const AppRouter = () => {
+	const location = useLocation(); // Hook para obtener la ubicación
+	const isCartPage = location.pathname === "/cart"; // Verificamos si la URL es /cart
+
 	return (
-		<Routes>
-			{routes.map((route, index) => (
-				<Route key={index} path={route.path} element={route.component} />
-			))}
-		</Routes>
+		<div className={isCartPage ? "Cart-overlay-active" : ""}>
+			<Routes location={isCartPage ? { pathname: "/" } : location}>
+				{routes.map((route, index) => (
+					<Route key={index} path={route.path} element={route.component} />
+				))}
+			</Routes>
+			{isCartPage && <Cart />} {/* Mostramos el carrito si la URL es /cart */}
+		</div>
 	);
 };
-
-/*
-
-	const location = useLocation();
-	const isCartPage = location.pathname === "/cart";
-
-
-					<div
-						className={`app-container ${
-							isCartPage ? "cart-overlay-active" : ""
-						}`}
-					>
-						{isCartPage && <Cart />}
-					</div>
-
- */
