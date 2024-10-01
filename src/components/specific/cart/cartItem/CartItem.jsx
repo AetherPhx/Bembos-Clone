@@ -5,12 +5,16 @@ export const CartItem = ({ product }) => {
 	const [showDetails, setShowDetails] = useState(false);
 
 	const toggleDetails = () => setShowDetails(!showDetails);
+	const editItem = () => console.log("Se navega al editor de Items");
+	const eliminateItem = () => console.log("Se eliminó el Item");
+	const increaseItem = () => console.log("Se incrementó el Item");
+	const decreaseItem = () => console.log("Se decrementó el Item");
 
 	return (
 		<article className="CartItem">
 			<div className="CartItem-content">
 				<section className="CartItem-info">
-					<div className="CartItem-logo">
+					<div className="CartItem-logo" onClick={editItem}>
 						<div className="CartItem-edit">
 							<img src="src/assets/icons/edit-icon.svg" alt="Editar" />
 						</div>
@@ -27,6 +31,7 @@ export const CartItem = ({ product }) => {
 				<section className="CartItem-action">
 					<div className="CartItem-action-group">
 						<img
+							onClick={eliminateItem}
 							className="CartItem-action-delete"
 							src="https://www.bembos.com.pe/_nuxt/img/delete.b647968.svg"
 							alt="Eliminar"
@@ -37,11 +42,11 @@ export const CartItem = ({ product }) => {
 					</div>
 
 					<div className="CartItem-ctrl">
-						<button className="CartItem-ctrl-minus">
+						<button onClick={decreaseItem} className="CartItem-ctrl-minus">
 							<FaMinus />
 						</button>
 						<p className="CartItem-ctrl-quantity">1</p>
-						<button className="CartItem-ctrl-plus">
+						<button onClick={increaseItem} className="CartItem-ctrl-plus">
 							<FaPlus />
 						</button>
 					</div>
