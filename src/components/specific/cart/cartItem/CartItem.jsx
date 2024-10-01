@@ -55,14 +55,23 @@ export const CartItem = ({ product }) => {
 
 			{showDetails && (
 				<section className="CartItem-details">
-					<article className="CartItem-details-item">
-						<h4 className="CartItem-details-title">
-							Elige el tamaño de tu hamburguesa
-						</h4>
-						<div className="CartItem-details-info">
-							<p>1 x 1 Clásica Mediana - S/.17.90</p>
-						</div>
-					</article>
+					{product.details.map((item, index) => {
+						return (
+							<article key={index} className="CartItem-details-item">
+								<h4 className="CartItem-details-title">{item.title}</h4>
+								<div className="CartItem-details-info">
+									{item.info.map((subItem, index) => {
+										return (
+											<p key={index}>
+												1 x {subItem.cant} {subItem.detailItem} - S/.
+												{subItem.price}
+											</p>
+										);
+									})}
+								</div>
+							</article>
+						);
+					})}
 				</section>
 			)}
 		</article>
