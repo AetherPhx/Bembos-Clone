@@ -1,10 +1,6 @@
 .Intro-content {
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
 .Intro-wrapper {
@@ -12,6 +8,33 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px 10px;
+    padding: 0px 80px;
+    background-color: #fff;
+}
+
+.Intro-Font-title {
+    font-family: "din1451";
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--color-main);
+    padding-bottom: 30px;
+}
+
+.Intro-description {
+    font-family: "kulturista";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.Intro-title-questions {
+    font-family: "din1451";
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: var(--color-main);
+    padding: 50px 15px 25px;
 }
