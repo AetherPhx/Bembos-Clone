@@ -12,7 +12,14 @@
 }
 
 /* Estilos Globales */
+body {
+    background-color: var(--color-bg);
+}
 
+button {
+    background-color: transparent;
+    border: none;
+}
 
 /* Fuentes */
 
@@ -50,6 +57,7 @@
     font-size: 32px;
     font-weight: normal;
     font-style: normal;
+    letter-spacing: 3px;
 }
 
 .Font-title-middle {

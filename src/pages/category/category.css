@@ -1,0 +1,26 @@
+.Category {
+    background-color: var(--color-white);
+    max-width: 1200px;
+    padding: 32px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    margin-top: 250px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+
+.Category-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.Category-title {
+    color: var(--color-main);
+    font-family: "din1451";
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}

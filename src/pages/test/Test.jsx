@@ -1,9 +1,9 @@
-import { SecondNav } from "/src/components/common/secondNav/SecondNav";
+import { Cart } from "../cart";
 
 export const Test = () => {
 	return (
 		<>
-			<SecondNav />
+			<Cart />
 		</>
 	);
 };

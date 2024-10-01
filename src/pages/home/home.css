@@ -3,7 +3,8 @@
   margin-inline: auto;
   margin-bottom: 120px;
 
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 40px;
 }
 

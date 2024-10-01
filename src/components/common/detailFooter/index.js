@@ -1,0 +1,1 @@
+export { DetailFooter } from "./DetailFooter";

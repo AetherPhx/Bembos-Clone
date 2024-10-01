@@ -1,4 +1,4 @@
-import { Cart, Home, Menu, Test } from "./pages";
+import { Cart, Category, Product, Home, Menu, Test } from "./pages";
 
 export const routes = [
 	{
@@ -12,6 +12,14 @@ export const routes = [
 	{
 		path: "/menu",
 		component: <Menu />,
+	},
+	{
+		path: "/menu/:category",
+		component: <Category />,
+	},
+	{
+		path: "/menu/:category/:product",
+		component: <Product />,
 	},
 	{
 		path: "/cart",
