@@ -1,8 +1,10 @@
 import { CartItem } from "/src/components/specific/cart/cartItem";
 import { IoCloseSharp } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 import "./cart.css";
 
 export const Cart = () => {
+	const navigate = useNavigate();
 	const cartList = [
 		{
 			id: 11,
@@ -55,12 +57,16 @@ export const Cart = () => {
 		},
 	];
 
+	const closeCart = () => {
+		navigate(-1);
+	};
+
 	return (
 		<div className="Cart">
 			<div className="Cart-background"></div>
 			<section className="Cart-overlay">
 				<div className="Cart-menu">
-					<span className="Cart-close">
+					<span onClick={closeCart} className="Cart-close">
 						<IoCloseSharp />
 					</span>
 				</div>
