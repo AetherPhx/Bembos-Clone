@@ -2,7 +2,7 @@ import { FaMinus, FaPlus } from "react-icons/fa";
 import { useState } from "react";
 import "./cartItem.css";
 export const CartItem = ({ product }) => {
-	const [showDetails, setShowDetails] = useState(true);
+	const [showDetails, setShowDetails] = useState(false);
 
 	const toggleDetails = () => setShowDetails(!showDetails);
 
@@ -32,7 +32,7 @@ export const CartItem = ({ product }) => {
 							alt="Eliminar"
 						/>
 						<button onClick={toggleDetails} className="CartItem-action-details">
-							Leer más
+							{showDetails ? "Leer menos" : "Leer más"}
 						</button>
 					</div>
 

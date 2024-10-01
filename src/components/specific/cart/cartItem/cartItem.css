@@ -85,3 +85,22 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.CartItem-details {
+    padding-left: 32px;
+}
+
+.CartItem-details-item {
+    font-family: din1451;
+}
+
+.CartItem-details-title {
+    font-size: 14;
+    font-weight: 700;
+}
+
+.CartItem-details-info {
+    font-size: 12;
+    font-weight: 400;
+}
