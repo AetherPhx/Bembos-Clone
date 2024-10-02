@@ -67,8 +67,8 @@ export const Slider = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						src="src/components/specific/home/slider/images/slider05.jpg"
-						alt="Img05"
+						src="src/components/specific/home/slider/images/slider06.jpg"
+						alt="Img06"
 					/>
 				</SwiperSlide>
 			</Swiper>
