@@ -1,11 +1,5 @@
-.menu-button {
-  color: #373d42;
-  font-weight: 600;
-  font-family: din1451;
-}
-
-.menu-button-container {
-  width: 1200px;
+.SecondNav {
+  width: 1600px;
   padding-top: 20px;
   margin: auto;
   transition:
@@ -14,33 +8,12 @@
   ;
 }
 
-.menu-button-container-scrolled {
+.SecondNav-scrolled {
   width: 100%;
   padding-top: 0;
 }
 
-.categorias {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  width: 900px;
-  margin: auto;
-  padding: 3px;
-  font-size: 18px;
-}
-
-.categorias-link {
-  margin: 0px 8px;
-}
-
-
-.categorias-link li {
-  padding: 10px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.menu-button-categorias {
+.SecondNav-nav {
   background-color: var(--color-white);
   border: 1px solid #ccc;
   border-radius: 15px;
@@ -48,71 +21,41 @@
   box-shadow: 0 3px 10px #ccc;
 }
 
-.categorias-link-p li a {
-  padding: 10px 10px;
-  border-radius: 20px;
-  background-color: #ffb500;
-  color: #373d42;
-  font-family: "din1451";
+.SecondNav-list {
+  width: 900px;
+  padding: 3px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 18px;
 }
 
-.categorias-link li:hover {
+.SecondNav-item {
+  color: #373d42;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: din1451;
+}
+
+.SecondNav-item:hover {
   background-color: #f0f0f4;
   border-radius: 20px;
-  color: #5a7fbb;
   box-shadow: 0 2px 5px #ccc;
-
 }
 
-li a {
-  color: #373d42;
-  font-weight: 300;
+.SecondNav-link:hover {
+  color: #5a7fbb;
 }
 
-li a:hover {
-  color: #305b8a;
-}
-
-.item-active {
+.SecondNav-item-active {
   background-color: #ffb500;
-  font-family: din1451;
+  color: #305b8a;
   border-radius: 20px;
-  font-weight: 600;
 }
 
-.item-active a {
-  color: #305b8a;
-}
-
-.item-active a:hover {
-  color: #305b8a;
-}
-
-.buttons-group .menu-button-categorias {
-  list-style: none;
-  position: fixed;
-  z-index: 4;
-  top: 225px;
-  right: 115px;
-  left: 115px;
-  margin: 0;
-  padding: 5px 0;
-  border: 1px solid #ccc;
-  box-shadow: 0 3px 10px #ccc;
-  border-radius: 15px;
-  display: flex;
-  overflow: auto;
-  white-space: nowrap;
-  background-color: #fff;
-  transition: all .2s ease-in-out;
-  justify-content: center;
-
-}
-
-.menu-button-categorias .active {
-  top: 202px;
-  left: 0;
-  right: 0;
-  justify-content: center;
-  border-radius: 0;
+.SecondNav-item-active:hover {
+  background-color: #ffb500;
+  box-shadow: 0 2px 5px #ccc;
 }

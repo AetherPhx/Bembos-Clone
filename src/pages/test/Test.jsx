@@ -1,9 +1,7 @@
-import { Cart } from "../cart";
-
 export const Test = () => {
 	return (
 		<>
-			<Cart />
+			<p>Test</p>
 		</>
 	);
 };

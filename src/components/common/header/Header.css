@@ -57,17 +57,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-
-.Menu-hover:hover {
-    border-bottom: 3px solid rgb(214, 16, 16);
 }
 
 .Menu-link {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.Menu-link:hover {
+    border-bottom: 3px solid rgb(214, 16, 16);
+}
+
+.Menu-link-active {
+    border-bottom: 2px solid rgb(214, 16, 16);
 }
 
 .Menu-link img {
