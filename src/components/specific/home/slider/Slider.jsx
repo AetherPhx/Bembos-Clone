@@ -65,6 +65,12 @@ export const Slider = () => {
 						alt="Img05"
 					/>
 				</SwiperSlide>
+				<SwiperSlide>
+					<img
+						src="src/components/specific/home/slider/images/slider05.jpg"
+						alt="Img05"
+					/>
+				</SwiperSlide>
 			</Swiper>
 		</div>
 	);
