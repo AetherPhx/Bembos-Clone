@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./SecondNav.css";
+import { NavLink } from "react-router-dom";
+import "./secondNav.css";
 import { useEffect, useState } from "react";
 
 export const SecondNav = () => {
@@ -24,55 +24,78 @@ export const SecondNav = () => {
 	}, []);
 
 	return (
-		<div
-			className={`menu-button-container ${
-				isScrolled ? "menu-button-container-scrolled" : ""
-			}`}
-		>
-			<div className="menu-button-categorias">
-				<ul className="categorias  buttons-group">
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/combos"}>Combos</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/hamburguesas"}>Hamburguesas</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/pollo"}>Pollo</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/loncheritas"}>Loncheritas</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/complementos"}>Complementos</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/bebidas"}>Bebidas</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/helados"}>Helados</Link>
-						</li>
-					</div>
-					<div className="categorias-link">
-						<li>
-							<Link to={"/menu/inka-chips"}>Inka Chips</Link>
-						</li>
-					</div>
+		<div className={`SecondNav ${isScrolled ? "SecondNav-scrolled" : ""}`}>
+			<nav className="SecondNav-nav">
+				<ul className="SecondNav-list">
+					<NavLink
+						to={"/menu/combos"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Combos</span>
+					</NavLink>
+
+					<NavLink
+						to={"/menu/hamburguesas"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Hamburguesas</span>
+					</NavLink>
+
+					<NavLink
+						to={"/menu/pollo"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Pollo</span>
+					</NavLink>
+
+					<NavLink
+						to={"/menu/loncheritas"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Loncheritas</span>
+					</NavLink>
+					<NavLink
+						to={"/menu/complementos"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Complementos</span>
+					</NavLink>
+					<NavLink
+						to={"/menu/bebidas"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Bebidas</span>
+					</NavLink>
+					<NavLink
+						to={"/menu/helados"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Helados</span>
+					</NavLink>
+					<NavLink
+						to={"/menu/inka-chips"}
+						className={({ isActive }) =>
+							`SecondNav-item ${isActive ? "SecondNav-item-active" : ""}`
+						}
+					>
+						<span className="SecondNav-link">Inka Chips</span>
+					</NavLink>
 				</ul>
-			</div>
+			</nav>
 		</div>
 	);
 };
