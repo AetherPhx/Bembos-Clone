@@ -1,10 +1,10 @@
-import { Slider } from "../../components/specific/home/slider/Slider";
+import { PageButton } from "../src/pages/pageButton/pageButton";
 import { Cart } from "../cart";
 
 export const Test = () => {
 	return (
 		<>
-			<Slider />
+			<PageButton />
 		</>
 	);
 };

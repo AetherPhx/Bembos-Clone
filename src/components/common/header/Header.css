@@ -205,3 +205,8 @@
     font-weight: bold;
     color: var(--color-white);
 }
+
+@media screen and (max-width:600px){
+    
+}
+

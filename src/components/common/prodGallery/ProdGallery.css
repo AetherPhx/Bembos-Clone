@@ -6,3 +6,14 @@
     flex-wrap: wrap;
     gap: 64px;
 }
+
+@media screen and (max-width:600px){
+  
+    .ProdGallery{
+     
+   
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    }
+}

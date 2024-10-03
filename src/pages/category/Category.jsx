@@ -36,13 +36,13 @@ export const Category = () => {
 
 	return (
 		<>
-			<div className="Category-header">
+			{/* <div className="Category-header">
 				<Header />
 				<SecondNav />
-			</div>
+			</div> */}
 
 			<main className="Category">
-				<h1 className="Category-title">
+				{/* <h1 className="Category-title">
 					{category === "combos"
 						? "Conoce nuestros combos | BEMBOS"
 						: category === "hamburguesas"
@@ -60,16 +60,16 @@ export const Category = () => {
 						: category === "inka-chips"
 						? "Descubre nuestras deliciosas inka-chips | BEMBOS"
 						: null}
-				</h1>
+				</h1> */}
 
 				<ProdGallery category={category} productList={productList} />
 
-				<footer className="Category-footer">
+				 <footer className="Category-footer">
 					<Questions />
-				</footer>
+				</footer> 
 			</main>
 
-			<Footer />
+			 {/* <Footer />  */}
 		</>
 	);
 };

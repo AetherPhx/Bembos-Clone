@@ -81,3 +81,35 @@
     margin-inline: 12px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width:600px){
+
+    .ProdItem{
+        height: 440px;
+        width: 280px;
+    }
+    
+
+    .ProdItem-image{
+        width: 100%;
+        max-height: 250px;
+        overflow: hidden;
+       
+       
+    } 
+    
+    
+    
+    .ProdItem-info-content{
+        padding-top: 11px;
+    }
+    .ProdItem-imageWrapper {
+        overflow: visible;
+    }
+    .ProdItem-button {
+        margin-inline: 1px;
+    }
+    
+
+}

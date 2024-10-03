@@ -24,3 +24,14 @@
     text-transform: uppercase;
     margin-bottom: 28px;
 }
+/* media queries phone*/
+@media screen and (max-width:600px){
+   .Category{
+ 
+    width: 590px;
+    padding: 5px;
+   }
+
+
+
+}
