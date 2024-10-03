@@ -121,13 +121,7 @@ export const CartProvider = ({ children }) => {
 	};
 
 	const calculateTotal = (item) => {
-		console.group(`Item: ${item.nombre}`);
-		console.log(`Precio Unitario: ${item.precioUnitario}`);
-		console.log(`Cantidad: ${item.cantidad}`);
-		console.log(`Precio Total antes de calcular: ${item.total}`);
-		item.total = item.precioUnitario * item.cantidad;
-		console.log(`Total: ${item.total}`);
-		console.groupEnd();
+		item.precioTotal = item.precioUnitario * item.cantidad;
 		return item;
 	};
 

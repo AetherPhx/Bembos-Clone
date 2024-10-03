@@ -1,14 +1,16 @@
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { useState } from "react";
+import { useCart } from "/src/context/CartContext";
 import "./cartItem.css";
-export const CartItem = ({ product }) => {
+export const CartItem = ({ item }) => {
+	const { removeItem, increaseItem: increaseCartItem, reduceItem } = useCart();
 	const [showDetails, setShowDetails] = useState(false);
 
 	const toggleDetails = () => setShowDetails(!showDetails);
 	const editItem = () => console.log("Se navega al editor de Items");
-	const eliminateItem = () => console.log("Se eliminó el Item");
-	const increaseItem = () => console.log("Se incrementó el Item");
-	const decreaseItem = () => console.log("Se decrementó el Item");
+	const eliminateItem = () => removeItem(item.uuid);
+	const increaseItem = () => increaseCartItem(item.uuid);
+	const decreaseItem = () => reduceItem(item.uuid);
 
 	return (
 		<article className="CartItem">
@@ -18,13 +20,13 @@ export const CartItem = ({ product }) => {
 						<div className="CartItem-edit">
 							<img src="src/assets/icons/edit-icon.svg" alt="Editar" />
 						</div>
-						<img className="CartItem-img" src={product.img} alt="Imágen" />
+						<img className="CartItem-img" src={item.img} alt="Imágen" />
 					</div>
 					<div className="CartItem-data">
 						<h4 className="CartItem-title">
-							{product.cantidad} x {product.nombre}
+							{item.cantidad} x {item.nombre}
 						</h4>
-						<p className="CartItem-price">S/. {product.precio}</p>
+						<p className="CartItem-price">S/. {item.precioTotal.toFixed(2)}</p>
 					</div>
 				</section>
 
@@ -45,7 +47,7 @@ export const CartItem = ({ product }) => {
 						<button onClick={decreaseItem} className="CartItem-ctrl-minus">
 							<FaMinus />
 						</button>
-						<p className="CartItem-ctrl-quantity">1</p>
+						<p className="CartItem-ctrl-quantity">{item.cantidad}</p>
 						<button onClick={increaseItem} className="CartItem-ctrl-plus">
 							<FaPlus />
 						</button>
@@ -55,7 +57,7 @@ export const CartItem = ({ product }) => {
 
 			{showDetails && (
 				<section className="CartItem-details">
-					{product.details.map((item, index) => {
+					{item.details.map((item, index) => {
 						return (
 							<article key={index} className="CartItem-details-item">
 								<h4 className="CartItem-details-title">{item.title}</h4>

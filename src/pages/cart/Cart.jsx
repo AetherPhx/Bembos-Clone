@@ -140,8 +140,8 @@ export const Cart = () => {
 							<section className="Cart-listProducts">
 								{cart.map((product) => {
 									return (
-										<div className="Cart-card" key={product.id}>
-											<CartItem product={product} />
+										<div className="Cart-card" key={product.uuid}>
+											<CartItem item={product} />
 										</div>
 									);
 								})}
