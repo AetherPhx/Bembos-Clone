@@ -1,6 +1,8 @@
 import "./pageButton.css";
 
-
+export const PageButton=()=>{
+    return
+(
 <div className="page-button-responsive">
 <div className="section-buttons">
     <ul className="section-buttons-list-item">
@@ -69,3 +71,11 @@ import "./pageButton.css";
 </div>
 
 </div>
+
+)
+
+
+
+
+};
+

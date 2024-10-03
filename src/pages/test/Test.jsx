@@ -1,4 +1,4 @@
-import { PageButton } from "../src/pages/pageButton/pageButton";
+import { PageButton } from "../pageButton/PageButton.jsx";
 import { Cart } from "../cart";
 
 export const Test = () => {
