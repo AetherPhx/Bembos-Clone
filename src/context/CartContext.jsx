@@ -64,13 +64,13 @@ export const CartProvider = ({ children }) => {
 	}, [cart]);
 
 	// Cart Functions
-	const generateItem = (id, nombre, img, precio, details) => {
+	const generateItem = (id, nombre, img, cantidad, precio, details) => {
 		return {
 			uuid: uuidv4(),
 			id: id,
 			nombre: nombre,
 			img: img,
-			cantidad: 1,
+			cantidad: cantidad || 1,
 			precioUnitario: precio,
 			precioTotal: precio,
 			detalles: details,
@@ -82,6 +82,7 @@ export const CartProvider = ({ children }) => {
 			data.id,
 			data.nombre,
 			data.img,
+			data.cantidad,
 			data.precio,
 			data.details
 		);

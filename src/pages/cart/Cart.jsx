@@ -6,10 +6,11 @@ import "./cart.css";
 
 export const Cart = () => {
 	const navigate = useNavigate();
-	const { subTotal } = useCart();
+	const { subTotal, addItem } = useCart();
 	const deliveryCost = 0.0;
-	const cartList = [
-		{
+	const totalCost = (subTotal + deliveryCost).toFixed(2);
+	const cartIFFE = () => {
+		addItem({
 			id: 11,
 			nombre: "Hamburguesa Clásica Bembos",
 			cantidad: 1,
@@ -57,7 +58,58 @@ export const Cart = () => {
 					],
 				},
 			],
-		},
+		});
+	};
+	const cartList = [
+		// {
+		// 	id: 11,
+		// 	nombre: "Hamburguesa Clásica Bembos",
+		// 	cantidad: 1,
+		// 	precio: 17.9,
+		// 	img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
+		// 	details: [
+		// 		{
+		// 			title: "Elige el tamaño de tu hamburguesa",
+		// 			info: [
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Clásica Mediana",
+		// 					price: "S/.17.90",
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			title: "Agregar Ingredientes",
+		// 			info: [
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Huevo Frito",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Papas al Hilo Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Plátano Frito Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Queso Medium Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Tocino Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 			],
+		// 		},
+		// 	],
+		// },
 	];
 
 	const closeCart = () => {
@@ -111,18 +163,16 @@ export const Cart = () => {
 								</div>
 								<div className="Cart-total Cart-card">
 									<p className="Cart-total-title">Total a pagar</p>
-									<p className="Cart-total-price">
-										S/. {(subTotal + deliveryCost).toFixed(2)}
-									</p>
+									<p className="Cart-total-price">S/. {totalCost}</p>
 								</div>
 							</section>
 						</main>
 
 						<footer className="Cart-footer">
-							<button className="Cart-button Cart-pay">
+							<button onClick={cartIFFE} className="Cart-button Cart-pay">
 								<div className="Cart-pay-counter">1</div>
 								<p className="Cart-pay-text">Ir a pagar</p>
-								<div className="Cart-pay-price">S/. 52.10</div>
+								<div className="Cart-pay-price">S/. {totalCost}</div>
 							</button>
 
 							<button className="Cart-button Cart-continue">
