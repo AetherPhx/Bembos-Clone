@@ -6,7 +6,7 @@ import "./cart.css";
 
 export const Cart = () => {
 	const navigate = useNavigate();
-	const { subTotal, addItem } = useCart();
+	const { cart, subTotal, addItem } = useCart();
 	const deliveryCost = 0.0;
 	const totalCost = (subTotal + deliveryCost).toFixed(2);
 	const cartIFFE = () => {
@@ -126,7 +126,7 @@ export const Cart = () => {
 					</span>
 				</div>
 
-				{cartList.length > 0 ? (
+				{cart.length > 0 ? (
 					<div className="Cart-content">
 						<header className="Cart-header">
 							<h2 className="Cart-title">Tu Carrito</h2>
@@ -138,7 +138,7 @@ export const Cart = () => {
 
 						<main className="Cart-main">
 							<section className="Cart-listProducts">
-								{cartList.map((product) => {
+								{cart.map((product) => {
 									return (
 										<div className="Cart-card" key={product.id}>
 											<CartItem product={product} />
