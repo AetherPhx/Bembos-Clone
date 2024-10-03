@@ -20,7 +20,6 @@ export const DetailFooter = ({ itemToAdd }) => {
 
 	const purchaseItem = () => {
 		itemToAdd.cantidad = itemCant;
-		itemToAdd.precio = itemPrice;
 		addItem(itemToAdd);
 	};
 
