@@ -6,7 +6,7 @@ export const useCart = () => useContext(CartContext);
 
 export const CartProvider = ({ children }) => {
 	const [cart, setCart] = useState([]);
-	const [subTotal, setSubTotal] = useState(0);
+	const [subTotal, setSubTotal] = useState(0.0);
 
 	useEffect(() => {
 		setSubTotal(calcSubtotal());

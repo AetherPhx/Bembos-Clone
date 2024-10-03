@@ -1,10 +1,13 @@
 import { CartItem } from "/src/components/specific/cart/cartItem";
 import { IoCloseSharp } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
+import { useCart } from "../../context/CartContext";
 import "./cart.css";
 
 export const Cart = () => {
 	const navigate = useNavigate();
+	const { subTotal } = useCart();
+	const deliveryCost = 0.0;
 	const cartList = [
 		{
 			id: 11,
@@ -95,16 +98,22 @@ export const Cart = () => {
 								<div className="Cart-extras Cart-card">
 									<div className="Cart-subtotal">
 										<p className="Cart-subtotal-title">Subtotal</p>
-										<p className="Cart-subtotal-price">S/. 50.70</p>
+										<p className="Cart-subtotal-price">
+											S/. {subTotal.toFixed(2)}
+										</p>
 									</div>
 									<div className="Cart-delivery">
 										<p className="Cart-delivery-title">Delivery</p>
-										<p className="Cart-delivery-price">S/. 00.00</p>
+										<p className="Cart-delivery-price">
+											S/. {deliveryCost.toFixed(2)}
+										</p>
 									</div>
 								</div>
 								<div className="Cart-total Cart-card">
 									<p className="Cart-total-title">Total a pagar</p>
-									<p className="Cart-total-price">S/. 50.70</p>
+									<p className="Cart-total-price">
+										S/. {(subTotal + deliveryCost).toFixed(2)}
+									</p>
 								</div>
 							</section>
 						</main>
