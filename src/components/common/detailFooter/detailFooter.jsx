@@ -4,13 +4,23 @@ import { useState } from "react";
 
 export const DetailFooter = ({ itemToAdd }) => {
 	const [itemCant, setItemCant] = useState(itemToAdd.cantidad);
+	const [itemPrice, setItemPrice] = useState(itemToAdd.precio);
 	const { addItem } = useCart();
 
-	const incrementItem = () => setItemCant(itemCant + 1);
-	const decrementItem = () => (itemCant > 1 ? setItemCant(itemCant - 1) : null);
+	const incrementItem = () => {
+		setItemCant(itemCant + 1);
+		setItemPrice(itemPrice + itemToAdd.precio);
+	};
+
+	const decrementItem = () => {
+		itemCant > 1
+			? (setItemCant(itemCant - 1), setItemPrice(itemPrice - itemToAdd.precio))
+			: null;
+	};
 
 	const purchaseItem = () => {
 		itemToAdd.cantidad = itemCant;
+		itemToAdd.precio = itemPrice;
 		addItem(itemToAdd);
 	};
 
@@ -31,7 +41,7 @@ export const DetailFooter = ({ itemToAdd }) => {
 					<p className="Detail-pts">Acumulas 0Pts</p>
 					<div className="Detail-footer-right-btn">
 						<button onClick={purchaseItem} className="Detail-btn-send ">
-							Agregar s/. 35.80
+							Agregar S/. {itemPrice.toFixed(2)}
 						</button>
 					</div>
 				</div>
