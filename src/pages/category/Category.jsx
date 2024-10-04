@@ -19,21 +19,39 @@ export const Category = () => {
 		bebidas,
 		helados,
 		inkaChips,
+		faq,
 	} = useData();
 	if (loading) return <div>🍔 Cargando producto...</div>;
 	if (error) return <div>Error: {error.message}</div>;
-	const getCategoryData = (category) => {
-		if (category === "combos") return combos;
-		else if (category === "hamburguesas") return hamburguesas;
-		else if (category === "pollo") return pollo;
-		else if (category === "loncheritas") return loncheritas;
-		else if (category === "complementos") return complementos;
-		else if (category === "bebidas") return bebidas;
-		else if (category === "helados") return helados;
-		else if (category === "inka-chips") return inkaChips;
-		else return null;
+	const data = {
+		productList: [],
+		introData: [],
 	};
-	const productList = getCategoryData(category);
+	const prepareData = (category) => {
+		category === "combos"
+			? ((data.productList = combos), (data.introData = null))
+			: category === "hamburguesas"
+			? ((data.productList = hamburguesas),
+			  (data.introData = faq.find((faq) => faq.id === 144)))
+			: category === "pollo"
+			? ((data.productList = pollo),
+			  (data.introData = faq.find((faq) => faq.id === 145)))
+			: category === "loncheritas"
+			? ((data.productList = loncheritas),
+			  (data.introData = faq.find((faq) => faq.id === 146)))
+			: category === "complementos"
+			? ((data.productList = complementos),
+			  (data.introData = faq.find((faq) => faq.id === 147)))
+			: category === "bebidas"
+			? ((data.productList = bebidas), (data.introData = null))
+			: category === "helados"
+			? ((data.productList = helados),
+			  (data.introData = faq.find((faq) => faq.id === 148)))
+			: category === "inka-chips"
+			? ((data.productList = inkaChips), (data.introData = null))
+			: null;
+	};
+	prepareData(category);
 
 	return (
 		<>
@@ -62,11 +80,10 @@ export const Category = () => {
 						: null}
 				</h1>
 
-				<ProdGallery category={category} productList={productList} />
+				<ProdGallery category={category} productList={data.productList} />
 
 				<footer className="Category-footer">
-					<Intro />
-					<Questions />
+					<Intro faq={data.introData} />
 				</footer>
 			</main>
 

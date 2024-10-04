@@ -1,6 +1,5 @@
 .Intro-content {
-    display: flex;
-    justify-content: center;
+    margin-top: 32px;
 }
 
 .Intro-wrapper {
