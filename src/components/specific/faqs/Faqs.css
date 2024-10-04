@@ -1,0 +1,119 @@
+.Faqs-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Faqs-wrapper {
+    width: 1114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.Faqs-info {
+    width: 100%;
+    background: var(--color-white);
+    color: var(--color-main);
+    outline: none;
+    padding: 0;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.Faqs-title-main {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.Faqs-num {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Faqs-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Font-head.Fbold {
+    font-weight: bold;
+}
+
+.Faqs-description {
+    background-color: transparent;
+    color: var(--color-black);
+    padding: 0 10px;
+    line-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.Faqs-open {
+    padding: 15px 10px;
+    line-height: 20px;
+}
+
+.Font-head.small {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 200px;
+}
+
+.Faqs-iconUp {
+    color: #21388b;
+}
+
+.Faqs-iconBottom {
+    color: #21388b;
+}
+
+.Faqs-iconUp,
+.Faqs-iconBottom {
+    font-size: 28px;
+    transition: transform 0.3s ease;
+}
+
+.Faqs-iconUp.rotate {
+    transform: rotate(180deg);
+}
+
+.combinaciones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 150px;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.combinaciones {
+    transition: max-height 0.5s ease-out;
+    max-height: 500px;
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+.combinaciones.collapsed {
+    max-height: 0;
+}

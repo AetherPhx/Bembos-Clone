@@ -1,0 +1,89 @@
+.Style5-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Style5-wrapper {
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-white);
+}
+
+.Style5-item {
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.Style5-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding: 0 10px 4px;
+}
+
+.Style5-img {
+    width: 90px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--color-black);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Style5-first {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-black);
+    border-radius: 10px;
+
+}
+
+.Style5-first img{
+    width: 100%;
+    padding: 10px;
+}
+
+.Style5-selectores {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Style5-button {
+    width: 25px;
+    height: 30px;
+    background-color: #666;
+    border-radius: 0 0 0 8px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.Style5-button:hover {
+    background-color: var(--color-main);
+}
+
+.Style5-button.right {
+    border-radius: 0 0 8px 0;
+}
+
+.Style5-first.active {
+    border: 3px solid var(--color-main); 
+
+}

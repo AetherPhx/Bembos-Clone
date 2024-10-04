@@ -1,0 +1,1 @@
+export { Style2 } from "./Style2.jsx";
