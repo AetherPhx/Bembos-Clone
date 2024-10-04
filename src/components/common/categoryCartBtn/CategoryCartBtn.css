@@ -1,0 +1,21 @@
+.section-button-cart {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.section-button-cart-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e10b19;
+    border-radius: 10px;
+    padding: 7px 20px;
+    height: 45px;
+    color: white;
+
+    line-height: 16px;
+}
+
+.cart-button-span {
+    line-height: 50px;
+}
