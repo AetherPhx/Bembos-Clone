@@ -57,7 +57,7 @@ export const CartItem = ({ item }) => {
 
 			{showDetails && (
 				<section className="CartItem-details">
-					{item.details.map((item, index) => {
+					{item.detalles.map((item, index) => {
 						return (
 							<article key={index} className="CartItem-details-item">
 								<h4 className="CartItem-details-title">{item.title}</h4>

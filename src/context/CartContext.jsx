@@ -95,7 +95,6 @@ export const CartProvider = ({ children }) => {
 	};
 
 	const calcSubtotal = () => {
-		console.log(cart);
 		return cart.reduce((acc, item) => acc + item.precioTotal, 0);
 	};
 
