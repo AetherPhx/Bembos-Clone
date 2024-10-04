@@ -1,5 +1,6 @@
 import { useData } from "/src/context/ReactContext";
 import { Footer, Header, SecondNav } from "../../components/common";
+import { Intro } from "../../components/specific/intro";
 import { useParams } from "react-router-dom";
 import { ProdGallery } from "../../components/common/prodGallery/ProdGallery";
 import { Questions } from "../../components/specific/questions";
@@ -64,6 +65,7 @@ export const Category = () => {
 				<ProdGallery category={category} productList={productList} />
 
 				<footer className="Category-footer">
+					<Intro />
 					<Questions />
 				</footer>
 			</main>
