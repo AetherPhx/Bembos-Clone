@@ -2703,7 +2703,7 @@
 			]
 		}
 	],
-	"faqs": [
+	"faq": [
 		{
 			"id": 144,
 			"nombre": "HAMBURGUESAS A LA PARRILLA",
@@ -3193,13 +3193,13 @@
 				},
 				{
 					"nrocomb": 2,
-					"nombre": "Ketchup",
+					"nombre": "Ketchup + S/0.00",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_68x68/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/k/e/ketchup_1.jpg",
 					"precio": 0.0
 				},
 				{
 					"nrocomb": 3,
-					"nombre": "Aji",
+					"nombre": "Aji + S/0.00",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_68x68/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/a/j/aji_1.jpg",
 					"precio": 0.0
 				}
@@ -3218,19 +3218,19 @@
 				},
 				{
 					"nrocomb": 2,
-					"nombre": "3 Ketchup",
+					"nombre": "3 Ketchup + S/.1.00",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_68x68/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/k/e/ketchup_1.jpg",
 					"precio": 1.0
 				},
 				{
 					"nrocomb": 3,
-					"nombre": "Mayonesa 2 Oz",
+					"nombre": "Mayonesa 2 Oz + S/.1.50",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_68x68/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/m/a/mayonesa_1_2.jpg",
 					"precio": 1.5
 				},
 				{
 					"nrocomb": 4,
-					"nombre": "Ají Bembos 2 Oz",
+					"nombre": "Ají Bembos 2 Oz + S/.1.50",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_68x68/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/a/j/aji_1.jpg",
 					"precio": 1.5
 				}

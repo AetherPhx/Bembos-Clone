@@ -1,4 +1,4 @@
-import { DataProvider } from "./context/ReactContext";
+import { DataProvider, CartProvider } from "./context";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Suspense } from "react";
 import { AppRouter } from "./router";
@@ -6,11 +6,13 @@ import { AppRouter } from "./router";
 export function App() {
 	return (
 		<DataProvider>
-			<Router>
-				<Suspense fallback={<div>🍔 Cargando aplicación...</div>}>
-					<AppRouter />
-				</Suspense>
-			</Router>
+			<CartProvider>
+				<Router>
+					<Suspense fallback={<div>🍔 Cargando aplicación...</div>}>
+						<AppRouter />
+					</Suspense>
+				</Router>
+			</CartProvider>
 		</DataProvider>
 	);
 }

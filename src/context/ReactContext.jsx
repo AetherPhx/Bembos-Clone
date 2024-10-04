@@ -23,7 +23,9 @@ export const DataProvider = ({ children }) => {
 		[promoDos, setPromoDos] = useState([]),
 		[promoCompartir, setPromoCompartir] = useState([]),
 		[cupones, setCupones] = useState([]),
-		[locales, setLocales] = useState([]);
+		[locales, setLocales] = useState([]),
+		[faq, setFaq] = useState([]),
+		[preguntas, setPreguntas] = useState([]);
 
 	useEffect(() => {
 		const requestData = async () => {
@@ -44,6 +46,8 @@ export const DataProvider = ({ children }) => {
 					axios.get(BASE_URL + "promociones_para_compartir"),
 					axios.get(BASE_URL + "cupones"),
 					axios.get(BASE_URL + "locales"),
+					axios.get(BASE_URL + "faq"),
+					axios.get(BASE_URL + "preguntas"),
 				]).then(
 					([
 						combos,
@@ -61,6 +65,8 @@ export const DataProvider = ({ children }) => {
 						promoCompartir,
 						cupones,
 						locales,
+						faq,
+						preguntas,
 					]) => {
 						setCombos(combos.data);
 						setHamburguesas(hamburguesas.data);
@@ -77,6 +83,8 @@ export const DataProvider = ({ children }) => {
 						setPromoCompartir(promoCompartir.data);
 						setCupones(cupones.data);
 						setLocales(locales.data);
+						setFaq(faq.data);
+						setPreguntas(preguntas.data);
 					}
 				);
 			} catch (error) {
@@ -109,6 +117,8 @@ export const DataProvider = ({ children }) => {
 				promoCompartir,
 				cupones,
 				locales,
+				faq,
+				preguntas,
 			}}
 		>
 			{children}

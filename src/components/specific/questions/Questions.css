@@ -1,9 +1,11 @@
-.Faqs-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+.Faqs-title {
+    font-family: "din1451";
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: var(--color-main);
+    padding: 50px 15px 25px;
 }
 
 .Faqs-wrapper {
@@ -27,7 +29,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.Faqs-title {
+.Faqs-question {
     display: flex;
     justify-content: space-between;
     align-items: center;
