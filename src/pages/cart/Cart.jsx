@@ -170,12 +170,12 @@ export const Cart = () => {
 
 						<footer className="Cart-footer">
 							<button onClick={cartIFFE} className="Cart-button Cart-pay">
-								<div className="Cart-pay-counter">1</div>
+								<div className="Cart-pay-counter">{cart.length}</div>
 								<p className="Cart-pay-text">Ir a pagar</p>
 								<div className="Cart-pay-price">S/. {totalCost}</div>
 							</button>
 
-							<button className="Cart-button Cart-continue">
+							<button onClick={closeCart} className="Cart-button Cart-continue">
 								Seguir comprando
 							</button>
 						</footer>
