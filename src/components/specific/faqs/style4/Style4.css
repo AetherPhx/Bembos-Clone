@@ -1,0 +1,68 @@
+.Style4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Style4-wrapper {
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-white);
+}
+
+.Style4-item {
+    width: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.Style4-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding: 0 10px
+}
+
+.Style4-font-number {
+    font-family: "kulturista";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--color-main);
+}
+
+.Style4-img {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--color-main);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.Style4-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Style4-img.active img {
+    opacity: 0.5;
+}
+
+.Style4-img.active {
+    border: 1px solid var(--color-black);
+}
