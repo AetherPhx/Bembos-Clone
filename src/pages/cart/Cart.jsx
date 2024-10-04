@@ -1,12 +1,16 @@
 import { CartItem } from "/src/components/specific/cart/cartItem";
 import { IoCloseSharp } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
+import { useCart } from "../../context/CartContext";
 import "./cart.css";
 
 export const Cart = () => {
 	const navigate = useNavigate();
-	const cartList = [
-		{
+	const { cart, subTotal, addItem } = useCart();
+	const deliveryCost = 0.0;
+	const totalCost = (subTotal + deliveryCost).toFixed(2);
+	const cartIFFE = () => {
+		addItem({
 			id: 11,
 			nombre: "Hamburguesa Clásica Bembos",
 			cantidad: 1,
@@ -54,7 +58,58 @@ export const Cart = () => {
 					],
 				},
 			],
-		},
+		});
+	};
+	const cartList = [
+		// {
+		// 	id: 11,
+		// 	nombre: "Hamburguesa Clásica Bembos",
+		// 	cantidad: 1,
+		// 	precio: 17.9,
+		// 	img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
+		// 	details: [
+		// 		{
+		// 			title: "Elige el tamaño de tu hamburguesa",
+		// 			info: [
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Clásica Mediana",
+		// 					price: "S/.17.90",
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			title: "Agregar Ingredientes",
+		// 			info: [
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Huevo Frito",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Papas al Hilo Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Plátano Frito Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Queso Medium Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Tocino Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 			],
+		// 		},
+		// 	],
+		// },
 	];
 
 	const closeCart = () => {
@@ -71,7 +126,7 @@ export const Cart = () => {
 					</span>
 				</div>
 
-				{cartList.length > 0 ? (
+				{cart.length > 0 ? (
 					<div className="Cart-content">
 						<header className="Cart-header">
 							<h2 className="Cart-title">Tu Carrito</h2>
@@ -83,10 +138,10 @@ export const Cart = () => {
 
 						<main className="Cart-main">
 							<section className="Cart-listProducts">
-								{cartList.map((product) => {
+								{cart.map((product) => {
 									return (
-										<div className="Cart-card" key={product.id}>
-											<CartItem product={product} />
+										<div className="Cart-card" key={product.uuid}>
+											<CartItem item={product} />
 										</div>
 									);
 								})}
@@ -95,28 +150,32 @@ export const Cart = () => {
 								<div className="Cart-extras Cart-card">
 									<div className="Cart-subtotal">
 										<p className="Cart-subtotal-title">Subtotal</p>
-										<p className="Cart-subtotal-price">S/. 50.70</p>
+										<p className="Cart-subtotal-price">
+											S/. {subTotal.toFixed(2)}
+										</p>
 									</div>
 									<div className="Cart-delivery">
 										<p className="Cart-delivery-title">Delivery</p>
-										<p className="Cart-delivery-price">S/. 00.00</p>
+										<p className="Cart-delivery-price">
+											S/. {deliveryCost.toFixed(2)}
+										</p>
 									</div>
 								</div>
 								<div className="Cart-total Cart-card">
 									<p className="Cart-total-title">Total a pagar</p>
-									<p className="Cart-total-price">S/. 50.70</p>
+									<p className="Cart-total-price">S/. {totalCost}</p>
 								</div>
 							</section>
 						</main>
 
 						<footer className="Cart-footer">
-							<button className="Cart-button Cart-pay">
-								<div className="Cart-pay-counter">1</div>
+							<button onClick={cartIFFE} className="Cart-button Cart-pay">
+								<div className="Cart-pay-counter">{cart.length}</div>
 								<p className="Cart-pay-text">Ir a pagar</p>
-								<div className="Cart-pay-price">S/. 52.10</div>
+								<div className="Cart-pay-price">S/. {totalCost}</div>
 							</button>
 
-							<button className="Cart-button Cart-continue">
+							<button onClick={closeCart} className="Cart-button Cart-continue">
 								Seguir comprando
 							</button>
 						</footer>

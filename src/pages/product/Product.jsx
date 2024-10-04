@@ -36,6 +36,55 @@ export const Product = () => {
 	if (!item) return <div>Producto no encontrado</div>;
 	const categoryLink = `/menu/${category}`;
 	const productLink = `/menu/${category}/${product}`;
+	const itemToAdd = {
+		id: 11,
+		nombre: "Hamburguesa Clásica Bembos",
+		cantidad: 1,
+		precio: 17.9,
+		img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
+		details: [
+			{
+				title: "Elige el tamaño de tu hamburguesa",
+				info: [
+					{
+						cant: 1,
+						detailItem: "Clásica Mediana",
+						price: "S/.17.90",
+					},
+				],
+			},
+			{
+				title: "Agregar Ingredientes",
+				info: [
+					{
+						cant: 1,
+						detailItem: "Huevo Frito",
+						price: "S/.2.00",
+					},
+					{
+						cant: 1,
+						detailItem: "Papas al Hilo Extra",
+						price: "S/.2.00",
+					},
+					{
+						cant: 1,
+						detailItem: "Plátano Frito Extra",
+						price: "S/.2.00",
+					},
+					{
+						cant: 1,
+						detailItem: "Queso Medium Extra",
+						price: "S/.2.00",
+					},
+					{
+						cant: 1,
+						detailItem: "Tocino Extra",
+						price: "S/.2.00",
+					},
+				],
+			},
+		],
+	};
 
 	return (
 		<>
@@ -87,7 +136,7 @@ export const Product = () => {
 				</main>
 			</div>
 
-			<DetailFooter />
+			<DetailFooter itemToAdd={itemToAdd} />
 		</>
 	);
 };

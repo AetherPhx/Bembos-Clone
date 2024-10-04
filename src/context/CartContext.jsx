@@ -1,72 +1,142 @@
-const item = {
-	// Properties
-	id: "1",
-	nombre: "familiar1",
-	precioTotal: 0.0,
-	cantidad: 2,
-	precioUnitario: 10.0,
-	detalles: "4 royal regulares + 4 papas medianas",
-	imagen: "",
+import { createContext, useState, useContext, useEffect } from "react";
+import { v4 as uuidv4 } from "uuid";
 
-	// Methods
-	increase() {
-		this.cantidad += 1;
-	},
+const CartContext = createContext();
 
-	reduce() {
-		if (this.cantidad > 1) {
-			this.cantidad -= 1;
-		}
-	},
+export const useCart = () => useContext(CartContext);
 
-	calculateTotal() {
-		this.precioTotal = this.precioUnitario * this.cantidad;
-	},
-};
+export const CartProvider = ({ children }) => {
+	const [cart, setCart] = useState([
+		// {
+		// 	nombre: "Hamburguesa Clásica Bembos",
+		// 	cantidad: 1,
+		// 	precioUnitario: 17.9,
+		// 	precioTotal: 17.9,
+		// 	img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
+		// 	detalles: [
+		// 		{
+		// 			title: "Elige el tamaño de tu hamburguesa",
+		// 			info: [
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Clásica Mediana",
+		// 					price: "S/.17.90",
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			title: "Agregar Ingredientes",
+		// 			info: [
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Huevo Frito",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Papas al Hilo Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Plátano Frito Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Queso Medium Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 				{
+		// 					cant: 1,
+		// 					detailItem: "Tocino Extra",
+		// 					price: "S/.2.00",
+		// 				},
+		// 			],
+		// 		},
+		// 	],
+		// },
+	]);
+	const [subTotal, setSubTotal] = useState(0.0);
 
-const cartData = {
-	total: 0,
+	useEffect(() => {
+		setSubTotal(calcSubtotal());
+	}, [cart]);
 
-	productList: [
-		{
-			id: "1",
-			nombre: "familiar1",
-			precioTotal: 0,
-			cantidad: 1,
-			precioUnitario: 49.9,
-			detalles: "4 royal regulares + 4 papas medianas",
-			imagen: "",
-		},
-		{
-			id: "2",
-			nombre: "Bembosboster clasica",
-			precioTotal: 0,
-			cantidad: 1,
-			precioUnitario: 12.9,
-			detalles: "1 hamburguesa broster",
-			imagen: "",
-		},
-		{
-			id: "3",
-			nombre: "Bembosboster",
-			precioTotal: 0,
-			cantidad: 1,
-			precioUnitario: 15.9,
-			detalles: "1 hamburguesa broster",
-			imagen: "",
-		},
-	],
+	// Cart Functions
+	const generateItem = (id, nombre, img, cantidad, precio, details) => {
+		return {
+			uuid: uuidv4(),
+			id: id,
+			nombre: nombre,
+			img: img,
+			cantidad: cantidad || 1,
+			precioUnitario: precio,
+			precioTotal: precio,
+			detalles: details,
+		};
+	};
 
-	calcularTotal: () => {
-		this.productList.forEach((product) => {
-			product.calculateTotal;
-			this.total += product.precioTotal;
-		});
-	},
-
-	eliminarProducto: (id) => {
-		cartData.productList = cartData.productList.filter(
-			(product) => product.id !== id
+	const addItem = (data) => {
+		const item = generateItem(
+			data.id,
+			data.nombre,
+			data.img,
+			data.cantidad,
+			data.precio,
+			data.details
 		);
-	},
+		calculateTotal(item);
+		setCart((prevCart) => [...prevCart, item]);
+	};
+
+	const removeItem = (uuid) => {
+		setCart((prevCart) => prevCart.filter((item) => item.uuid !== uuid));
+	};
+
+	const calcSubtotal = () => {
+		return cart.reduce((acc, item) => acc + item.precioTotal, 0);
+	};
+
+	// Item Functions
+	const increaseItem = (uuid) => {
+		setCart((prevCart) =>
+			prevCart.map((item) => {
+				return item.uuid === uuid
+					? calculateTotal({ ...item, cantidad: item.cantidad + 1 })
+					: item;
+			})
+		);
+	};
+
+	const reduceItem = (uuid) => {
+		setCart((prevCart) =>
+			prevCart.map((item) => {
+				return item.uuid === uuid && item.cantidad > 1
+					? calculateTotal({ ...item, cantidad: item.cantidad - 1 })
+					: item;
+			})
+		);
+	};
+
+	const calculateTotal = (item) => {
+		item.precioTotal = item.precioUnitario * item.cantidad;
+		return item;
+	};
+
+	return (
+		<CartContext.Provider
+			value={{
+				cart,
+				subTotal,
+				addItem,
+				removeItem,
+				increaseItem,
+				reduceItem,
+				calculateTotal,
+			}}
+		>
+			{children}
+		</CartContext.Provider>
+	);
 };

@@ -1,11 +1,13 @@
 import { NavMain } from "./navMain";
 import { Link } from "react-router-dom";
+import { useCart } from "/src/context/CartContext";
 import "./Header.css";
 import menuImg06 from "/src/assets/navMain/bmb-phone.svg";
 import menuImg07 from "/src/assets/navMain/bmb-user.svg";
 import menuImg08 from "/src/assets/navMain/bmb-delivery.jpg";
 
 export const Header = () => {
+	const { cart } = useCart();
 	return (
 		<header className="MenuContainer-main">
 			<div className="Menu-publi-delivery">
@@ -122,7 +124,7 @@ export const Header = () => {
 								fill="#21388b"
 							></path>
 						</svg>
-						<div className="Cart-counter Font-counter">0</div>
+						<div className="Cart-counter Font-counter">{cart.length}</div>
 					</Link>
 				</div>
 			</div>
