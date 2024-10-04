@@ -3,7 +3,7 @@ import "./detailFooter.css";
 import { useState } from "react";
 
 export const DetailFooter = ({ itemToAdd }) => {
-	const [itemCant, setItemCant] = useState(itemToAdd.cantidad);
+	const [itemCant, setItemCant] = useState(1);
 	const [itemPrice, setItemPrice] = useState(itemToAdd.precio);
 	const { addItem } = useCart();
 
