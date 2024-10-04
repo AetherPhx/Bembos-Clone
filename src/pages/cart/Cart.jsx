@@ -6,111 +6,9 @@ import "./cart.css";
 
 export const Cart = () => {
 	const navigate = useNavigate();
-	const { cart, subTotal, addItem } = useCart();
+	const { cart, subTotal } = useCart();
 	const deliveryCost = 0.0;
 	const totalCost = (subTotal + deliveryCost).toFixed(2);
-	const cartIFFE = () => {
-		addItem({
-			id: 11,
-			nombre: "Hamburguesa Clásica Bembos",
-			cantidad: 1,
-			precio: 17.9,
-			img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
-			details: [
-				{
-					title: "Elige el tamaño de tu hamburguesa",
-					info: [
-						{
-							cant: 1,
-							detailItem: "Clásica Mediana",
-							price: "S/.17.90",
-						},
-					],
-				},
-				{
-					title: "Agregar Ingredientes",
-					info: [
-						{
-							cant: 1,
-							detailItem: "Huevo Frito",
-							price: "S/.2.00",
-						},
-						{
-							cant: 1,
-							detailItem: "Papas al Hilo Extra",
-							price: "S/.2.00",
-						},
-						{
-							cant: 1,
-							detailItem: "Plátano Frito Extra",
-							price: "S/.2.00",
-						},
-						{
-							cant: 1,
-							detailItem: "Queso Medium Extra",
-							price: "S/.2.00",
-						},
-						{
-							cant: 1,
-							detailItem: "Tocino Extra",
-							price: "S/.2.00",
-						},
-					],
-				},
-			],
-		});
-	};
-	const cartList = [
-		// {
-		// 	id: 11,
-		// 	nombre: "Hamburguesa Clásica Bembos",
-		// 	cantidad: 1,
-		// 	precio: 17.9,
-		// 	img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
-		// 	details: [
-		// 		{
-		// 			title: "Elige el tamaño de tu hamburguesa",
-		// 			info: [
-		// 				{
-		// 					cant: 1,
-		// 					detailItem: "Clásica Mediana",
-		// 					price: "S/.17.90",
-		// 				},
-		// 			],
-		// 		},
-		// 		{
-		// 			title: "Agregar Ingredientes",
-		// 			info: [
-		// 				{
-		// 					cant: 1,
-		// 					detailItem: "Huevo Frito",
-		// 					price: "S/.2.00",
-		// 				},
-		// 				{
-		// 					cant: 1,
-		// 					detailItem: "Papas al Hilo Extra",
-		// 					price: "S/.2.00",
-		// 				},
-		// 				{
-		// 					cant: 1,
-		// 					detailItem: "Plátano Frito Extra",
-		// 					price: "S/.2.00",
-		// 				},
-		// 				{
-		// 					cant: 1,
-		// 					detailItem: "Queso Medium Extra",
-		// 					price: "S/.2.00",
-		// 				},
-		// 				{
-		// 					cant: 1,
-		// 					detailItem: "Tocino Extra",
-		// 					price: "S/.2.00",
-		// 				},
-		// 			],
-		// 		},
-		// 	],
-		// },
-	];
 
 	const closeCart = () => {
 		navigate(-1);
@@ -169,7 +67,7 @@ export const Cart = () => {
 						</main>
 
 						<footer className="Cart-footer">
-							<button onClick={cartIFFE} className="Cart-button Cart-pay">
+							<button className="Cart-button Cart-pay">
 								<div className="Cart-pay-counter">{cart.length}</div>
 								<p className="Cart-pay-text">Ir a pagar</p>
 								<div className="Cart-pay-price">S/. {totalCost}</div>

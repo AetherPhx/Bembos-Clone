@@ -39,7 +39,6 @@ export const Product = () => {
 	const itemToAdd = {
 		id: 11,
 		nombre: "Hamburguesa Clásica Bembos",
-		cantidad: 1,
 		precio: 17.9,
 		img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
 		details: [
