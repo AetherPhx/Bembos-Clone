@@ -21,6 +21,11 @@ button {
     border: none;
 }
 
+.Main-layout {
+    margin-top: 210px;
+}
+
+
 /* Fuentes */
 
 @font-face {

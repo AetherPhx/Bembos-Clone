@@ -89,7 +89,7 @@ export const Product = () => {
 		<>
 			<Header />
 
-			<div className="Product-content">
+			<div className="Main-layout Product-content">
 				<aside className="Product-aside">
 					<ul className="Product-url">
 						<Link className="Product-url-link" to="/">

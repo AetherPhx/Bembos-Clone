@@ -29,12 +29,14 @@ export function CardMenu() {
 	};
 
 	return (
-
-		<section className="CardMenu-principal">
+		<section className="Main-layout CardMenu-principal">
 			<p className="Font-title">CONOCE NUESTRO MENÚ | BEMBOS</p>
 			<div className="CardMenu-main">
 				<div className="CardMenu-content">
-					<ItemCardMenu title={"PROMOCIONES EXCLUSIVAS WEB"} imageUrl={urlBanner1} />
+					<ItemCardMenu
+						title={"PROMOCIONES EXCLUSIVAS WEB"}
+						imageUrl={urlBanner1}
+					/>
 					<ItemCardMenu title={"COMBOS"} imageUrl={urlBanner2} />
 					<ItemCardMenu title={"HAMBURGUESAS"} imageUrl={urlBanner3} />
 					<ItemCardMenu title={"POLLO"} imageUrl={urlBanner4} />

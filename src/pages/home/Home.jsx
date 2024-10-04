@@ -13,7 +13,7 @@ export const Home = () => {
 		<>
 			<Header />
 
-			<main>
+			<main className="Main-layout">
 				<Slider />
 
 				<div className="Home">

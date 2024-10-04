@@ -37,8 +37,7 @@ export const Category = () => {
 	return (
 		<>
 			<div className="Category-header">
-				<Header />
-				<SecondNav />
+				<Header hasSecondNav={true} />
 			</div>
 
 			<main className="Category">
