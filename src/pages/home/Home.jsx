@@ -38,6 +38,8 @@ export const Home = () => {
 					</section>
 
 
+
+
 					{!isMobile && <SocialBanner />}
 										
 				</div>
