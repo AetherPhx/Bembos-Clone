@@ -5,9 +5,12 @@ import { SliderGallery } from "/src/components/specific/home/sliderGallery";
 import { BannerCard } from "/src/components/specific/home/bannerCard";
 import { SocialBanner } from "../../components/specific/home/socialBanner/SocialBanner";
 import "./home.css";
+import { FooterMenu } from "/src/components/rwd/footerMenu";
+import { useMediaQuery } from "react-responsive";
 
 export const Home = () => {
 	const { promoOnline, menu } = useData();
+	const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
 	return (
 		<>
@@ -39,6 +42,8 @@ export const Home = () => {
 			</main>
 
 			<Footer />
+
+			{isMobile && <FooterMenu />}
 		</>
 	);
 };
