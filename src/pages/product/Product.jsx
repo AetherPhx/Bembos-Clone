@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useData } from "/src/context/ReactContext";
 import { useCart } from "../../context/CartContext";
 import { useParams, Link } from "react-router-dom";
@@ -9,6 +10,7 @@ import { IoChevronBackCircle } from "react-icons/io5";
 import { FiMenu } from "react-icons/fi";
 import { Faqs } from "../../components/specific/faqs/Faqs";
 export const Product = () => {
+	// const [itemToAdd, setItemToAdd] = useState({});
 	const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 	const openLeftMenu = () => {
 		console.log("Se abrió el menu lateral de la izq");
@@ -55,13 +57,12 @@ export const Product = () => {
 		console.log(listaPreguntas);
 		return listaPreguntas;
 	};
-	getDetailsData();
 
 	const itemToAdd = {
-		id: 11,
-		nombre: "Hamburguesa Clásica Bembos",
-		precio: 17.9,
-		img: "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
+		id: item.id,
+		nombre: item.nombre,
+		precio: item.precio,
+		img: item.img,
 		details: [
 			{
 				title: "Elige el tamaño de tu hamburguesa",
@@ -69,7 +70,7 @@ export const Product = () => {
 					{
 						cant: 1,
 						detailItem: "Clásica Mediana",
-						price: "S/.17.90",
+						price: 17.9,
 					},
 				],
 			},
@@ -79,27 +80,27 @@ export const Product = () => {
 					{
 						cant: 1,
 						detailItem: "Huevo Frito",
-						price: "S/.2.00",
+						price: 2.0,
 					},
 					{
 						cant: 1,
 						detailItem: "Papas al Hilo Extra",
-						price: "S/.2.00",
+						price: 2.0,
 					},
 					{
 						cant: 1,
 						detailItem: "Plátano Frito Extra",
-						price: "S/.2.00",
+						price: 2.0,
 					},
 					{
 						cant: 1,
 						detailItem: "Queso Medium Extra",
-						price: "S/.2.00",
+						price: 2.0,
 					},
 					{
 						cant: 1,
 						detailItem: "Tocino Extra",
-						price: "S/.2.00",
+						price: 2.0,
 					},
 				],
 			},
