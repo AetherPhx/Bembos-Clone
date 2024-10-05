@@ -1,8 +1,11 @@
-# React + Vite
+# Integrantes
+* Luis Mendoza
+* Victor
+* Susan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ¿Cómo instalar el proyecto?
+1. Clona el repositorio.
+2. Instala las dependencias usando el comando "yarn"
+3. Levanta la db usando "npx json-server db.json"
+4. Levanta la web usando "yarn dev"
+5. Ya tienes el proyecto listo!
