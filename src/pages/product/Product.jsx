@@ -107,7 +107,7 @@ export const Product = () => {
 	};
 
 	return (
-		<>
+		<div className="Product">
 			{!isMobile && <Header />}
 			{isMobile && (
 				<header className="Header">
@@ -207,7 +207,7 @@ export const Product = () => {
 			</div>
 
 			<DetailFooter itemToAdd={itemToAdd} />
-		</>
+		</div>
 	);
 };
 
