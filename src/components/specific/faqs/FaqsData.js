@@ -715,5 +715,5 @@ export const preguntas = [
                 "precio": 0.0
             }
         ]
-    },
+    }
 ];
