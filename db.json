@@ -6,7 +6,7 @@
 			"precio": 32.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-extrema-nuevo-bb.jpg",
 			"link": "combo-extrema",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA EXTREMA",
@@ -24,7 +24,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 2,
@@ -32,7 +37,7 @@
 			"precio": 32.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-doble-qt-combo-med-bb-nuevo.jpg",
 			"link": "combo-doble-queso-tocino",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
@@ -45,7 +50,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 3,
@@ -53,7 +63,7 @@
 			"precio": 30.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-parrillera-nuevo-bb.jpg",
 			"link": "combo-parrillera",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
@@ -71,7 +81,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 4,
@@ -79,7 +94,7 @@
 			"precio": 30.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-carretillera-nuevo-bb.jpg",
 			"link": "combo-carretillera",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CARRETILLERA",
@@ -97,7 +112,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 5,
@@ -105,7 +125,7 @@
 			"precio": 28.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-mexicana-nuevo_2.jpg",
 			"link": "combo-mexicana",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA MEXICANA",
@@ -123,7 +143,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 6,
@@ -131,7 +156,7 @@
 			"precio": 28.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-a-lo-pobre-nuevo-bb.jpg",
 			"link": "combo-a-lo-pobre",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -149,7 +174,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 7,
@@ -174,7 +204,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 8,
@@ -182,7 +217,7 @@
 			"precio": 28.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-promo-combo-hawaiana-nuevo_3.jpg",
 			"link": "combo-hawaiana",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA HAWAINA",
@@ -200,7 +235,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 9,
@@ -208,7 +248,7 @@
 			"precio": 27.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-royal-nuevo-bb.jpg",
 			"link": "combo-royal",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA ROYAL",
@@ -226,7 +266,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 10,
@@ -234,7 +279,7 @@
 			"precio": 27.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-queso-tocino-nuevo-bb.jpg",
 			"link": "combo-queso-tocino",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -252,7 +297,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 11,
@@ -260,7 +310,7 @@
 			"precio": 26.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-cheese-nuevo-bb.jpg",
 			"link": "combo-cheese",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -278,7 +328,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 12,
@@ -286,7 +341,7 @@
 			"precio": 24.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-clasica-nuevo-bb.jpg",
 			"link": "combo-clasica",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA",
@@ -304,7 +359,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 13,
@@ -312,7 +372,7 @@
 			"precio": 23.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-chicken-rill-combo-bembroster.jpg",
 			"link": "combo-chicken-grill",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU CHICKEN GRILL",
@@ -325,7 +385,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 14,
@@ -333,7 +398,7 @@
 			"precio": 22.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-queso-tocino-combo-bembroster.jpg",
 			"link": "combo-qembroster-queso-tocino",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -346,7 +411,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 15,
@@ -354,7 +424,7 @@
 			"precio": 21.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-tartara-combo-bembroster.jpg",
 			"link": "combo-Bembroster-tartara",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -367,7 +437,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 16,
@@ -375,7 +450,7 @@
 			"precio": 19.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-clasica-combo-bembroster_1.jpg",
 			"link": "combo-bembroster-clasica",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -388,7 +463,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 17,
@@ -396,7 +476,7 @@
 			"precio": 19.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-la-patriota.jpg",
 			"link": "combo-la-patriota",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PATRIOTA",
@@ -414,7 +494,11 @@
 					]
 				}
 			],
-			"preguntas": [154,158,159]
+			"preguntas": [
+				154,
+				158,
+				159
+			]
 		}
 	],
 	"hamburguesas": [
@@ -424,7 +508,7 @@
 			"precio": 12.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-la-patriota-hamburguesa.jpg",
 			"link": "hamburguesa-la-patriota",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PATRIOTA",
@@ -442,7 +526,12 @@
 					]
 				}
 			],
-			"preguntas": [151,153,154,158.159]
+			"preguntas": [
+				151,
+				153,
+				154,
+				158.159
+			]
 		},
 		{
 			"id": 19,
@@ -450,7 +539,7 @@
 			"precio": 17.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
 			"link": "hamburguesa-clasica-bembos",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA BEMBOS",
@@ -468,7 +557,12 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 20,
@@ -476,7 +570,7 @@
 			"precio": 19.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-cheese-base.jpg",
 			"link": "hamburguesa-cheese",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -494,7 +588,12 @@
 					]
 				}
 			],
-			"preguntas": [150,156,158,159]
+			"preguntas": [
+				150,
+				156,
+				158,
+				159
+			]
 		},
 		{
 			"id": 21,
@@ -502,7 +601,7 @@
 			"precio": 20.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-tocino_1.jpg",
 			"link": "hamburguesa-bembos-queso-tocino",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -520,7 +619,12 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 22,
@@ -528,7 +632,7 @@
 			"precio": 20.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-royal-base_1.jpg",
 			"link": "hamburguesa-royal",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA ROYAL",
@@ -546,7 +650,12 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 23,
@@ -554,7 +663,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-a-lo-pobre-base_1.jpg",
 			"link": "hamburguesa-a-lo-pobre",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -572,7 +681,12 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 24,
@@ -580,7 +694,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-hawaiana-nueva.jpg",
 			"link": "hamburguesa-hawaiana",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA HAWAINA",
@@ -598,7 +712,11 @@
 					]
 				}
 			],
-			"preguntas": [152,158,159]
+			"preguntas": [
+				152,
+				158,
+				159
+			]
 		},
 		{
 			"id": 25,
@@ -606,7 +724,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-mexicana-nueva.jpg",
 			"link": "hamburguesa-mexicana",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA MEXICANA",
@@ -624,7 +742,10 @@
 					]
 				}
 			],
-		"preguntas": [158,159]
+			"preguntas": [
+				158,
+				159
+			]
 		},
 		{
 			"id": 26,
@@ -632,7 +753,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-churrita_1_1_1.jpg",
 			"link": "hamburguesa-churrita",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CHURRITA",
@@ -650,7 +771,12 @@
 					]
 				}
 			],
-	"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 27,
@@ -658,7 +784,7 @@
 			"precio": 23.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-carretillera-base.jpg",
 			"link": "hamburguesa-carretillera",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CARRETILLERA",
@@ -676,7 +802,12 @@
 					]
 				}
 			],
-		"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 28,
@@ -684,7 +815,7 @@
 			"precio": 23.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-parrillera-base.jpg",
 			"link": "hamburguesa-parrillera",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
@@ -702,7 +833,12 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 29,
@@ -710,7 +846,7 @@
 			"precio": 25.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-extrema_1.jpg",
 			"link": "hamburguesa-extrema",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA EXTREMA",
@@ -728,13 +864,18 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		},
 		{
 			"id": 30,
 			"nombre": "Hamburguesa Doble Queso Tocino",
 			"precio": 25.9,
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-doble-qt-bb-nuevo.jpg",
 			"link": "hamburguesa-doble-queso-tocino",
 			"detalle": [
@@ -749,7 +890,12 @@
 					]
 				}
 			],
-			"preguntas": [156,150,158,159]
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
+			]
 		}
 	],
 	"pollo": [
@@ -759,6 +905,7 @@
 			"precio": 12.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/b/e/bembroster-clasica-regular_3_1.jpg",
 			"link": "bembroster-clasica",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -770,6 +917,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				150,
+				156,
+				158,
+				159
 			]
 		},
 		{
@@ -778,6 +931,7 @@
 			"precio": 14.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/b/e/bembroster-tartara-base_1_1.jpg",
 			"link": "bembroster-tartara",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -789,6 +943,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				150,
+				156,
+				158,
+				159
 			]
 		},
 		{
@@ -797,6 +957,7 @@
 			"precio": 15.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/b/e/bembroster-queso-tocino-base_2.jpg",
 			"link": "bembroster-queso-tocino",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -808,6 +969,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				150,
+				156,
+				158,
+				159
 			]
 		},
 		{
@@ -816,6 +983,7 @@
 			"precio": 16.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/h/chicken-base.jpg",
 			"link": "bembos-chicken-grill",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU CHICKEN GRILL",
@@ -827,6 +995,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				156,
+				150,
+				158,
+				159
 			]
 		}
 	],
@@ -836,14 +1010,30 @@
 			"nombre": "Loncherita Nuggets",
 			"precio": 14.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-loncherita-nuggets-bb-nuevo.jpg",
-			"link": "loncherita-nuggets"
+			"link": "loncherita-nuggets",
+			"preguntas": [
+				152,
+				161,
+				155,
+				158,
+				159,
+				160
+			]
 		},
 		{
 			"id": 36,
 			"nombre": "Loncherita Básica",
 			"precio": 14.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-loncherita-nuggets-bb-nuevo.jpg",
-			"link": "loncherita-basica"
+			"link": "loncherita-basica",
+			"preguntas": [
+				152,
+				161,
+				155,
+				158,
+				159,
+				160
+			]
 		}
 	],
 	"complementos": [
@@ -853,6 +1043,7 @@
 			"precio": 3.0,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-inka-chips-nueva.jpg",
 			"link": "papas-inka-chips",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU PAPA INKA CHIPS",
@@ -867,6 +1058,11 @@
 							"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/i/n/inka-chips120-800x800_1.png",
 							"precio": 7.5
 						}
+					],
+					"preguntas": [
+						158,
+						159,
+						160
 					]
 				}
 			]
@@ -877,6 +1073,7 @@
 			"precio": 6.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/n/u/nueva-papas-medianas_2.jpg",
 			"link": "papas-fritas-bembos",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE EL TAMAÑO DE TUS PAPAS",
@@ -898,6 +1095,11 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				158,
+				159,
+				160
 			]
 		},
 		{
@@ -906,6 +1108,7 @@
 			"precio": 12.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-nuggets-agosto-bb_1.jpg",
 			"link": "chicken-nuggets",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU NUGGETS",
@@ -922,6 +1125,11 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				158,
+				159,
+				160
 			]
 		},
 		{
@@ -930,6 +1138,7 @@
 			"precio": 12.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/h/cheese-fingers-base_3.jpg",
 			"link": "cheese-fingers",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU CHEESE FINGER",
@@ -951,6 +1160,11 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				158,
+				159,
+				160
 			]
 		},
 		{
@@ -959,7 +1173,13 @@
 			"precio": 22.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-piqueo-nuevo-abril.jpg",
 			"link": "family-box-piqueo",
-			"detalle": []
+			"estilo": "Style3",
+			"detalle": [],
+			"preguntas": [
+				159,
+				153,
+				158
+			]
 		}
 	],
 	"bebidas": [
@@ -1020,6 +1240,7 @@
 			"precio": 4.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-mini-princesa-2024.jpg",
 			"link": "helado-mini-princesa",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE EL SABOR DE TU HELADO",
@@ -1031,6 +1252,10 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				161,
+				162
 			]
 		}
 	],
@@ -1041,6 +1266,7 @@
 			"precio": 3.0,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-inka-chips-nueva.jpg",
 			"link": "papas-inka-chips",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU PAPA INKA CHIPS",
@@ -1057,6 +1283,11 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				158,
+				159,
+				160
 			]
 		}
 	],
@@ -1126,6 +1357,7 @@
 			"descuento": 55,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-de-locura-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -1167,6 +1399,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1178,6 +1416,7 @@
 			"descuento": 49,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-4-extremas-nuevo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS EXTREMAS",
@@ -1189,6 +1428,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1200,6 +1445,7 @@
 			"descuento": 49,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-familiar-1-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS ROYAL",
@@ -1221,6 +1467,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1232,6 +1484,7 @@
 			"descuento": 49,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-churrita-bb-desc-agosto.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CHURRITA",
@@ -1243,6 +1496,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1254,6 +1513,7 @@
 			"descuento": 48,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-personal-clasica-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA",
@@ -1270,6 +1530,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1281,6 +1547,7 @@
 			"descuento": 47,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-queso-tocino-nuevo-product.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
@@ -1292,6 +1559,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1303,6 +1576,7 @@
 			"descuento": 44,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-a-lo-pobre-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DÚO A LO POBRE",
@@ -1319,6 +1593,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -1330,6 +1610,7 @@
 			"descuento": 45,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-clasico-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DÚO CLÁSICA",
@@ -1351,6 +1632,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -1362,6 +1649,7 @@
 			"descuento": 44,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-doble-qt-combo-reg-bb-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
@@ -1373,6 +1661,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -1384,6 +1678,7 @@
 			"descuento": 43,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-queso-tocino-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS DÚO CLÁSICA",
@@ -1405,6 +1700,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -1416,6 +1717,7 @@
 			"descuento": 43,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-cheese-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CHESSE POWER",
@@ -1437,6 +1739,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1447,6 +1755,7 @@
 			"precio_antiguo": 28.8,
 			"descuento": 41,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-personal-churrita-mayo-2024.webp",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CHURRITA",
@@ -1463,6 +1772,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1473,6 +1788,7 @@
 			"precio_antiguo": 41.7,
 			"descuento": 40,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-promo-a-lo-pobre-mayo-2024.webp",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -1489,6 +1805,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1500,6 +1822,7 @@
 			"descuento": 39,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/o/combo-trio-bb-800x1370.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -1531,6 +1854,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1542,6 +1871,7 @@
 			"descuento": 38,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-promo-royal-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA ROYAL",
@@ -1558,6 +1888,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1569,6 +1905,7 @@
 			"descuento": 38,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-bembisimo-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
@@ -1595,6 +1932,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1606,6 +1949,7 @@
 			"descuento": 20,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-mexicana-nuevo_4.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA MEXICANA",
@@ -1622,6 +1966,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1632,6 +1982,7 @@
 			"precio": 81.2,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-familiar-yape-nuevo-bb.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -1643,6 +1994,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1653,6 +2010,7 @@
 			"precio": 61.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-carretillera-entel-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CARRETILLERAS",
@@ -1664,6 +2022,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1674,6 +2038,7 @@
 			"precio": 55.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-royal-entel-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS ROYAL",
@@ -1685,6 +2050,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1695,6 +2066,7 @@
 			"precio": 49.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-entel-2x1-clasico-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -1706,6 +2078,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1716,6 +2094,7 @@
 			"precio": 60.4,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-ica-bb-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -1737,6 +2116,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		}
 	],
@@ -1750,6 +2135,7 @@
 			"descuento": 44,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-doble-qt-combo-reg-bb-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
@@ -1761,6 +2147,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1772,6 +2164,7 @@
 			"descuento": 20,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-mexicana-nuevo_4.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA MEXICANA",
@@ -1788,6 +2181,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1799,6 +2198,7 @@
 			"descuento": 48,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-personal-clasica-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA",
@@ -1815,6 +2215,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1826,6 +2232,7 @@
 			"descuento": 41,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-personal-churrita-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CHURRITA",
@@ -1842,6 +2249,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1853,6 +2266,7 @@
 			"descuento": 38,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-promo-royal-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA ROYAL",
@@ -1869,6 +2283,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		},
 		{
@@ -1880,6 +2300,7 @@
 			"descuento": 40,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-promo-a-lo-pobre-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -1896,6 +2317,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				152,
+				158,
+				159
 			]
 		}
 	],
@@ -1909,6 +2336,7 @@
 			"descuento": 55,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-de-locura-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -1961,6 +2389,7 @@
 			"descuento": 47,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-queso-tocino-nuevo-product.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
@@ -1972,6 +2401,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -1983,6 +2419,7 @@
 			"descuento": 44,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-a-lo-pobre-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DÚO A LO POBRE",
@@ -1999,6 +2436,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2010,6 +2454,7 @@
 			"descuento": 45,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-clasico-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DÚO CLÁSICA",
@@ -2031,6 +2476,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2042,6 +2494,7 @@
 			"descuento": 43,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-queso-tocino-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS DÚO CLÁSICA",
@@ -2063,6 +2516,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2074,6 +2534,7 @@
 			"descuento": 43,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-cheese-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CHESSE POWER",
@@ -2095,6 +2556,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2106,6 +2574,7 @@
 			"descuento": 38,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-duo-bembisimo-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
@@ -2132,6 +2601,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2142,6 +2618,7 @@
 			"precio": 43.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-yape-duo-nuevo-bb.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA",
@@ -2163,6 +2640,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2173,6 +2657,7 @@
 			"precio": 60.4,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-ica-bb-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -2194,6 +2679,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2204,6 +2696,7 @@
 			"precio": 61.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-parrillera-calada_2.png",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS PARRILLERAS",
@@ -2215,6 +2708,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2225,6 +2725,7 @@
 			"precio": 55.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-royal-entel-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS ROYAL",
@@ -2236,6 +2737,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2246,6 +2754,7 @@
 			"precio": 61.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-carretillera-entel-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CARRETILLERAS",
@@ -2257,6 +2766,13 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				152,
+				153,
+				154,
+				158,
+				159
 			]
 		}
 	],
@@ -2270,6 +2786,7 @@
 			"descuento": 49,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-familiar-1-mayo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS ROYAL",
@@ -2291,6 +2808,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2302,6 +2825,7 @@
 			"descuento": 39,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/o/combo-trio-bb-800x1370.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -2316,6 +2840,12 @@
 							"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-a-lo-pobre-calada_4.png",
 							"precio": 3.0
 						}
+					],
+					"preguntas": [
+						151,
+						154,
+						158,
+						159
 					]
 				},
 				{
@@ -2333,6 +2863,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2343,6 +2879,7 @@
 			"precio": 81.2,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-familiar-yape-nuevo-bb.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -2354,6 +2891,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2365,6 +2908,7 @@
 			"descuento": 49,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-4-extremas-nuevo-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style3",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS EXTREMAS",
@@ -2376,6 +2920,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		}
 	],
@@ -2388,6 +2938,7 @@
 			"precio": 81.2,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-familiar-yape-nuevo-bb.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -2399,6 +2950,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2409,6 +2966,7 @@
 			"precio": 61.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-carretillera-entel-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CARRETILLERAS",
@@ -2420,6 +2978,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2430,6 +2994,7 @@
 			"precio": 49.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-entel-2x1-clasico-nuevo.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS CLÁSICAS",
@@ -2441,6 +3006,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2451,6 +3022,7 @@
 			"precio": 43.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-yape-duo-nuevo-bb.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA",
@@ -2472,6 +3044,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2482,6 +3060,7 @@
 			"precio": 61.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-parrillera-calada_2.png",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS PARRILLERAS",
@@ -2493,6 +3072,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		},
 		{
@@ -2503,6 +3088,7 @@
 			"precio": 55.6,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-royal-entel-2024.webp",
 			"terminos": "Términos y Condiciones",
+			"estilo": "Style2",
 			"detalle": [
 				{
 					"titulo": "ELIGE TUS HAMBURGUESAS ROYAL",
@@ -2514,6 +3100,12 @@
 						}
 					]
 				}
+			],
+			"preguntas": [
+				151,
+				154,
+				158,
+				159
 			]
 		}
 	],
@@ -2990,7 +3582,7 @@
 			"id": 150,
 			"titulo": "DESEA COMBEAR",
 			"descripcion": "(El número de complementos será igual al número de productos seleccionados en el cuadro cantidad)",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3016,7 +3608,7 @@
 			"id": 151,
 			"titulo": "ELIGE EL TAMAÑO DE TUS PAPAS",
 			"descripcion": "",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3036,7 +3628,7 @@
 			"id": 152,
 			"titulo": "ELIGE EL TAMAÑO DE TU PAPA",
 			"descripcion": "",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3062,7 +3654,7 @@
 			"id": 153,
 			"titulo": "ELIGE SABOR DE TU GASEOSA",
 			"descripcion": "",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3106,7 +3698,7 @@
 			"id": 154,
 			"titulo": "¿DESEAS ALGÚN EXTRA?",
 			"descripcion": "",
-			"estilo":"Style2", 
+			"estilo": "Style2",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3180,7 +3772,7 @@
 			"id": 155,
 			"titulo": "¿DESEA UN COMPLEMENTO?",
 			"descripcion": "",
-			"estilo":"Style2", 
+			"estilo": "Style2",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3242,7 +3834,7 @@
 			"id": 156,
 			"titulo": "¿DESEA QUITAR ALGÚN INGREDIENTE?",
 			"descripcion": "",
-			"estilo":"Style4", 
+			"estilo": "Style4",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3331,7 +3923,7 @@
 			"id": 158,
 			"titulo": "¿DESEAS ELEGIR SALSAS?",
 			"descripcion": "",
-			"estilo":"Style4", 
+			"estilo": "Style4",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3357,7 +3949,7 @@
 			"id": 159,
 			"titulo": "¿DESEAS SALSAS EXTRAS?",
 			"descripcion": "",
-			"estilo":"Style5", 
+			"estilo": "Style5",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3389,7 +3981,7 @@
 			"id": 160,
 			"titulo": "¿DESEAS AGREGAR SALSAS?",
 			"descripcion": "",
-			"estilo":"Style5", 
+			"estilo": "Style5",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3415,7 +4007,7 @@
 			"id": 161,
 			"titulo": "ELIGE TU MINIPRINCESA",
 			"descripcion": "",
-			"estilo":"Style3", 
+			"estilo": "Style3",
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3429,7 +4021,7 @@
 			"id": 162,
 			"titulo": "DESEA AGREGAR ADICIONAL",
 			"descripcion": "",
-			"estilo":"Style2", 
+			"estilo": "Style2",
 			"combinacion": [
 				{
 					"nrocomb": 1,

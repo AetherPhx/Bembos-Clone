@@ -37,7 +37,11 @@ export const Home = () => {
 						<BannerCard url="https://d31npzejelj8v1.cloudfront.net/media/promotionspage/images/promo-store-mobile/default/1719412352_new-banner-cupones.webp" />
 					</section>
 
-					<SocialBanner />
+
+
+
+					{!isMobile && <SocialBanner />}
+										
 				</div>
 			</main>
 

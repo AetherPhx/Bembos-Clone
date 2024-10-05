@@ -40,7 +40,7 @@ export const SocialBanner = () => {
 						>
 							<img
 								className="SocialBanner-logo-img"
-								src="https://scontent.flim31-1.fna.fbcdn.net/v/t39.30808-1/434757251_830054629166575_7799433407921388986_n.jpg?stp=cp0_dst-jpg_s50x50&_nc_cat=1&ccb=1-7&_nc_sid=6738e8&_nc_ohc=K_aKavPM4JUQ7kNvgHGY_gz&_nc_ht=scontent.flim31-1.fna&edm=ADwHzz8EAAAA&_nc_gid=AXgaSsG6q6rnWOwmJFQdSC-&oh=00_AYDEv1FfU-He5_TWupYXYKa5z61OBCh9DS-HBjExiNYa4A&oe=6700B5C6"
+								src="https://scontent.flim29-1.fna.fbcdn.net/v/t39.30808-1/434757251_830054629166575_7799433407921388986_n.jpg?stp=cp0_dst-jpg_s50x50&_nc_cat=1&ccb=1-7&_nc_sid=6738e8&_nc_ohc=bMlqQmWk7KYQ7kNvgGKwR1b&_nc_ht=scontent.flim29-1.fna&edm=ADwHzz8EAAAA&_nc_gid=ACL_nm7kW61wgM9c4D0QfqU&oh=00_AYBcQUQDQcdgPgNzuDvoKE52rwEh5VZuP_o3xnsURq4rQw&oe=67071506"
 								alt="Logo de Bembos"
 							/>
 						</a>
@@ -49,7 +49,7 @@ export const SocialBanner = () => {
 					<div className="SocialBanner-fbCard-info">
 						<h3 className="SocialBanner-fbCard-title">BEMBOS</h3>
 						<span className="SocialBanner-fbCard-followers">
-							1.128.568 seguidores
+							1.128.420 seguidores
 						</span>
 					</div>
 				</div>
