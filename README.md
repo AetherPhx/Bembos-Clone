@@ -1,7 +1,7 @@
 # Integrantes
 * Luis Mendoza
-* Victor
-* Susan
+* Victor Trigos
+* Susan Anampa
 
 # ¿Cómo instalar el proyecto?
 1. Clona el repositorio.
