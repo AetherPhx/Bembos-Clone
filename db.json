@@ -6,6 +6,7 @@
 			"precio": 32.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-extrema-nuevo-bb.jpg",
 			"link": "combo-extrema",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA EXTREMA",
@@ -22,7 +23,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 2,
@@ -30,6 +32,7 @@
 			"precio": 32.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-doble-qt-combo-med-bb-nuevo.jpg",
 			"link": "combo-doble-queso-tocino",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
@@ -41,7 +44,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 3,
@@ -49,6 +53,7 @@
 			"precio": 30.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-parrillera-nuevo-bb.jpg",
 			"link": "combo-parrillera",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
@@ -65,7 +70,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 4,
@@ -73,6 +79,7 @@
 			"precio": 30.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-carretillera-nuevo-bb.jpg",
 			"link": "combo-carretillera",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CARRETILLERA",
@@ -89,7 +96,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 5,
@@ -97,6 +105,7 @@
 			"precio": 28.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-mexicana-nuevo_2.jpg",
 			"link": "combo-mexicana",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA MEXICANA",
@@ -113,7 +122,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 6,
@@ -121,6 +131,7 @@
 			"precio": 28.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-a-lo-pobre-nuevo-bb.jpg",
 			"link": "combo-a-lo-pobre",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -137,7 +148,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 7,
@@ -161,7 +173,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 8,
@@ -169,6 +182,7 @@
 			"precio": 28.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-promo-combo-hawaiana-nuevo_3.jpg",
 			"link": "combo-hawaiana",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA HAWAINA",
@@ -185,7 +199,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 9,
@@ -193,6 +208,7 @@
 			"precio": 27.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-royal-nuevo-bb.jpg",
 			"link": "combo-royal",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA ROYAL",
@@ -209,7 +225,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 10,
@@ -217,6 +234,7 @@
 			"precio": 27.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-queso-tocino-nuevo-bb.jpg",
 			"link": "combo-queso-tocino",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -233,7 +251,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 11,
@@ -241,6 +260,7 @@
 			"precio": 26.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-cheese-nuevo-bb.jpg",
 			"link": "combo-cheese",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -257,7 +277,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 12,
@@ -265,6 +286,7 @@
 			"precio": 24.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_275,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-clasica-nuevo-bb.jpg",
 			"link": "combo-clasica",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA",
@@ -281,7 +303,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 13,
@@ -289,6 +312,7 @@
 			"precio": 23.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-chicken-rill-combo-bembroster.jpg",
 			"link": "combo-chicken-grill",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU CHICKEN GRILL",
@@ -300,7 +324,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 14,
@@ -308,6 +333,7 @@
 			"precio": 22.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-queso-tocino-combo-bembroster.jpg",
 			"link": "combo-qembroster-queso-tocino",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -319,7 +345,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 15,
@@ -327,6 +354,7 @@
 			"precio": 21.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-tartara-combo-bembroster.jpg",
 			"link": "combo-Bembroster-tartara",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -338,7 +366,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 16,
@@ -346,6 +375,7 @@
 			"precio": 19.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-clasica-combo-bembroster_1.jpg",
 			"link": "combo-bembroster-clasica",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU BEMBROSTER",
@@ -357,7 +387,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 17,
@@ -365,6 +396,7 @@
 			"precio": 19.8,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-combo-la-patriota.jpg",
 			"link": "combo-la-patriota",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PATRIOTA",
@@ -381,7 +413,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [154,158,159]
 		}
 	],
 	"hamburguesas": [
@@ -391,6 +424,7 @@
 			"precio": 12.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-la-patriota-hamburguesa.jpg",
 			"link": "hamburguesa-la-patriota",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PATRIOTA",
@@ -407,7 +441,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [151,153,154,158.159]
 		},
 		{
 			"id": 19,
@@ -415,6 +450,7 @@
 			"precio": 17.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-clasica_1_1.jpg",
 			"link": "hamburguesa-clasica-bembos",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CLÁSICA BEMBOS",
@@ -431,7 +467,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 20,
@@ -439,6 +476,7 @@
 			"precio": 19.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-cheese-base.jpg",
 			"link": "hamburguesa-cheese",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -455,7 +493,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [150,156,158,159]
 		},
 		{
 			"id": 21,
@@ -463,6 +502,7 @@
 			"precio": 20.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-tocino_1.jpg",
 			"link": "hamburguesa-bembos-queso-tocino",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
@@ -479,7 +519,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 22,
@@ -487,6 +528,7 @@
 			"precio": 20.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-royal-base_1.jpg",
 			"link": "hamburguesa-royal",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA ROYAL",
@@ -503,7 +545,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 23,
@@ -511,6 +554,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-a-lo-pobre-base_1.jpg",
 			"link": "hamburguesa-a-lo-pobre",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
@@ -527,7 +571,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 24,
@@ -535,6 +580,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-hawaiana-nueva.jpg",
 			"link": "hamburguesa-hawaiana",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA HAWAINA",
@@ -551,7 +597,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [152,158,159]
 		},
 		{
 			"id": 25,
@@ -559,6 +606,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-mexicana-nueva.jpg",
 			"link": "hamburguesa-mexicana",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA MEXICANA",
@@ -575,7 +623,8 @@
 						}
 					]
 				}
-			]
+			],
+		"preguntas": [158,159]
 		},
 		{
 			"id": 26,
@@ -583,6 +632,7 @@
 			"precio": 21.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-churrita_1_1_1.jpg",
 			"link": "hamburguesa-churrita",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CHURRITA",
@@ -599,7 +649,8 @@
 						}
 					]
 				}
-			]
+			],
+	"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 27,
@@ -607,6 +658,7 @@
 			"precio": 23.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-carretillera-base.jpg",
 			"link": "hamburguesa-carretillera",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA CARRETILLERA",
@@ -623,7 +675,8 @@
 						}
 					]
 				}
-			]
+			],
+		"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 28,
@@ -631,6 +684,7 @@
 			"precio": 23.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-parrillera-base.jpg",
 			"link": "hamburguesa-parrillera",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
@@ -647,7 +701,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 29,
@@ -655,6 +710,7 @@
 			"precio": 25.9,
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-extrema_1.jpg",
 			"link": "hamburguesa-extrema",
+			"estilo":"Style3", 
 			"detalle": [
 				{
 					"titulo": "ELIGE TU HAMBURGUESA EXTREMA",
@@ -671,12 +727,14 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		},
 		{
 			"id": 30,
 			"nombre": "Hamburguesa Doble Queso Tocino",
 			"precio": 25.9,
+			"estilo":"Style3", 
 			"img": "https://www.bembos.com.pe/_ipx/q_85,w_290,f_webp/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x1370-doble-qt-bb-nuevo.jpg",
 			"link": "hamburguesa-doble-queso-tocino",
 			"detalle": [
@@ -690,7 +748,8 @@
 						}
 					]
 				}
-			]
+			],
+			"preguntas": [156,150,158,159]
 		}
 	],
 	"pollo": [
@@ -2466,67 +2525,106 @@
 				{
 					"id": 111,
 					"nombre_distrito": "Ate",
-					"sedes": ["Plaza Vea Ate", "Santa Clara", "Puruchuco"]
+					"sedes": [
+						"Plaza Vea Ate",
+						"Santa Clara",
+						"Puruchuco"
+					]
 				},
 				{
 					"id": 112,
 					"nombre_distrito": "Cercado de Lima",
-					"sedes": ["Jirón de la Unión", "Centro Cívico"]
+					"sedes": [
+						"Jirón de la Unión",
+						"Centro Cívico"
+					]
 				},
 				{
 					"id": 113,
 					"nombre_distrito": "Chorillos",
-					"sedes": ["Real Plaza Chorrillos Venturosa", "Mega Plaza Chorrillos"]
+					"sedes": [
+						"Real Plaza Chorrillos Venturosa",
+						"Mega Plaza Chorrillos"
+					]
 				},
 				{
 					"id": 114,
 					"nombre_distrito": "Comas",
-					"sedes": ["Mallplaza Comas"]
+					"sedes": [
+						"Mallplaza Comas"
+					]
 				},
 				{
 					"id": 115,
 					"nombre_distrito": "Independencia",
-					"sedes": ["Mega Plaza", "Plaza Norte In Line (1er piso)"]
+					"sedes": [
+						"Mega Plaza",
+						"Plaza Norte In Line (1er piso)"
+					]
 				},
 				{
 					"id": 116,
 					"nombre_distrito": "Jesus María",
-					"sedes": ["Jesus María", "Real Plaza Salaverry"]
+					"sedes": [
+						"Jesus María",
+						"Real Plaza Salaverry"
+					]
 				},
 				{
 					"id": 117,
 					"nombre_distrito": "La Molina",
-					"sedes": ["La Fontana", "Wong Camacho", "DK La Molina"]
+					"sedes": [
+						"La Fontana",
+						"Wong Camacho",
+						"DK La Molina"
+					]
 				},
 				{
 					"id": 118,
 					"nombre_distrito": "La Victoria",
-					"sedes": ["Metro Canada In Line"]
+					"sedes": [
+						"Metro Canada In Line"
+					]
 				},
 				{
 					"id": 119,
 					"nombre_distrito": "Magdalena del Mar",
-					"sedes": ["Magdalena", "DK Magdalena"]
+					"sedes": [
+						"Magdalena",
+						"DK Magdalena"
+					]
 				},
 				{
 					"id": 120,
 					"nombre_distrito": "Miraflores",
-					"sedes": ["Aurora", "Larco I", "Larco II"]
+					"sedes": [
+						"Aurora",
+						"Larco I",
+						"Larco II"
+					]
 				},
 				{
 					"id": 121,
 					"nombre_distrito": "Pueblo Libre",
-					"sedes": ["Sucre"]
+					"sedes": [
+						"Sucre"
+					]
 				},
 				{
 					"id": 122,
 					"nombre_distrito": "Punta Hermosa",
-					"sedes": ["Movil 2 Punta Hermosa"]
+					"sedes": [
+						"Movil 2 Punta Hermosa"
+					]
 				},
 				{
 					"id": 123,
 					"nombre_distrito": "San Borja",
-					"sedes": ["Real Plaza Primavera", "Aviación", "Rambla Food Court"]
+					"sedes": [
+						"Real Plaza Primavera",
+						"Aviación",
+						"Rambla Food Court"
+					]
 				},
 				{
 					"id": 124,
@@ -2542,27 +2640,41 @@
 				{
 					"id": 125,
 					"nombre_distrito": "San Juan de Miraflores",
-					"sedes": ["Mall del Sur", "San Juan Atocongo"]
+					"sedes": [
+						"Mall del Sur",
+						"San Juan Atocongo"
+					]
 				},
 				{
 					"id": 126,
 					"nombre_distrito": "San Martín de Porres",
-					"sedes": ["Plaza Lima Norte FC", "Real Plaza Pro"]
+					"sedes": [
+						"Plaza Lima Norte FC",
+						"Real Plaza Pro"
+					]
 				},
 				{
 					"id": 127,
 					"nombre_distrito": "San Miguel",
-					"sedes": ["Plaza San Miguel", "La mar", "Plaza San Miguel FC"]
+					"sedes": [
+						"Plaza San Miguel",
+						"La mar",
+						"Plaza San Miguel FC"
+					]
 				},
 				{
 					"id": 128,
 					"nombre_distrito": "Santa Anita",
-					"sedes": ["Santa Anita"]
+					"sedes": [
+						"Santa Anita"
+					]
 				},
 				{
 					"id": 129,
 					"nombre_distrito": "Santiago de Surco",
-					"sedes": ["Bembos Universidad de Lima"]
+					"sedes": [
+						"Bembos Universidad de Lima"
+					]
 				},
 				{
 					"id": 130,
@@ -2579,12 +2691,16 @@
 				{
 					"id": 131,
 					"nombre_distrito": "Surquillo",
-					"sedes": ["Dark Kitchen Surquillo"]
+					"sedes": [
+						"Dark Kitchen Surquillo"
+					]
 				},
 				{
 					"id": 132,
 					"nombre_distrito": "Villa el Salvador",
-					"sedes": ["Villa el Salvador"]
+					"sedes": [
+						"Villa el Salvador"
+					]
 				}
 			]
 		},
@@ -2608,7 +2724,11 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Plaza Vea Callao", "Bellavista", "Minka"]
+					"sedes": [
+						"Plaza Vea Callao",
+						"Bellavista",
+						"Minka"
+					]
 				}
 			]
 		},
@@ -2618,7 +2738,10 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Chiclayo Real Plaza", "Mall Aventura Chiclayo"]
+					"sedes": [
+						"Chiclayo Real Plaza",
+						"Mall Aventura Chiclayo"
+					]
 				}
 			]
 		},
@@ -2628,7 +2751,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Huancayo"]
+					"sedes": [
+						"Huancayo"
+					]
 				}
 			]
 		},
@@ -2638,7 +2763,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["El Quinde Ica"]
+					"sedes": [
+						"El Quinde Ica"
+					]
 				}
 			]
 		},
@@ -2648,7 +2775,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Real Plaza Juliaca"]
+					"sedes": [
+						"Real Plaza Juliaca"
+					]
 				}
 			]
 		},
@@ -2658,7 +2787,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Real Plaza Piura"]
+					"sedes": [
+						"Real Plaza Piura"
+					]
 				}
 			]
 		},
@@ -2668,7 +2799,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Real Plaza Pucallpa"]
+					"sedes": [
+						"Real Plaza Pucallpa"
+					]
 				}
 			]
 		},
@@ -2678,7 +2811,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Plaza vea - Puno"]
+					"sedes": [
+						"Plaza vea - Puno"
+					]
 				}
 			]
 		},
@@ -2688,7 +2823,9 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Plaza vea Tacna"]
+					"sedes": [
+						"Plaza vea Tacna"
+					]
 				}
 			]
 		},
@@ -2698,7 +2835,10 @@
 			"distritos": [
 				{
 					"nombre_distrito": "",
-					"sedes": ["Real Plaza Trujillo", "Trujillo Mall Plaza"]
+					"sedes": [
+						"Real Plaza Trujillo",
+						"Trujillo Mall Plaza"
+					]
 				}
 			]
 		}
@@ -2850,6 +2990,7 @@
 			"id": 150,
 			"titulo": "DESEA COMBEAR",
 			"descripcion": "(El número de complementos será igual al número de productos seleccionados en el cuadro cantidad)",
+			"estilo":"Style3", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -2875,6 +3016,7 @@
 			"id": 151,
 			"titulo": "ELIGE EL TAMAÑO DE TUS PAPAS",
 			"descripcion": "",
+			"estilo":"Style3", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -2894,6 +3036,7 @@
 			"id": 152,
 			"titulo": "ELIGE EL TAMAÑO DE TU PAPA",
 			"descripcion": "",
+			"estilo":"Style3", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -2919,6 +3062,7 @@
 			"id": 153,
 			"titulo": "ELIGE SABOR DE TU GASEOSA",
 			"descripcion": "",
+			"estilo":"Style3", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -2962,6 +3106,7 @@
 			"id": 154,
 			"titulo": "¿DESEAS ALGÚN EXTRA?",
 			"descripcion": "",
+			"estilo":"Style2", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3035,58 +3180,59 @@
 			"id": 155,
 			"titulo": "¿DESEA UN COMPLEMENTO?",
 			"descripcion": "",
+			"estilo":"Style2", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
-					"nombre": "Papa Mediana + S/4.90",
+					"nombre": "Papa Mediana",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/p/a/papas-fritas_4.webp",
 					"precio": 4.9
 				},
 				{
 					"nrocomb": 2,
-					"nombre": "Papa Grande + S/5.90",
+					"nombre": "Papa Grande",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/p/a/papas-grande_2.webp",
 					"precio": 5.9
 				},
 				{
 					"nrocomb": 3,
-					"nombre": "Coca Cola Sabor Original 500 ml + S/5.90",
+					"nombre": "Coca Cola Sabor Original 500 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/o/coca-cola-blanco-800x800_1_1.webp",
 					"precio": 5.9
 				},
 				{
 					"nrocomb": 4,
-					"nombre": "Coca Cola Sin Azúcar 500 ml + S/.5.90",
+					"nombre": "Coca Cola Sin Azúcar 500 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/o/coca-cola-sin-azucar_1_1.webp",
 					"precio": 6.9
 				},
 				{
 					"nrocomb": 5,
-					"nombre": "Inca Kola Sabor Original 500 ml + S/.5.90",
+					"nombre": "Inca Kola Sabor Original 500 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/i/n/inca-kola-blanco-800x800_1_1.webp",
 					"precio": 6.9
 				},
 				{
 					"nrocomb": 6,
-					"nombre": "Inca kola Sin Azúcar 500 ml + S/.5.90",
+					"nombre": "Inca kola Sin Azúcar 500 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/i/n/inca-kola-sin-azucar_1_1.webp",
 					"precio": 6.9
 				},
 				{
 					"nrocomb": 7,
-					"nombre": "Sprite Sabor Original 500 ml + S/.5.90",
+					"nombre": "Sprite Sabor Original 500 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/s/p/sprite-con-azucar_2.webp",
 					"precio": 6.9
 				},
 				{
 					"nrocomb": 8,
-					"nombre": "Fanta Sabor Original 500 ml + S/.5.90",
+					"nombre": "Fanta Sabor Original 500 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/f/a/fanta-con-azucar_3_2.webp",
 					"precio": 6.9
 				},
 				{
 					"nrocomb": 9,
-					"nombre": "Agua San Luis sin gas 750 ml + S/.4.90",
+					"nombre": "Agua San Luis sin gas 750 ml",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/s/a/san-luis-sin-gas_2_1_1_1_1.webp",
 					"precio": 4.9
 				}
@@ -3096,6 +3242,7 @@
 			"id": 156,
 			"titulo": "¿DESEA QUITAR ALGÚN INGREDIENTE?",
 			"descripcion": "",
+			"estilo":"Style4", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3184,6 +3331,7 @@
 			"id": 158,
 			"titulo": "¿DESEAS ELEGIR SALSAS?",
 			"descripcion": "",
+			"estilo":"Style4", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3209,6 +3357,7 @@
 			"id": 159,
 			"titulo": "¿DESEAS SALSAS EXTRAS?",
 			"descripcion": "",
+			"estilo":"Style5", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3240,6 +3389,7 @@
 			"id": 160,
 			"titulo": "¿DESEAS AGREGAR SALSAS?",
 			"descripcion": "",
+			"estilo":"Style5", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3249,13 +3399,13 @@
 				},
 				{
 					"nrocomb": 2,
-					"nombre": "Salsa Tártara Bembos 2 oz + S/.2.00",
+					"nombre": "Salsa Tártara Bembos 2 oz",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/b/e/bembos-salsa_1.webp",
 					"precio": 2.0
 				},
 				{
 					"nrocomb": 3,
-					"nombre": "Salsa Barrio Bembos 2 oz + S/.2.00",
+					"nombre": "Salsa Barrio Bembos 2 oz",
 					"img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/b/e/bembos-salsa.webp",
 					"precio": 2.0
 				}
@@ -3265,6 +3415,7 @@
 			"id": 161,
 			"titulo": "ELIGE TU MINIPRINCESA",
 			"descripcion": "",
+			"estilo":"Style3", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
@@ -3278,6 +3429,7 @@
 			"id": 162,
 			"titulo": "DESEA AGREGAR ADICIONAL",
 			"descripcion": "",
+			"estilo":"Style2", 
 			"combinacion": [
 				{
 					"nrocomb": 1,
