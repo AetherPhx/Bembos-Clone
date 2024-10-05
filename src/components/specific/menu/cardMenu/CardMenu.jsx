@@ -1,6 +1,7 @@
 import { ItemCardMenu } from "./ItemCardMenu";
 
 import "./CardMenu.css";
+import { Link } from "react-router-dom";
 
 export function CardMenu() {
 	const urlBanner1 =
@@ -33,19 +34,39 @@ export function CardMenu() {
 			<p className="Font-title">CONOCE NUESTRO MENÚ | BEMBOS</p>
 			<div className="CardMenu-main">
 				<div className="CardMenu-content">
-					<ItemCardMenu
-						title={"PROMOCIONES EXCLUSIVAS WEB"}
-						imageUrl={urlBanner1}
-					/>
-					<ItemCardMenu title={"COMBOS"} imageUrl={urlBanner2} />
-					<ItemCardMenu title={"HAMBURGUESAS"} imageUrl={urlBanner3} />
-					<ItemCardMenu title={"POLLO"} imageUrl={urlBanner4} />
-					<ItemCardMenu title={"MENÚS AL PLATO"} imageUrl={urlBanner5} />
-					<ItemCardMenu title={"LONCHERITAS"} imageUrl={urlBanner6} />
-					<ItemCardMenu title={"COMPLEMENTOS"} imageUrl={urlBanner7} />
-					<ItemCardMenu title={"BEBIDAS"} imageUrl={urlBanner8} />
-					<ItemCardMenu title={"HELADOS"} imageUrl={urlBanner9} />
-					<ItemCardMenu title={"INKA CHIPS"} imageUrl={urlBanner10} />
+					<Link to="/promociones">
+						<ItemCardMenu
+							title={"PROMOCIONES EXCLUSIVAS WEB"}
+							imageUrl={urlBanner1}
+						/>
+					</Link>
+					<Link to="/menu/combos">
+						<ItemCardMenu title={"COMBOS"} imageUrl={urlBanner2} />
+					</Link>
+					<Link to="/menu/hamburguesas">
+						<ItemCardMenu title={"HAMBURGUESAS"} imageUrl={urlBanner3} />
+					</Link>
+					<Link to="/menu/pollo">
+						<ItemCardMenu title={"POLLO"} imageUrl={urlBanner4} />
+					</Link>
+					<Link to="/menu/menús-al-plato">
+						<ItemCardMenu title={"MENÚS AL PLATO"} imageUrl={urlBanner5} />
+					</Link>
+					<Link to="/menu/loncheritas">
+						<ItemCardMenu title={"LONCHERITAS"} imageUrl={urlBanner6} />
+					</Link>
+					<Link to="/menu/complementos">
+						<ItemCardMenu title={"COMPLEMENTOS"} imageUrl={urlBanner7} />
+					</Link>
+					<Link to="/menu/bebidas">
+						<ItemCardMenu title={"BEBIDAS"} imageUrl={urlBanner8} />
+					</Link>
+					<Link to="/menu/helados">
+						<ItemCardMenu title={"HELADOS"} imageUrl={urlBanner9} />
+					</Link>
+					<Link to="/menu/inka-chips">
+						<ItemCardMenu title={"INKA CHIPS"} imageUrl={urlBanner10} />
+					</Link>
 
 					<div className="CardMenu-to-top" onClick={scrollToTop}>
 						<svg
