@@ -6,6 +6,7 @@
 .Product-content {
     max-width: 1200px;
     margin-inline: auto;
+    margin-bottom: 400px;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 12px;
@@ -17,6 +18,7 @@
 }
 
 .Product-url {
+    background-color: var(--color-white);
     color: var(--color-main);
     margin-top: 20px;
     display: flex;
@@ -63,7 +65,10 @@
     }
 
     .Product-url {
-        font-size: 12px;
+        padding-block: 8px;
+        padding-left: 8px;
+        margin-top: 0;
+        font-size: 14px;
     }
 
     .Product-image {
@@ -74,4 +79,51 @@
     .Product-info {
         margin-top: 0px;
     }
+
+    .Product-menuBar {
+        background-color: var(--color-main);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Product-menuBar-back {
+        color: var(--color-white);
+        height: 40px;
+        width: 40px;
+    }
+
+    .Product-menuBar-actions {
+        display: flex;
+        gap: 8px;
+    }
+
+    .Product-menuBar-cart {
+        position: relative;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Product-menuBar-counter {
+        background-color: var(--color-secondary);
+        color: var(--color-black);
+        padding-inline: 8px;
+        border-radius: 16px;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        font-weight: bold;
+    }
+
+    .Product-menuBar-cart svg path {
+        fill: var(--color-white);
+    }
+
+    .Product-menuBar-open {
+        font-size: 40px;
+        color: var(--color-white);
+    }
+
 }
