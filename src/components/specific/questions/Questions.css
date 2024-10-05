@@ -9,12 +9,11 @@
 }
 
 .Faqs-wrapper {
-    width: 1114px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 10px;
 }
 
 .Faqs-info {

@@ -28,8 +28,8 @@ export const Header = ({ hasSecondNav }) => {
 							<svg
 								data-v-36556a9b=""
 								xmlns="http://www.w3.org/2000/svg"
-								width="94"
-								height="80"
+								width={isMobile ? "94" : "133.582"}
+								height={isMobile ? "80" : "46.489"}
 								viewBox="0 0 133.582 46.489"
 							>
 								<path

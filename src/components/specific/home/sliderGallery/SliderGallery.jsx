@@ -1,12 +1,14 @@
-import { Swiper, SwiperSlide } from "swiper/react";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { useMediaQuery } from "react-responsive";
 import { CardSimple } from "./cardSimple";
 import { CardPromo } from "./cardPromo";
-import "./sliderGallery.css";
-import { Link } from "react-router-dom";
 
+import "./sliderGallery.css";
 export const SliderGallery = ({ title, data, cardType }) => {
 	const swiperRef = useRef(null);
+	const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 
 	const handleNext = () => {
 		if (swiperRef.current) {
@@ -74,9 +76,10 @@ export const SliderGallery = ({ title, data, cardType }) => {
 			</header>
 
 			<Swiper
-				spaceBetween={50}
-				slidesPerView={4}
+				spaceBetween={isMobile ? 10 : 50}
+				slidesPerView={isMobile ? 2 : 4}
 				onSwiper={(swiper) => (swiperRef.current = swiper)}
+				className="SliderGallery-deck"
 			>
 				{data.map((item) => {
 					if (cardType === "Promo") {

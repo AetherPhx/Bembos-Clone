@@ -83,3 +83,10 @@
     margin-inline: 12px;
     cursor: pointer;
 }
+
+
+@media (max-width: 991px) {
+    .CardPromo {
+        width: 180px;
+    }
+}

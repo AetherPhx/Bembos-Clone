@@ -23,7 +23,11 @@
 }
 
 .SliderGallery-deck {
-    padding: 12px;
-    display: flex;
-    gap: 64px;
+    min-height: 300px;
+}
+
+@media (max-width: 991px) {
+    .SliderGallery-deck {
+        padding: 8px;
+    }
 }
