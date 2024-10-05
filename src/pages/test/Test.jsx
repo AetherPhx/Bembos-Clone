@@ -1,4 +1,5 @@
 import { Slider } from "../../components/specific/home/slider/Slider";
+import { SliderRwd } from "../../components/specific/home/sliderRwd/SliderRwd";
 import { Cart } from "../cart";
 
 
@@ -15,7 +16,8 @@ export const Test = () => {
 	return (
 		<>
 
-			<Faqs estilos={estilosProducts} />
+			{/* <Faqs estilos={estilosProducts} /> */}
+			<SliderRwd />
 
 		</>
 	);

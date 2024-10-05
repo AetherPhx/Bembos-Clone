@@ -1,6 +1,7 @@
 import { useData } from "/src/context/ReactContext";
 import { Header, Footer } from "/src/components/common";
 import { Slider } from "/src/components/specific/home/slider";
+import { SliderRwd } from "/src/components/specific/home/sliderRwd/SliderRwd";
 import { SliderGallery } from "/src/components/specific/home/sliderGallery";
 import { BannerCard } from "/src/components/specific/home/bannerCard";
 import { SocialBanner } from "../../components/specific/home/socialBanner/SocialBanner";
@@ -17,7 +18,9 @@ export const Home = () => {
 			<Header />
 
 			<main className="Main-layout">
-				<Slider />
+				{!isMobile && <Slider />}
+				{isMobile && <SliderRwd />}
+
 
 				<div className="Home">
 					<SliderGallery
@@ -41,7 +44,7 @@ export const Home = () => {
 
 
 					{!isMobile && <SocialBanner />}
-										
+
 				</div>
 			</main>
 

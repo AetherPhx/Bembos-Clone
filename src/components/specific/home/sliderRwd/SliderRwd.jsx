@@ -10,9 +10,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/bundle";
-import "./Slider.css";
+import "./SliderRwd.css";
 
-export const Slider = () => {
+export const SliderRwd = () => {
 	return (
 		<div className="Swiper-main">
 			<Swiper
@@ -37,38 +37,32 @@ export const Slider = () => {
 			>
 				<SwiperSlide>
 					<img
-						src="src/components/specific/home/slider/images/slider01.jpg"
+						src="src/components/specific/home/sliderRwd/images/01_slider.webp"
 						alt="Img01"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						src="src/components/specific/home/slider/images/slider02.jpg"
+						src="src/components/specific/home/sliderRwd/images/02_slider.webp"
 						alt="Img02"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						src="src/components/specific/home/slider/images/slider03.jpg"
+						src="src/components/specific/home/sliderRwd/images/03_slider.webp"
 						alt="Img03"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						src="src/components/specific/home/slider/images/slider04.jpg"
+						src="src/components/specific/home/sliderRwd/images/04_slider.webp"
 						alt="Img04"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img
-						src="src/components/specific/home/slider/images/slider05.jpg"
+						src="src/components/specific/home/sliderRwd/images/05_slider.webp"
 						alt="Img05"
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<img
-						src="src/components/specific/home/slider/images/slider06.jpg"
-						alt="Img06"
 					/>
 				</SwiperSlide>
 			</Swiper>
