@@ -1,8 +1,10 @@
 import { useCart } from "/src/context/CartContext";
 import "./detailFooter.css";
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 
 export const DetailFooter = ({ itemToAdd }) => {
+	const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 	const [itemCant, setItemCant] = useState(1);
 	const [itemPrice, setItemPrice] = useState(itemToAdd.precio);
 	const { addItem } = useCart();
@@ -24,10 +26,12 @@ export const DetailFooter = ({ itemToAdd }) => {
 	};
 
 	return (
-		<div className="Detail-footer">
-			<div className="Detail-footer-contenedor contenedor">
+		<div className={"Detail-footer"}>
+			<div
+				className={`Detail-footer-contenedor ${!isMobile ? "contenedor" : ""}`}
+			>
 				<div className="Detail-footer-left">
-					<p className="Detail-p">Cantidad</p>
+					{!isMobile && <p className="Detail-p">Cantidad</p>}
 					<button onClick={decrementItem} className="Detail-btn Detail-p">
 						-
 					</button>

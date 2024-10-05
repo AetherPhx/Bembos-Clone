@@ -2,9 +2,11 @@ import { useData } from "/src/context/ReactContext";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Header, DetailFooter } from "../../components/common";
+import { useMediaQuery } from "react-responsive";
 
 import "./product.css";
 export const Product = () => {
+	const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 	const { category, product } = useParams();
 	const {
 		loading,
@@ -87,7 +89,7 @@ export const Product = () => {
 
 	return (
 		<>
-			<Header />
+			{!isMobile && <Header />}
 
 			<div className="Main-layout Product-content">
 				<aside className="Product-aside">

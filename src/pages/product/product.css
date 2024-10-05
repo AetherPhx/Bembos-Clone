@@ -54,3 +54,24 @@
     font-weight: bold;
     font-style: normal;
 }
+
+
+@media (max-width: 991px) {
+    .Product-content {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+
+    .Product-url {
+        font-size: 12px;
+    }
+
+    .Product-image {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .Product-info {
+        margin-top: 0px;
+    }
+}
