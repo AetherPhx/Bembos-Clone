@@ -108,7 +108,6 @@ export const Product = () => {
 
 	return (
 		<>
-			<div className="Product-main-wrapper"></div>
 			{!isMobile && <Header />}
 			{isMobile && (
 				<header className="Header">
