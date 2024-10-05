@@ -487,5 +487,233 @@ export const preguntas = [
                 "precio": 3.00
             }
         ]
-    }
+    },
+    {
+        "id": 218,
+        "titulo": "ELIGE TU HAMBURGUESA PATRIOTA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "La Patriota Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-la-patriota-hamburguesa-blanco_1_1.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "La Patriota Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-la-patriota-hamburguesa-blanco_1_2.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "titulo": "ELIGE TU HAMBURGUESA CLÁSICA BEMBOS",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Clásica Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/l/clasicas_0002_clasica_4.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Clásica Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/c/l/clasicas_0002_clasica_5.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Cheese Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-cheese-calada_5.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Cheese Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-cheese-calada_4.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "titulo": "ELIGE TU HAMBURGUESA QUESO CON TOCINO",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Queso Tocino Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-queso-tocino-calada_5.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Queso Tocino Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-queso-tocino-calada_6.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "titulo": "ELIGE TU HAMBURGUESA ROYAL",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Royal Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-royal-calada-2_1__1.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Royal Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-royal-calada-2_1__1_1.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "titulo": "ELIGE TU HAMBURGUESA A LO POBRE",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "A lo Pobre Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-a-lo-pobre-calada_3.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "A lo Pobre Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-a-lo-pobre-calada_4.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 224,
+        "titulo": "ELIGE TU HAMBURGUESA HAWAINA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Hawaiana Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-hawaiana_1.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Hawaiana Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-hawaiana_1_1.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "titulo": "ELIGE TU HAMBURGUESA MEXICANA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Mexicana Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-mexciana-nuevo-blanco.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Mexicana Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-mexciana-nuevo-blanco_1.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 226,
+        "titulo": "ELIGE TU HAMBURGUESA CHURRITA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Churrita Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-churrita-calada_4.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Churrita Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-churrita-calada_5.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 227,
+        "titulo": "ELIGE TU HAMBURGUESA CARRETILLERA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Carretillera Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-carretillera-calada_2.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Carretillera Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-carretillera-calada_3.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 228,
+        "titulo": "ELIGE TU HAMBURGUESA PARRILLERA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Parrillera Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-parrillera-calada_2.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Parrillera Grande + S/. 3.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-parrillera-calada_3.png",
+                "precio": 3.0
+            }
+        ]
+    },
+    {
+        "id": 229,
+        "titulo": "ELIGE TU HAMBURGUESA EXTREMA",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Extrema Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-extrema-calada_1_.png",
+                "precio": 0.0
+            },
+            {
+                "nrocomb": 2,
+                "nombre": "Extrema Grande + S/. 4.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_72x72/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/h/a/hamburguesa-bembos-extrema-calada_3_1__1_2_1_1.png",
+                "precio": 4.0
+            }
+        ]
+    },
+    {
+        "id": 230,
+        "titulo": "ELIGE TU HAMBURGUESA DOBLE QUESO TOCINO",
+        "combinacion": [
+            {
+                "nrocomb": 1,
+                "nombre": "Doble Queso Tocino Mediana + S/. 0.00",
+                "img": "https://www.bembos.com.pe/_ipx/q_60,s_62x62/https://d31npzejelj8v1.cloudfront.net/media/catalog/product/8/0/800x800-doble-qt-bb-nuevo-blanco_2.png",
+                "precio": 0.0
+            }
+        ]
+    },
 ];
