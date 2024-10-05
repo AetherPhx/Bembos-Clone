@@ -1,0 +1,45 @@
+.FooterMenu {
+    background-color: #173083;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.FooterMenu-list {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FooterMenu-items {
+    height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.FooterMenu-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.FooterMenu-text {
+    color: #fff;
+    font-size: 14px;
+    font-family: din1451;
+}
+
+.FooterMenu-cont {
+    background-color: var(--color-tertiary);
+    color: var(--color-white);
+    padding: 2px 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}

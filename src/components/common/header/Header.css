@@ -25,10 +25,9 @@
 }
 
 .Menu-publi-delivery img {
-    height: 57px;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
-
 
 .Menu-main-header {
     width: 100%;
@@ -37,6 +36,7 @@
     justify-content: center;
 }
 
+
 .Menu-publi {
     width: 1200px;
     height: 76px;
@@ -44,6 +44,10 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+.Menu-logo {
+    width: 100%;
 }
 
 .Menu-publi-right {
@@ -211,4 +215,42 @@
     font-size: 10px;
     font-weight: bold;
     color: var(--color-white);
+}
+
+
+@media (max-width: 991px) {
+    .Menu-publi-delivery img {
+        height: 65%;
+    }
+
+    .Menu-main-header {
+        background: #fff;
+        padding: 4px 8px;
+    }
+
+    .Menu-logo {
+        width: fit-content;
+        object-fit: contain;
+    }
+
+    .Menu-icon-options {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Button-sin-colas {
+        width: 136px;
+        padding-block: 4px;
+        flex-direction: row-reverse;
+    }
+
+    .Font-button-sc,
+    .Font-button-sc-red {
+        font-weight: 300;
+    }
+
+    .Icon-options {
+        display: flex;
+        gap: 8px;
+    }
 }

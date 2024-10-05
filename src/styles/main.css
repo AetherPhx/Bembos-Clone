@@ -25,6 +25,12 @@ button {
     margin-top: 210px;
 }
 
+@media (max-width: 991px) {
+    .Main-layout {
+        margin-top: 150px;
+    }
+}
+
 
 /* Fuentes */
 
