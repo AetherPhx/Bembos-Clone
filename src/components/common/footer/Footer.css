@@ -1,4 +1,6 @@
 .Footer {
+    display: flex;
+    width: 100%;
     background-color: #173083;
 }
 
@@ -91,7 +93,7 @@
 .Footer-container-paymentMethod-icon-comprobante {
 
     text-align: center;
-    padding: 30px 45px;
+    padding: 0px 45px 50px;
 
 }
 
@@ -126,6 +128,23 @@
     margin-top: 20px;
 }
 
+.Text-button {
+    margin-left: -10px;
+    padding-right: 10px;
+}
+
+.BookReclamos {
+    margin-top: 30px;
+}
+
+.BookReclamos img {
+    border-radius: 5px;
+}
+
+.BookReclamos2 {
+    display: none;
+}
+
 .button-send {
     border-radius: 0px 5px 5px 0px;
     border: none;
@@ -134,13 +153,95 @@
 }
 
 .Footer-container-main {
-    color: #fff;
+    color: #ffffffb2;
     text-align: center;
     border-top: 1px solid;
-    padding: 8px 0px;
+    padding: 12px 0px;
     font-size: 13px;
 }
 
 .Footer-container-news-checkbox label {
     margin-left: 10px;
+}
+
+.Footer-container-news {
+    display: block;
+}
+
+.Footer-container-locales {
+    display: block;
+}
+
+.Redes-sociales {
+    display: block;
+}
+
+.Footer-terminos {
+    display: none;
+}
+
+
+
+@media (max-width: 991px) {
+
+    .Footer-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Footer-container-news {
+        display: none;
+    }
+
+    .Footer-container-locales {
+        display: none;
+    }
+
+    .Footer-terminos {
+        display: block;
+    }
+
+    .Bookcenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .BookReclamos2 {
+        width: 100%;
+        margin-top: 30px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .BookReclamos2 img {
+        border-radius: 5px;
+    }
+
+    .Footer-container-paymentMethod-icon-comprobante {
+        text-align: center;
+        padding: 20px 45px 10px;
+        font-size: 18px;
+
+    }
+
+    .Footer-container-paymentMethod-icon-comprobante a {
+        margin: 0;
+        padding: 10px 16px;
+
+    }
+
+    .Footer-container-paymentMethod-icon-comprobante svg {
+           padding: 5px 5px;
+
+    }
+
+    .Redes-sociales-icon {
+        margin: 0px;
+        padding: 30px 0;
+        border-bottom: 1px solid #bfd3f880;
+    }
+
+
 }
