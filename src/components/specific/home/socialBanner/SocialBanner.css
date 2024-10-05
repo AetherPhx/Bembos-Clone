@@ -10,7 +10,7 @@
 .SocialBanner-header {
     background-color: var(--color-secondary);
     color: var(--color-main);
-    padding-top: 32px;
+    padding: 30px 0;
     padding-inline: 36px 150px;
 
     display: grid;
@@ -18,7 +18,21 @@
 }
 
 .SocialBanner-title {
-    font-weight: bold;
+    font-family: "din1451";
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--color-main);
+    line-height: 0.8;
+}
+
+.SocialBanner-description {
+    font-family: "din1451";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--color-main);
+    padding-top: 12px;
 }
 
 .SocialBanner-shareButtons {
@@ -28,10 +42,11 @@
 
 .SocialBanner-fbCard {
     width: 100%;
-    max-width: 500px;
-    border: 1px solid #ebedf0;
-    margin-top: 32px;
-    margin-left: 64px;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #dddee0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,7 +60,16 @@
 
 .SocialBanner-fbCard-title {
     color: var(--color-main);
-    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.SocialBanner-fbCard-followers{
+    color: var(--color-main);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -74,4 +98,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+
+    
 }
