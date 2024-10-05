@@ -5,7 +5,6 @@ export const Test = () => {
 	const { hamburguesas, preguntas } = useData();
 	const item = hamburguesas[1];
 	const getDetailsData = () => {
-		item.preguntas;
 		const listaPreguntas = preguntas.filter((pregunta) =>
 			item.preguntas.includes(pregunta.id)
 		);
