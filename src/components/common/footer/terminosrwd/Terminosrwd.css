@@ -1,0 +1,25 @@
+.Terminosrwd-main {
+  width: 100%;
+  padding: 5px 0 30px;
+}
+
+.Terminosrwd-title {
+  background-color: var(--color-main);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid #bfd3f880;
+}
+
+.Terminosrwd-content {
+  list-style: none;
+  padding: 15px 0;
+  margin: 0;
+  background-color: var(--color-main);
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  cursor: pointer;
+}

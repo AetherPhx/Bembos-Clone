@@ -1,4 +1,5 @@
 import "./footer.css";
+import { Terminosrwd } from "./terminosrwd";
 
 export const Footer = () => {
 	return (
@@ -80,6 +81,7 @@ export const Footer = () => {
 					</div>
 				</div>
 
+				<div className="Footer-terminos"> <Terminosrwd /></div>
 				<div className="Footer-container">
 					<div className="Footer-container-locales">
 						<div className="Footer-container-locales-item-top">
@@ -315,10 +317,15 @@ export const Footer = () => {
 											style={{ fill: "rgb(33, 56, 139)" }}
 										/>
 									</svg>
-									Comprobantes
+									<div className="Text-button">Comprobantes</div>
 								</a>
+
+								<div className="BookReclamos2"><div className="Bookcenter"><img src="https://www.bembos.com.pe/_ipx/q_60,s_100x60/img/libro-de-reclamaciones.webp" alt="bookReclamos" /></div></div>
+
 							</div>
+
 						</div>
+
 					</div>
 
 					<div className="Footer-container-news">
@@ -334,6 +341,7 @@ export const Footer = () => {
 									He leído y revisado los <a href="#">términos y condiciones</a>
 								</label>
 							</div>
+							<div className="BookReclamos"><img src="https://www.bembos.com.pe/_ipx/q_60,s_100x60/img/libro-de-reclamaciones.webp" alt="bookReclamos" /></div>
 						</div>
 					</div>
 				</div>
