@@ -7,6 +7,7 @@ import { Header, DetailFooter } from "../../components/common";
 import "./product.css";
 import { IoChevronBackCircle } from "react-icons/io5";
 import { FiMenu } from "react-icons/fi";
+import { Faqs } from "../../components/specific/faqs/Faqs";
 export const Product = () => {
 	const isMobile = useMediaQuery({ query: "(max-width: 991px)" });
 	const openLeftMenu = () => {
@@ -25,6 +26,7 @@ export const Product = () => {
 		bebidas,
 		helados,
 		inkaChips,
+		preguntas,
 	} = useData();
 	if (loading) return <div>🍔 Cargando producto...</div>;
 	if (error) return <div>Error: {error.message}</div>;
@@ -44,6 +46,17 @@ export const Product = () => {
 	if (!item) return <div>Producto no encontrado</div>;
 	const categoryLink = `/menu/${category}`;
 	const productLink = `/menu/${category}/${product}`;
+
+	const getDetailsData = () => {
+		item.preguntas;
+		const listaPreguntas = preguntas.filter((pregunta) =>
+			item.preguntas.includes(pregunta.id)
+		);
+		console.log(listaPreguntas);
+		return listaPreguntas;
+	};
+	getDetailsData();
+
 	const itemToAdd = {
 		id: 11,
 		nombre: "Hamburguesa Clásica Bembos",
@@ -189,9 +202,7 @@ export const Product = () => {
 					</div>
 
 					<div className="Product-options">
-						<p>Opcion 1</p>
-						<p>Opcion 2</p>
-						<p>Opcion 3</p>
+						<Faqs estilos={getDetailsData()} />
 					</div>
 				</main>
 			</div>

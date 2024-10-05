@@ -1,26 +1,24 @@
-import { Slider } from "../../components/specific/home/slider/Slider";
-import { Cart } from "../cart";
-
-
 import { Faqs } from "../../components/specific/Faqs/Faqs";
+import { useData } from "/src/context/ReactContext";
 
 export const Test = () => {
-	const estilosProducts = [
-		{ id: 150, titulo: 'DESEA COMBEAR', estilo: 'Style1' },
-		{ id: 154, titulo: '¿DESEAS ALGÚN EXTRA?', estilo: 'Style2' },
-		{ id: 153, titulo: 'ELIGE SABOR DE TU GASEOSA', estilo: 'Style3' },
-		{ id: 158, titulo: '¿DESEAS ELEGIR SALSAS?', estilo: 'Style4' },
-		{ id: 159, titulo: '¿DESEAS SALSAS EXTRAS?', estilo: 'Style5' },
-	];
+	const { hamburguesas, preguntas } = useData();
+	const item = hamburguesas[1];
+	const getDetailsData = () => {
+		item.preguntas;
+		const listaPreguntas = preguntas.filter((pregunta) =>
+			item.preguntas.includes(pregunta.id)
+		);
+		console.log(listaPreguntas);
+		return listaPreguntas;
+	};
+	getDetailsData();
+
 	return (
 		<>
-
-			<Faqs estilos={estilosProducts} />
-
+			<Faqs estilos={getDetailsData()} />
 		</>
 	);
 };
 
 export default Test;
-
-
